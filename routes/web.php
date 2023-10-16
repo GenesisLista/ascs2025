@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PscsController;
+use App\Http\Controllers\IfsccController;
+use App\Http\Controllers\AscsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +19,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::resource('pscs', PscsController::class);
+Route::resource('ifscc', IfsccController::class);
+Route::resource('ascs', AscsController::class);
+
+
