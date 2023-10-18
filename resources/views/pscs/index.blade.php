@@ -5,31 +5,67 @@
 <div class="container">
     <div class="row">
         <div class="grid_8">
-            <h2>PSCS</h2>
+            <h2>About PSCS</h2>
             <div class="wrapper">
-                <img src="images/page2_pic1.jpg" alt="" class="img4">
-                <h3><a href="#" class="link2">Masagni dolores eoquie voluptmsequi nesciu iqui vertyader
-                        nierta niuyserdas</a></h3>
-                <p>Sitamet consectet, adipisci uumquam eius modi tempora incidunte, ut labore et dolore
-                    magnam. Baliquamaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem
-                    ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Asruis
-                    autem vel eum iure feruyas reprehenderit, qui a voluptate nertyaesra.</p>
+                <h3>As we look back years ago, we cannot help but reflect and dwell
+                    on what we might have missed, were it not for the dreams and vision that once
+                    captured the imagination of a self-effacing lady, deeply involved in what was a
+                    fledging cosmetic industry then…”</h3>
+                    <p style="margin-top: 5px; font-style: italic;"> - Ms. R. D. Nolasco</p>
+                <p>Nov. 12, 1979, Ms. Patty Prieto Espiritu, the Company Representative of Muller &
+                    Phipps, led the groundwork for the founding of Philippine Society for Cosmetic
+                    Science, Inc. when she called for an organizational meeting and assembled a core
+                    group of twenty two (22) inspired technical people.</p>
+                    
             </div>
 
             <div class="wrapper marTop2">
-                <img src="images/page2_pic2.jpg" alt="" class="img4">
-                <h3><a href="#" class="link2">Masagni dolores eoquie voluptmsequi nesciu iqui vertyader
-                        nierta niuyserdas</a></h3>
-                <p>Sitamet consectet, adipisci uumquam eius modi tempora incidunte, ut labore et dolore
-                    magnam. Baliquamaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem
-                    ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Asruis
-                    autem vel eum iure feruyas reprehenderit, qui a voluptate nertyaesra.</p>
+                <h3>"22 people who formed nucleus of the society":</h3>
+                <ul class="listWithMarker">
+                    <li>Edilberto A. Abinales, Jr. - Mennen Phil. Inc.</li>
+                    <li>Ester A. Agbayani - Filcos Mfg. Corp.</li>
+                    <li>Lirio Altura - Metro Lab. Inc.</li>
+                    <li>Nelia Andrada - Filcos Mfg. Corp.</li>
+                    <li>Eliseo M. Bananal - I.F.F Phil., Inc</li>
+                    <li>Antonio B. Bejar - Armour-Dial Phil.</li>
+                    <li>Efren G. Bunquin - Johnson & Johnson Inc.</li>
+                    <li>Ernesto Calalang - Filcos Mfg. Corp.</li>
+                    <li>Penafrancia Prieto Espiritu - Mueller & Phipps Mfg. Corp.</li>
+                    <li>Renato P. Goco - The Dowd Corp.</li>
+                    <li>Max Guzman - Phil. Refining Corp.</li>
+                    <li>Froilan P. Lara - Mueller & Phipps Mfg. Corp.</li>
+                    <li>Yolanda Y. Lim - Columbia Laboratories</li>
+                    <li>Rose L. Manacsa - Mead-Johnson Phil., Inc.</li>
+                    <li>Benjamin Y. Mandanas - Colgate – Palmolive Phil., Inc.</li>
+                    <li>Arthur Monuz - Bristol Lab. Phil., Inc.</li>
+                    <li>Henry Ng - Formey Plastics, Inc.</li>
+                    <li>Lilia Pangyarihan - Aura Laboratories</li>
+                    <li>Alicia O. Quimson - Winthrop Stearns</li>
+                    <li>Edith M. Tapnio - Pharma Industries, Inc.</li>
+                    <li>Teresita N. Tumangan - Winthrop Stearns</li>
+                    <li>Lorenza B. Villaluz - Mueller & Phipps Mfg. Inc.</li>
+                </ul>
+
+            </div>
+
+            <div class="wrapper">
+                <p>A year later, Ms. Patty Prieto Espiritu foresaw the advantages for PSCS to have
+                    international affiliation. She applied and was granted affiliation with the
+                    International Federation of Societies of Cosmetic Chemists. In September 1980, PSCS
+                    became the 22nd society to be affiliated with IFSCC.</p>
+                <p>It was during the term of Ceres Lao, in 1991, the birth of Asean Societies of
+                    Cosmetic Scientists (ASCS) founded by five (5) countries. Founding countries were:
+                    Indonesia, Japan, Malaysia, Thailand and Philippines.</p>
+                <p>In its formative years, the society, as any young organizations had encountered
+                    challenges. But because of the efforts and love of our men and women who have led
+                    the society, inspired by its mission and vision, PSCS continued to climb the ladder
+                    of great milestones.</p>
             </div>
 
         </div>
 
         <div class="grid_4">
-            <h2>Our advantages</h2>
+            <h2>Events</h2>
 
             <div class="wrapper">
                 <img src="images/page2_pic3.jpg" alt="" class="img5">
@@ -52,7 +88,48 @@
                     mattis aliquam.</p>
             </div>
 
-            <!-- <a href="#" class="more_btn bg5">more</a> -->
+            <div class="wrapper marTop2">
+                <img src="images/page2_pic3.jpg" alt="" class="img5">
+                <h3><a href="#" class="link2">nisat pell entesque</a></h3>
+                <p>Sitamet consectet, adipisci uumquam eius modi tempora incidunte, ut labor et dolore
+                    magnam baliquam.</p>
+            </div>
+
+            <div class="wrapper marTop2">
+                <img src="images/page2_pic4.jpg" alt="" class="img5">
+                <h3><a href="#" class="link2">Aenean fringilla</a></h3>
+                <p>Suspendisse cursus mi sed libero gravi ut libero faucibus, ultrices turpis in; fringilla
+                    massa vivamus.</p>
+            </div>
+
+            <div class="wrapper marTop2">
+                <img src="images/page2_pic5.jpg" alt="" class="img5">
+                <h3><a href="#" class="link2">leo porta, ornare est</a></h3>
+                <p>Maecenas felis ipsum, lobortis id dian et, sagittis iaculis sem? Pellentesque porttitor
+                    mattis aliquam.</p>
+            </div>
+
+            <div class="wrapper marTop2">
+                <img src="images/page2_pic3.jpg" alt="" class="img5">
+                <h3><a href="#" class="link2">nisat pell entesque</a></h3>
+                <p>Sitamet consectet, adipisci uumquam eius modi tempora incidunte, ut labor et dolore
+                    magnam baliquam.</p>
+            </div>
+
+            <div class="wrapper marTop2">
+                <img src="images/page2_pic4.jpg" alt="" class="img5">
+                <h3><a href="#" class="link2">Aenean fringilla</a></h3>
+                <p>Suspendisse cursus mi sed libero gravi ut libero faucibus, ultrices turpis in; fringilla
+                    massa vivamus.</p>
+            </div>
+
+            <div class="wrapper marTop2">
+                <img src="images/page2_pic5.jpg" alt="" class="img5">
+                <h3><a href="#" class="link2">leo porta, ornare est</a></h3>
+                <p>Maecenas felis ipsum, lobortis id dian et, sagittis iaculis sem? Pellentesque porttitor
+                    mattis aliquam.</p>
+            </div>
+
         </div>
 
     </div>
