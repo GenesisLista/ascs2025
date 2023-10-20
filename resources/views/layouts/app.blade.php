@@ -6,6 +6,8 @@
     <meta charset="utf-8">
     <meta name="format-detection" content="telephone=no" />
     <link rel="icon" href="{{ asset('images/favicon.ico') }}" type="image/x-icon">
+
+    @stack('before-styles')
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <script src="{{ asset('js/jquery.js') }}"></script>
     <script src="{{ asset('js/jquery-migrate-1.2.1.js') }}"></script>
@@ -54,7 +56,7 @@
 
         </div>
     </div>
-    
+
 </body>
 
 </html>

@@ -7,11 +7,11 @@
             </p>
 
             <ul class="list_menu_footer">
-                <li><a href="index.html">Welcome<strong></strong></a></li>
-                <li class="current"><a href="index-1.html">About us<strong></strong></a></li>
-                <li><a href="index-2.html">News &amp; events<strong></strong></a></li>
-                <li><a href="index-3.html">Our tips<strong></strong></a></li>
-                <li><a href="index-4.html">Contacts<strong></strong></a></li>
+                <li class="{{ Request::segment(1) === null ? 'current' : null }}"><a href="{{ url('/') }}">Welcome<strong></strong></a></li>
+                <li class="{{ Request::segment(1) === 'pscs' || Request::segment(1) === 'ifscc' || Request::segment(1) === 'ascs' ? 'current' : null }}"><a href="{{ route('pscs.index') }}">About us<strong></strong></a></li>
+                <li class="{{ Request::segment(1) === 'registration' ? 'current' : null }}"><a href="{{ route('registration.index') }}"><a href="{{ route('registration.index') }}">Registration<strong></strong></a></li>
+                <li><a href="javascript:void(0)">Sponsoring<strong></strong></a></li>
+                <li><a href="javascript:void(0)">Promotion<strong></strong></a></li>
             </ul>
         </div>
 
