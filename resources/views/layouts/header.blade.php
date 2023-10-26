@@ -16,7 +16,7 @@
                                 </ul>
                             </li>
                             <li class="{{ Request::segment(1) === 'registration' ? 'current' : null }}"><a href="{{ route('registration.index') }}">Registration<strong></strong></a></li>
-                            <li><a href="javascript:void(0)">Sponsoring<strong></strong></a></li>
+                            <li class="{{ Request::segment(1) === 'sponsorship' ? 'current' : null }}"><a href="{{ route('sponsorship.index') }}">Sponsorship<strong></strong></a></li>
                             <li id="last-li"><a href="javascript:void(0)">Promotion<strong></strong></a></li>
                         </ul>
                     </nav>

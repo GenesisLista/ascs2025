@@ -1,10 +1,12 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+
 use App\Http\Controllers\PscsController;
 use App\Http\Controllers\IfsccController;
 use App\Http\Controllers\AscsController;
 use App\Http\Controllers\RegistrationController;
+use App\Http\Controllers\SponsorshipController;
 
 /*
 |--------------------------------------------------------------------------
@@ -28,5 +30,8 @@ Route::resource('ascs', AscsController::class);
 
 # Registration
 Route::resource('registration', RegistrationController::class);
+
+# Sponsorship
+Route::resource('sponsorship', SponsorshipController::class);
 
 
