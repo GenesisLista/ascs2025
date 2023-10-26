@@ -7,24 +7,6 @@
     <div class="row">
         <div class="grid_12">
             <h2 class="v3">Registration fees</h2>
-            <div class="row">
-                <div class="grid_12">
-                    <br/>
-                    <table style="border: solid; width:100%">
-                        <tr>
-                            <td>Registration type</td>
-                            <td>Early bird</td>
-                        </tr>
-                        <tr>
-                            <td>Philippines Deligates</td>
-                            <td>IFSCC Men</td>
-                        </tr>
-                    </table>
-
-                </div>
-
-            </div>
-
 
         </div>
 
