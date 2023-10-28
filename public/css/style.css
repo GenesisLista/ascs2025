@@ -93,11 +93,9 @@ a[href^="tel:"] {
 .indent1{width: 100%; margin-top: 30px;}
 .indent2{width: 100%; margin-top: 55px;}
 
-
 .pos_rel{position: relative;}
 
 .marBot1{margin-bottom: -12px;}
-
 
 .quote_1{
 	text-align: center;
@@ -122,7 +120,6 @@ a[href^="tel:"] {
 .fw400{font-weight: 400;}
 .fw600{font-weight: 600;}
 
-
 .color1{color: #fff;}
 .color2{color: #62d03a;}
 .color3{color: #3b3b3b;}
@@ -132,9 +129,6 @@ a[href^="tel:"] {
 .bg3{background: #ff856c !important;}
 .bg4{background: #fb9800 !important;}
 .bg5{background: #62d03a !important;}
-
-
-
 
 /* Global properties ======================================================== */
 html, body { margin:0; padding:0; height:100%;}
@@ -243,14 +237,12 @@ h3 {
 	margin-top: 38px;
 }
 
-
 h4 {
 	font:300 20px/25px 'Roboto', Arial, sans-serif;
 	color:#f25f43;
 	margin-top: 37px;
 	text-transform: uppercase;
 }
-
 
 #search-results h4{color: #000; padding-bottom: 12px;}
 span.search{color: #2ebbea !important;}
@@ -370,8 +362,6 @@ h5{
 	width: 54px;
 }
 
-
-
 .white_bg{
 	position: relative;
 	margin-top: 40px;
@@ -382,12 +372,10 @@ h5{
 	background: #fff;
 }
 
-
 .comment_link{
 	margin-top: 31px;
 	margin-right: 31px;
 }
-
 
 p{margin-top: 17px;}
 img{ margin-bottom: 0px;max-width:100%; height:auto;}
@@ -436,8 +424,6 @@ a.link3:hover{color: #62d03a;}
 a.link4{text-decoration: underline;}
 a.link4:hover{color: #62d03a;}
 
-
-
 .comment_txt{margin-top: 4px;margin-bottom: -20PX;}
 .comment_txt i{
 	color: #bbbaba;
@@ -445,7 +431,6 @@ a.link4:hover{color: #62d03a;}
 	margin-top: 5px;
 	margin-right: 5px;
 }
-
 
 a:hover{
 	color: #000;
@@ -504,9 +489,6 @@ a{
 .day{font:30px/30px 'Roboto', Arial, sans-serif; margin-top: 9px; display: inline-block;}
 .month{font:18px/18px 'Roboto', Arial, sans-serif; margin-top: 0;}
 
-
-
-
 /************Header************/
 header{
 	position: relative;
@@ -538,8 +520,6 @@ header.content_header{
 	
 /************Content***********/
 
-
-
 blockquote{
 	margin-top: 0px;
 	position: relative;
@@ -551,7 +531,6 @@ blockquote{
 	margin-bottom: 32px;
 }
 
-
 .img_txt_holder{
 	width: 100%;
 	background: #24292c;
@@ -562,7 +541,6 @@ blockquote{
 }
 .img_txt_holder p{margin-top: 0;}
 
-
 .header-box{
 	position: relative;
 	margin-top: -295px;
@@ -570,12 +548,13 @@ blockquote{
 }
 
 .box-1{
-	background: url(../images/bg_pic1.jpeg) 50% 0 repeat-x #2eb73b;
+	background: url(../images/bg_pic3.jpg) 50% 0 repeat-x #2eb73b;
 	margin-top: 48px;
 	padding-top: 86px;
 	padding-bottom: 399px;
 }
-.box-1.content_box{padding-bottom: 62px;margin-bottom: -16px;}
+/* .box-1.content_box{padding-bottom: 62px;margin-bottom: -16px;} */
+
 .box-2{
 	width: 100%;
 	background: #fff;
@@ -598,6 +577,14 @@ blockquote{
 	text-align: center;
 	color: #fff;
 }
+
+.box-5{
+	background: url(../images/bg_pic1.jpeg) 50% 0 repeat-x #2eb73b;
+	margin-top: 48px;
+	padding-top: 86px;
+	padding-bottom: 399px;
+}
+.box-5.content_box{padding-bottom: 62px;margin-bottom: -16px;}
 
 
 /* ============================= lists ====================== */
@@ -625,8 +612,6 @@ blockquote{
 	color: #000;
 }
 
-
-
 .list_menu_footer{
 	float: right;
 	margin-top: 19px;
@@ -641,14 +626,11 @@ blockquote{
 }
 /* ============================= end lists ====================== */
 
-
-
 .comments_btn{
 	padding-left: 19px;
 	background: url(../images/comment_icon.png) 0 2px no-repeat;
 	color: #6b6b6b;
 }
-
 
 .more_btn{
 	display: inline-block;
@@ -665,8 +647,6 @@ blockquote{
 	background: #f67570 !important;
 }
 .more_btn.bg5:hover{background: #4d4d4d !important;}
-
-
 
 figure{display: block; margin-top: 7px;margin-bottom: 20px;}
 figure.img_inner {
@@ -698,8 +678,6 @@ address dd span{
 	display: inline-block;
 	width: 97px;
 }
-
-
 
 /*********************************start magnifier2*************************************/
 .magnifier2 {
@@ -788,18 +766,10 @@ p.txt_priv{
 	text-decoration: none;
 }
 
-
-
 /*----------- end social icons ----------------*/
 
 .priv_section1{float: left;}
 .priv_section2{float: right;}
-
-
-
-
-
-
 
 /*==================================RESPONSIVE LAYOUTS===============================================*/
 @media only screen and (max-width: 1199px) {
@@ -821,10 +791,7 @@ p.txt_priv{
 
 	.list_menu_footer li{margin-left: 20px;}
 
-
-
 }
-
 
 @media only screen and (max-width: 979px) {
 	.address figure iframe {
@@ -852,9 +819,7 @@ p.txt_priv{
 	address {font-size: 12px;}
 	address dd span {width: 64px;}
 
-
 }
-
 
 @media only screen and (max-width: 767px) {
 
@@ -880,10 +845,7 @@ p.txt_priv{
 	.box-4 {padding-bottom: 40px;}
 	.img4, .img5, .img6{margin-bottom: 10px;}
 
-
-
 }
-
 
 @media only screen and (max-width: 479px) {
 	/*.main{width: 300px;}*/
@@ -892,6 +854,5 @@ p.txt_priv{
 
 }
 @media only screen and (max-width: 320px) {
-
 
 }
