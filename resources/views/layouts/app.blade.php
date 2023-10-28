@@ -9,8 +9,6 @@
 
     @stack('before-styles')
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/bootstrap-table.css') }}">
-
     <script src="{{ asset('js/jquery.js') }}"></script>
     <script src="{{ asset('js/jquery-migrate-1.2.1.js') }}"></script>
     <script src="{{ asset('js/jquery.easing.1.3.js') }}"></script>
@@ -22,8 +20,6 @@
     <script src="{{ asset('js/touchTouch.jquery.js') }}"></script>
     <script src="{{ asset('js/jquery.tools.min.js') }}"></script>
     <script src="{{ asset('js/tmStickUp.js') }}"></script>
-
-    <script src="{{ asset('js/bootstrap-table.js') }}"></script>
 
     <!-- font-awesome font -->
     <link rel="stylesheet" href="{{ asset('fonts/font-awesome.css') }}" type="text/css" media="screen">

@@ -16,18 +16,25 @@
                                 </ul>
                             </li>
                             <li class="{{ Request::segment(1) === 'registration' ? 'current' : null }}"><a href="{{ route('registration.index') }}">Registration<strong></strong></a></li>
-                            <li class="{{ Request::segment(1) === 'sponsorship' ? 'current' : null }}"><a href="{{ route('sponsorship.index') }}">Sponsorship<strong></strong></a></li>
+                            <li class="{{ Request::segment(1) === 'sponsorship' ? 'current' : null }}">
+                                <a href="{{ route('sponsorship.index') }}">Sponsorship<strong></strong></a>
+                                <ul class='submenu'>
+                                    <li><a href="{{ route('sponsorship.create') }}">Sponsorship Form</a></li>
+                                </ul>
+                            </li>
                             <li id="last-li"><a href="javascript:void(0)">Promotion<strong></strong></a></li>
                         </ul>
                     </nav>
 
-                    <ul class="soc_icons">
+                    <h3 class="soc_icons txt6"><strong><u>Website Under Construction!</u></strong></h3>
+
+                    <!-- <ul class="soc_icons">
                         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                         <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
                         <li><a href="#"><i class="fa fa-rss"></i></a></li>
                         <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
                         <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                    </ul>
+                    </ul> -->
 
                     <div class="clear"></div>
 

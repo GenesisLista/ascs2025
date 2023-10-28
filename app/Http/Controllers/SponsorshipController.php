@@ -19,7 +19,7 @@ class SponsorshipController extends Controller
      */
     public function create()
     {
-        //
+        return view('sponsorship.create');
     }
 
     /**
