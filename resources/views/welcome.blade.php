@@ -11,33 +11,33 @@
 
     <div class="row">
         <div class="grid_5">
-            <h2>What is Naturopathy?</h2>
-            <h3>Masagni dolores eoquie voluptmsequi nesciu iqui squam fASERestqui dolorem ipsumquia dolor mesrtase
-                vertyader nierta niuyserdas</h3>
-            <p>Sitamet consectet, adipisci uumquam eius modi tempora incidunte, ut labore et dolore magnam.
-                Baliquamaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit
-                laboriosam, nisi ut aliquid ex ea commodi consequatur? Asruis autem vel eum iure feruyas reprehenderit,
-                qui a voluptate nertyaesra.</p>
-            <a href="#" class="more_btn">more</a>
+            <h2>Empowering Cosmetic Science</h2>
+            <p class="txt6">
+                Our theme emphasizes the traditions, cultures, and natural resources meld with technology, research, and
+                innovation to drive the cosmetic industry.
+            </p>
+            <p class="txt6">
+                Our logo serves to embody the theme’s philosophies:
+            </p>
+            <ul class="listWithMarker">
+                <li>Hexagonal shape – ties to chemistry, technology. Shape is sturdy, robust, yet organic.</li>
+                <li>Sapling – evokes naturality, freshness, rebirth, and growth. Illustrates the following points:</li>
+            </ul>
+
+            <p class="lh24">
+                - Growth of the Philippine B&PC market <br />
+                - The importance of the natural ingredients in which the traditional medicine and personal care of the Philippines is built upon <br />
+                - The importance of natural feedstock that is converted into modern ingredients in personal care via research and innovation
+            </p>
         </div>
 
         <div class="grid_6 preffix_1">
-            <h2>latest news</h2>
+            <h2>About ASCS</h2>
             <div class="row">
-                <div class="grid_3">
-                    <p class="txt7">24</p>
-                    <p class="txt8">march</p>
-                    <p class="txt6">nesciu iquequam voluptmse mioas feStuASE eui dolorem </p>
-                    <p>Mertyrda odesa satrolrta Leugiat malesui nundg res lmasetnas raerase nlasadede fertas</p>
-                    <a href="#" class="more_btn bg5">more</a>
-                </div>
-
-                <div class="grid_3">
-                    <p class="txt7">22</p>
-                    <p class="txt8">march</p>
-                    <p class="txt6">kerptmse qui nesciu ideStuASERer estqui dolorem</p>
-                    <p>Katrsas lasuytasa mauysta Lundg kertaseares lmasetugiat malesui tyuadede ferterase nlasce.</p>
-                    <a href="#" class="more_btn bg5">more</a>
+                <br />
+                <div class="grid_6 video-responsive">
+                    <iframe width="400" height="300"
+                        src="https://www.youtube.com/embed/hlRAwh-24NQ?autoplay=0&rel=0"></iframe>
                 </div>
 
             </div>
