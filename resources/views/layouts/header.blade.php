@@ -51,7 +51,7 @@
             <div class="container">
                 <div class="row">
                     <div class="grid_12">
-                        <h1><img src="{{ asset('images/logo2.png') }}" alt="Nature"></h1>
+                        <h1><img src="{{ asset('images/ASCS-2025-Small-W.png') }}" alt="Nature"></h1>
                     </div>
                 </div>
             </div>
@@ -62,7 +62,7 @@
             <div class="container">
                 <div class="row">
                     <div class="grid_12">
-                        <h1><img src="{{ asset('images/logo3.png') }}" alt="Nature"></h1>
+                        <h1><img src="{{ asset('images/ASCS-2025-Small-W.png') }}" alt="Nature"></h1>
                     </div>
                 </div>
             </div>
