@@ -34,7 +34,7 @@
         <div class="grid_6 preffix_1">
             <h2>About ASCS</h2>
             <div class="row">
-                <br />
+                &nbsp;
                 <div class="grid_6 video-responsive">
                     <iframe width="400" height="300"
                         src="https://www.youtube.com/embed/hlRAwh-24NQ?autoplay=0&rel=0"></iframe>
