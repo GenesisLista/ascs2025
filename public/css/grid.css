@@ -242,6 +242,12 @@ table {
   margin-left: auto;
   *zoom: 1;
 }
+.container_no_image {
+  margin-top: 260px;
+  margin-right: auto;
+  margin-left: auto;
+  *zoom: 1;
+}
 .container:before,
 .container:after {
   display: table;

@@ -225,6 +225,14 @@ h2 {
 	border-bottom: 1px solid #c9c9c9;
 	text-transform: uppercase;
 }
+h2.ascs-video {
+	font:bold 28px/32px 'Roboto', Arial, sans-serif;
+	color:#595959;
+	margin-top: 40px;
+	padding-bottom: 31px;
+	border-bottom: 1px solid #c9c9c9;
+	text-transform: uppercase;
+}
 h2.no_line{border: none; margin-top: 38px;}
 h2.no_line2{border: none; margin-top: 38px; padding-bottom: 19px;}
 h2.v2{margin-top: 32px;}

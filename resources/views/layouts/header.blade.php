@@ -75,43 +75,8 @@
 @if(Request::segment(1) == null)
 <!-- Welcome page -->
 <div class="header-box">
-    <div class="container">
-        <div class="col1">
-            <img src="images/page1_pic1.jpg" alt="" class="img1">
-            <div class="header_txt_section">
-                <p class="txt1">Homeopathic<br>Medicine</p>
-                <p class="txt2">Maseleme leifendeuctor wisnes nera iliquam eratutpas.</p>
-                <p class="txt3"><a href="#" class="link1">read more</a></p>
-            </div>
-        </div>
-
-        <div class="col1">
-            <div class="header_txt_section bg2">
-                <p class="txt1">Herbal<br>Medicine</p>
-                <p class="txt2">Maseleme leifendeuctor wisnes nera iliquam eratutpas.</p>
-                <p class="txt3"><a href="#" class="link1">read more</a></p>
-            </div>
-            <img src="images/page1_pic2.jpg" alt="" class="img1">
-        </div>
-
-        <div class="col1">
-            <img src="images/page1_pic3.jpg" alt="" class="img1">
-            <div class="header_txt_section bg3">
-                <p class="txt1">Naturopathic<br>Nutrition</p>
-                <p class="txt2">Maseleme leifendeuctor wisnes nera iliquam eratutpas.</p>
-                <p class="txt3"><a href="#" class="link1">read more</a></p>
-            </div>
-        </div>
-
-        <div class="col1">
-            <div class="header_txt_section bg4">
-                <p class="txt1">Chinese<br>Acupuncture</p>
-                <p class="txt2">Maseleme leifendeuctor wisnes nera iliquam eratutpas.</p>
-                <p class="txt3"><a href="#" class="link1">read more</a></p>
-            </div>
-            <img src="images/page1_pic4.jpg" alt="" class="img1">
-        </div>
-
+    <div class="container_no_image">
+        &nbsp;
     </div>
 </div>
 @endif

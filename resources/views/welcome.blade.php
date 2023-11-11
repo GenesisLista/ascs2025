@@ -4,14 +4,14 @@
 @section('content')
 <div class="container">
     <div class="hline2">
-        <p class="txt4">Welcome</p>
-        <p class="txt5">"Empowering Cosmetic Science" 17th ASCS Conference</p>
-        <p class="txt5">Manila, 2025</p>
+        <p class="txt4">ASCS Conference 2025</p>
+        <p class="txt5">17th Asian Societies of Cosmetic Scientists Conference</p>
+        <p class="txt5">4 - 5 June 2025 / Manila, Philippines</p>
     </div>
 
     <div class="row">
         <div class="grid_5">
-            <h2>Empowering Cosmetic Science</h2>
+            <h2>Our Theme</h2>
             <p class="txt6">
                 Our theme emphasizes the traditions, cultures, and natural resources meld with technology, research, and
                 innovation to drive the cosmetic industry.
@@ -26,21 +26,18 @@
 
             <p class="lh24">
                 - Growth of the Philippine B&PC market <br />
-                - The importance of the natural ingredients in which the traditional medicine and personal care of the Philippines is built upon <br />
-                - The importance of natural feedstock that is converted into modern ingredients in personal care via research and innovation
+                - The importance of the natural ingredients in which the traditional medicine and personal care of the
+                Philippines is built upon <br />
+                - The importance of natural feedstock that is converted into modern ingredients in personal care via
+                research and innovation
             </p>
         </div>
 
         <div class="grid_6 preffix_1">
-            <h2>About ASCS</h2>
-            <div class="row">
-                &nbsp;
-                <div class="grid_6 video-responsive">
-                    <iframe width="400" height="300"
-                        src="https://www.youtube.com/embed/hlRAwh-24NQ?autoplay=0&rel=0"></iframe>
-                </div>
-
-            </div>
+            <h2>Sub-Theme</h2>
+            <p class="txt6">1. Beauty Technology and Innivation.</p>
+            <p class="txt6">2. Tradition of Beauty products and third evolution.</p>
+            <P class="txt6">3. Diversity and Individuality of cosmetic products.</P>
         </div>
 
     </div>
@@ -49,48 +46,32 @@
 <div class="box-2">
     <div class="container">
         <div class="row">
-            <div class="grid_3">
+            <div class="grid_5">
                 <h2 class="no_line">useful links</h2>
                 <ul class="listWithMarker">
-                    <li><a href="#">sit avertas dero</a></li>
-                    <li><a href="#">taserto yaeala miaseay</a></li>
-                    <li><a href="#">mertae neory kastreas</a></li>
-                    <li><a href="#">verode fase laisuase</a></li>
-                    <li><a href="#">avertelero</a></li>
-                    <li><a href="#">taserto yndolase</a></li>
-                    <li><a href="#">miaser lasras lerty kasu</a></li>
-                    <li><a href="#">kauisyase mertase</a></li>
-                    <li><a href="#">desertae dertas</a></li>
+                    <li><a href="{{ route('ascs.index') }}">About ASCS</a></li>
+                    <li><a href="{{ route('ifscc.index') }}">About IFSCC</a></li>
+                    <li><a href="{{ route('pscs.index') }}">About PSCS</a></li>
+                    <li><a href="javascript:void(0)">Program at glance</a></li>
+                    <li><a href="{{ route('sponsorship.index') }}">Sponsorship package</a></li>
+                    <li><a href="{{ route('registration.index') }}">Registration</a></li>
+                    <li><a href="javascript:void(0)">Booth Exhibition</a></li>
+                    <li><a href="javascript:void(0)">Travel Package</a></li>
+                    <li><a href="javascript:void(0)">Abstract/Paper/Poster Submission</a></li>
+                    <li><a href="javascript:void(0)">Attendance of the ASCS 2025 Cinference</a></li>
+                    <li><a href="javascript:void(0)">Country Pavilion</a></li>
+                    <li><a href="javascript:void(0)">Advertisement Subscription</a></li>
                 </ul>
-                <a href="#" class="more_btn bg5">more</a>
             </div>
 
-            <div class="grid_9">
-                <div class="box-3">
-                    <h2 class="v2 txt_cntr">fundamental principles</h2>
-
-                    <div class="hline2 v2">
-                        <div class="col2 marRight1">
-                            <img src="images/page1_pic5.jpg" alt="" class="img2">
-                            <p class="lh24"><span class="color3">Beciegast nveriti vitaesaert viasead</span><br>asety
-                                kertya aset aplicaboserde miuas nerafae kertyerauas vitaesa ertyatya nemo eniptaiades.
-                            </p>
-                        </div>
-                        <div class="col2 marRight1">
-                            <img src="images/page1_pic6.jpg" alt="" class="img2">
-                            <p class="lh24"><span class="color3">Nertyase riti masertas ltyakuhas</span><br>asety kertya
-                                aset aplicaboserde miuas nerafae kertyerauas vitaesa ertyatya nemo eniptaiades.</p>
-                        </div>
-                        <div class="col2">
-                            <img src="images/page1_pic7.jpg" alt="" class="img2">
-                            <p class="lh24"><span class="color3">Mersertas lertyakuhasfuental nytras</span><br>asety
-                                kertya aset aplicaboserde miuas nerafae kertyerauas vitaesa ertyatya nemo eniptaiades.
-                            </p>
-                        </div>
-
-                        <div class="clear"></div>
+            <div class="grid_6 preffix_1">
+                <h2 class="ascs-video">About ASCS</h2>
+                <div class="row">
+                    &nbsp;
+                    <div class="grid_6 video-responsive">
+                        <iframe width="400" height="300"
+                            src="https://www.youtube.com/embed/hlRAwh-24NQ?autoplay=0&rel=0"></iframe>
                     </div>
-                    <p class="txt9"><a href="#">read more </a></p>
 
                 </div>
             </div>
