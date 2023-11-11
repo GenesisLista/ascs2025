@@ -219,7 +219,7 @@ h1 img{max-width: inherit;}
 
 h2 {
 	font:bold 28px/32px 'Roboto', Arial, sans-serif;
-	color:#595959;
+	color:#ed0707;
 	margin-top: 81px;
 	padding-bottom: 31px;
 	border-bottom: 1px solid #c9c9c9;
@@ -227,7 +227,7 @@ h2 {
 }
 h2.ascs-video {
 	font:bold 28px/32px 'Roboto', Arial, sans-serif;
-	color:#595959;
+	color:#ed0707;
 	margin-top: 40px;
 	padding-bottom: 31px;
 	border-bottom: 1px solid #c9c9c9;

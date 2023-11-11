@@ -3,7 +3,7 @@
 
         <div class="container">
             <p class="txt_priv">&copy; <span id="copyright-year"></span> <span class="color2">&bull;</span>
-                ASCS 2025
+            <span style="color: red">ASCS</span> 2025
             </p>
 
             <ul class="list_menu_footer">

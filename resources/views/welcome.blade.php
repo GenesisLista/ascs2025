@@ -4,7 +4,7 @@
 @section('content')
 <div class="container">
     <div class="hline2">
-        <p class="txt4">ASCS Conference 2025</p>
+        <p class="txt4"><span style="color: red">ASCS</span> Conference 2025</p>
         <p class="txt5">17th Asian Societies of Cosmetic Scientists Conference</p>
         <p class="txt5">4 - 5 June 2025 / Manila, Philippines</p>
     </div>
@@ -49,7 +49,7 @@
             <div class="grid_5">
                 <h2 class="no_line">useful links</h2>
                 <ul class="listWithMarker">
-                    <li><a href="{{ route('ascs.index') }}">About ASCS</a></li>
+                    <li><a href="{{ route('ascs.index') }}">About <span style="color: red">ASCS</span></a></li>
                     <li><a href="{{ route('ifscc.index') }}">About IFSCC</a></li>
                     <li><a href="{{ route('pscs.index') }}">About PSCS</a></li>
                     <li><a href="javascript:void(0)">Program at glance</a></li>
@@ -58,7 +58,7 @@
                     <li><a href="javascript:void(0)">Booth Exhibition</a></li>
                     <li><a href="javascript:void(0)">Travel Package</a></li>
                     <li><a href="javascript:void(0)">Abstract/Paper/Poster Submission</a></li>
-                    <li><a href="javascript:void(0)">Attendance of the ASCS 2025 Cinference</a></li>
+                    <li><a href="javascript:void(0)">Attendance of the ASCS 2025 Conference</a></li>
                     <li><a href="javascript:void(0)">Country Pavilion</a></li>
                     <li><a href="javascript:void(0)">Advertisement Subscription</a></li>
                 </ul>
