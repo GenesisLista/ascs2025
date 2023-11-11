@@ -136,8 +136,8 @@ html, body { margin:0; padding:0; height:100%;}
 body {
 	min-width:300px;
 	background: #f8f8f8;
-	color:#9a9a9a;
-	font:300 14px/21px "Roboto", Arial, Helvetica, sans-serif ;
+	color:#0c0c0c;
+	font:300 15px/21px "Roboto", Arial, Helvetica, sans-serif ;
 }
 .fs_14{font-size: 14px;}
 #back-top {
