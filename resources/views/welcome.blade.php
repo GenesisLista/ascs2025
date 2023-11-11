@@ -11,7 +11,7 @@
 
     <div class="row">
         <div class="grid_5">
-            <h2>Our Theme</h2>
+            <h2 class="welcome_page">Our Theme</h2>
             <p class="txt6">
                 Our theme emphasizes the traditions, cultures, and natural resources meld with technology, research, and
                 innovation to drive the cosmetic industry.
@@ -34,7 +34,7 @@
         </div>
 
         <div class="grid_6 preffix_1">
-            <h2>Sub-Theme</h2>
+            <h2 class="welcome_page">Sub-Theme</h2>
             <p class="txt6">1. Beauty Technology and Innivation.</p>
             <p class="txt6">2. Tradition of Beauty products and third evolution.</p>
             <P class="txt6">3. Diversity and Individuality of cosmetic products.</P>
