@@ -16,15 +16,15 @@
                 "Empowering Cosmetic Science"
             </p>
             <p>
-                Our thene emphasizes the tradition, cultures and natural resources mix with technology, research, and innovation to drive the cosmetic industry.
+                Our theme emphasizes the tradition, cultures and natural resources mix with technology, research, and innovation to drive the cosmetic industry.
             </p>
         </div>
 
         <div class="grid_6">
             <h2 class="welcome_page">Sub-Themes</h2>
             &nbsp;
-            <p>1. Beauty Technology and Innivation.</p>
-            <p>2. Tradition of Beauty products and third evolution.</p>
+            <p>1. Beauty Technology and Innovation.</p>
+            <p>2. Tradition of Beauty products and their evolution.</p>
             <p>3. Diversity and Individuality of cosmetic products.</p>
         </div>
 

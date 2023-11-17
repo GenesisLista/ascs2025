@@ -127,7 +127,7 @@
     <div class="container">
         <div class="row">
             <div class="grid_12">
-                <h2 class="v3">Booth Packages (Total Area: 270 SQM)</h2>
+                <h2 class="v3">Booth Packages</h2>
                 <div class="row">
                     <div class="grid_3">
                         <p class="txt7">4 SQM</p>
@@ -147,7 +147,6 @@
                     <div class="grid_3">
                         <p class="txt7">18 SQM</p>
                         <p class="txt8">Php 170,000</p>
-                        <p class="txt6">Alloted for (2) Diamond Sponsors</p>
                     </div>
                 </div>
             </div>

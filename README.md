@@ -12,7 +12,7 @@
 ASCS 2025 is the event for the PSCS where the Philippines is the host country.
 
 ## Updates
-- November 17, 2023, Update Welcome, PSCS, and ASCS page
+- November 17, 2023, Update Welcome, PSCS, and ASCS page, add the Google Analytics
 - November 11, 2023, Update Welcome page, update header color to red, text to black
 - October 31, 2023, Update Welcome page, upload ASCS Video
 - October 29, 2023, Update Welcome page, include ASCS Video
