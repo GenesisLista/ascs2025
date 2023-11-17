@@ -3,11 +3,11 @@
 
 @section('content')
 <div class="container">
-    <div class="hline2">
+    <!-- <div class="hline2">
         <p class="txt4"><span style="color: red">ASCS</span> Conference 2025</p>
         <p class="txt5">17th Asian Societies of Cosmetic Scientists Conference</p>
         <p class="txt5">4 - 5 June 2025 / Manila, Philippines</p>
-    </div>
+    </div> -->
 
     <div class="row">
         <div class="grid_5">

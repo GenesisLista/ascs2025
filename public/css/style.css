@@ -422,6 +422,18 @@ img{ margin-bottom: 0px;max-width:100%; height:auto;}
 	margin-right: 31px;
 }
 
+.img7_pscs_events{
+	margin-top: 45px;
+	float: left;
+	margin-right: 31px;
+}
+
+.img8_pscs_events{
+	margin-top: 24px;
+	float: left;
+	margin-right: 31px;
+}
+
 a { 
 	text-decoration:none; 
 	cursor:pointer;

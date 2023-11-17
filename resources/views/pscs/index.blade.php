@@ -68,66 +68,11 @@
             <h2>Events</h2>
 
             <div class="wrapper">
-                <img src="images/page2_pic3.jpg" alt="" class="img5">
-                <h3><a href="#" class="link2">nisat pell entesque</a></h3>
-                <p>Sitamet consectet, adipisci uumquam eius modi tempora incidunte, ut labor et dolore
-                    magnam baliquam.</p>
+                <img src="{{ asset('images/pscs/suppliers_day_2023_day_1.jpg') }}" alt="Suppliers Day 2023 Day 1" class="img7_pscs_events">
             </div>
 
-            <div class="wrapper marTop2">
-                <img src="images/page2_pic4.jpg" alt="" class="img5">
-                <h3><a href="#" class="link2">Aenean fringilla</a></h3>
-                <p>Suspendisse cursus mi sed libero gravi ut libero faucibus, ultrices turpis in; fringilla
-                    massa vivamus.</p>
-            </div>
-
-            <div class="wrapper marTop2">
-                <img src="images/page2_pic5.jpg" alt="" class="img5">
-                <h3><a href="#" class="link2">leo porta, ornare est</a></h3>
-                <p>Maecenas felis ipsum, lobortis id dian et, sagittis iaculis sem? Pellentesque porttitor
-                    mattis aliquam.</p>
-            </div>
-
-            <div class="wrapper marTop2">
-                <img src="images/page2_pic3.jpg" alt="" class="img5">
-                <h3><a href="#" class="link2">nisat pell entesque</a></h3>
-                <p>Sitamet consectet, adipisci uumquam eius modi tempora incidunte, ut labor et dolore
-                    magnam baliquam.</p>
-            </div>
-
-            <div class="wrapper marTop2">
-                <img src="images/page2_pic4.jpg" alt="" class="img5">
-                <h3><a href="#" class="link2">Aenean fringilla</a></h3>
-                <p>Suspendisse cursus mi sed libero gravi ut libero faucibus, ultrices turpis in; fringilla
-                    massa vivamus.</p>
-            </div>
-
-            <div class="wrapper marTop2">
-                <img src="images/page2_pic5.jpg" alt="" class="img5">
-                <h3><a href="#" class="link2">leo porta, ornare est</a></h3>
-                <p>Maecenas felis ipsum, lobortis id dian et, sagittis iaculis sem? Pellentesque porttitor
-                    mattis aliquam.</p>
-            </div>
-
-            <div class="wrapper marTop2">
-                <img src="images/page2_pic3.jpg" alt="" class="img5">
-                <h3><a href="#" class="link2">nisat pell entesque</a></h3>
-                <p>Sitamet consectet, adipisci uumquam eius modi tempora incidunte, ut labor et dolore
-                    magnam baliquam.</p>
-            </div>
-
-            <div class="wrapper marTop2">
-                <img src="images/page2_pic4.jpg" alt="" class="img5">
-                <h3><a href="#" class="link2">Aenean fringilla</a></h3>
-                <p>Suspendisse cursus mi sed libero gravi ut libero faucibus, ultrices turpis in; fringilla
-                    massa vivamus.</p>
-            </div>
-
-            <div class="wrapper marTop2">
-                <img src="images/page2_pic5.jpg" alt="" class="img5">
-                <h3><a href="#" class="link2">leo porta, ornare est</a></h3>
-                <p>Maecenas felis ipsum, lobortis id dian et, sagittis iaculis sem? Pellentesque porttitor
-                    mattis aliquam.</p>
+            <div class="wrapper">
+                <img src="{{ asset('images/pscs/suppliers_day_2023_day_2.jpg') }}" alt="Suppliers Day 2023 Day 2" class="img8_pscs_events">
             </div>
 
         </div>
