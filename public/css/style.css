@@ -423,15 +423,10 @@ img{ margin-bottom: 0px;max-width:100%; height:auto;}
 }
 
 .img7_pscs_events{
-	margin-top: 45px;
-	float: left;
-	margin-right: 31px;
-}
-
-.img8_pscs_events{
 	margin-top: 24px;
 	float: left;
 	margin-right: 31px;
+	width: 80%;
 }
 
 a { 

@@ -10,34 +10,22 @@
     </div> -->
 
     <div class="row">
-        <div class="grid_5">
+        <div class="grid_6">
             <h2 class="welcome_page">Our Theme</h2>
-            <p class="txt6">
-                Our theme emphasizes the traditions, cultures, and natural resources meld with technology, research, and
-                innovation to drive the cosmetic industry.
+            <p class="txt5">
+                "Empowering Cosmetic Science"
             </p>
-            <p class="txt6">
-                Our logo serves to embody the theme’s philosophies:
-            </p>
-            <ul class="listWithMarker">
-                <li>Hexagonal shape – ties to chemistry, technology. Shape is sturdy, robust, yet organic.</li>
-                <li>Sapling – evokes naturality, freshness, rebirth, and growth. Illustrates the following points:</li>
-            </ul>
-
-            <p class="lh24">
-                - Growth of the Philippine B&PC market <br />
-                - The importance of the natural ingredients in which the traditional medicine and personal care of the
-                Philippines is built upon <br />
-                - The importance of natural feedstock that is converted into modern ingredients in personal care via
-                research and innovation
+            <p>
+                Our thene emphasizes the tradition, cultures and natural resources mix with technology, research, and innovation to drive the cosmetic industry.
             </p>
         </div>
 
-        <div class="grid_6 preffix_1">
-            <h2 class="welcome_page">Sub-Theme</h2>
-            <p class="txt6">1. Beauty Technology and Innivation.</p>
-            <p class="txt6">2. Tradition of Beauty products and third evolution.</p>
-            <P class="txt6">3. Diversity and Individuality of cosmetic products.</P>
+        <div class="grid_6">
+            <h2 class="welcome_page">Sub-Themes</h2>
+            &nbsp;
+            <p>1. Beauty Technology and Innivation.</p>
+            <p>2. Tradition of Beauty products and third evolution.</p>
+            <p>3. Diversity and Individuality of cosmetic products.</p>
         </div>
 
     </div>
