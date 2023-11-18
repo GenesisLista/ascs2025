@@ -228,7 +228,7 @@ h2 {
 h2.welcome_page {
 	font:bold 28px/32px 'Roboto', Arial, sans-serif;
 	color:#ed0707;
-	margin-top: 30px;
+	margin-top: 60px;
 	padding-bottom: 31px;
 	border-bottom: 1px solid #c9c9c9;
 	text-transform: uppercase;
@@ -361,6 +361,20 @@ h5{
 	font-style: italic;
 }
 
+.txt12_welcome_page {
+	font:18px/20px 'Roboto', Arial, sans-serif;
+	margin-top: 30px;
+	color: #747474;
+	text-transform: uppercase;
+}
+
+.txt8_welcome_page {
+	font:18px/20px 'Roboto', Arial, sans-serif;
+	margin-top: 50px;
+	color: #747474;
+	text-transform: uppercase;
+}
+
 .client_txt {
 	font: 600 20px/22px 'Roboto', Arial, sans-serif;
 	color:#2a2a2a;
@@ -410,6 +424,12 @@ img{ margin-bottom: 0px;max-width:100%; height:auto;}
 	margin-top: 45px;
 	float: left;
 	margin-right: 31px;
+}
+.img4_ifssc_benefactor{
+	margin-top: 30px;
+	margin-right: 25px;
+	float: left;
+	margin-bottom: 30px;
 }
 .img5{
 	margin-top: 45px;

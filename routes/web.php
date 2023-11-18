@@ -7,6 +7,7 @@ use App\Http\Controllers\IfsccController;
 use App\Http\Controllers\AscsController;
 use App\Http\Controllers\RegistrationController;
 use App\Http\Controllers\SponsorshipController;
+use App\Http\Controllers\IfsccBenefactorController;
 
 /*
 |--------------------------------------------------------------------------
@@ -33,5 +34,8 @@ Route::resource('registration', RegistrationController::class);
 
 # Sponsorship
 Route::resource('sponsorship', SponsorshipController::class);
+
+#IFSCC Benefactors
+Route::resource('ifscc_benefactors', IfsccBenefactorController::class);
 
 

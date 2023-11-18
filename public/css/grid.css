@@ -242,6 +242,9 @@ table {
   margin-left: auto;
   *zoom: 1;
 }
+.ifscc_benefactor {
+  margin-top: 25px;
+}
 .container_no_image {
   margin-top: 260px;
   margin-right: auto;
