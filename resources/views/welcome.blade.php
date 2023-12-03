@@ -6,7 +6,7 @@
     <div class="row">
         <div class="grid_6">
             <h2 class="welcome_page">Our Theme</h2>
-            <p class="txt5">
+            <p class="txt5_welcome_page">
                 "Empowering Cosmetic Science"
             </p>
             <p>
@@ -95,7 +95,7 @@
 
                 <div class="grid_4">
                     <p class="txt8_welcome_page">Discover Local Technology, Traditions, and Cultures</p>
-                    <p style="text-align: justify;">Experience firsthand the warm hospitality and smiles of the Filipinos. Be amazed by our vibrant
+                    <p style="text-align: justify;">Experience first hand the warm hospitality and smiles of the Filipinos. Be amazed by our vibrant
                         culture and inspiring traditions. Be here and love it.</p>
                 </div>
             </div>

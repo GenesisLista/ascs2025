@@ -6,10 +6,41 @@
 
     <div class="row">
         <div class="grid_12">
-            <h2 class="v3">Registration fees</h2>
+            <h2 class="v3">Registration fees for 17th ASCS 2025 Conference</h2>
+
+            <div class="row">
+
+                <div class="grid_12">
+                    <h2 class="no_line2">International Delegate - Physical Attendees</h2>
+                    <div>
+                        <table style="width: 100%;">
+                            <tr>
+                                <th>Early Bird</th>
+                                <th>January 2024 - September 2024</th>
+                                <th>October 2024 - June 2025</th>
+                            </tr>
+                            <tr>
+                                <td>IFSCC Members</td>
+                                <td>500 USD</td>
+                                <td>550 USD</td>
+                            </tr>
+                            <tr>
+                                <td>Non IFSCC Members</td>
+                                <td>540 USD</td>
+                                <td>600 USD</td>
+                            </tr>
+                            <tr>
+                                <td>Students</td>
+                                <td>360 USD</td>
+                                <td>400 USD</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
 
         </div>
-
 
     </div>
 </div>
@@ -18,54 +49,176 @@
     <div class="container">
         <div class="row">
 
-            <div class="grid_8">
-                <h2 class="no_line2">special events</h2>
-                <div class="wrapper">
-                    <img src="images/page3_pic1.jpg" alt="" class="img6">
-                    <div class="box">
-                        <p class="txt6"><span class="txt8"><time datetime="2013-01-01">May 16, 2014</time></span><br><a
-                                href="#">nesciu iquequam voluptmse mioas</a></p>
-                        <p>Aliquam ornare magna quis nisi aliquam commodo. Mauris fringilla sapien vel est commodo
-                            aliquet. Maecenas id ante a ipsum cursus ultricies ut in diam. Cum sociis natoque penatibus
-                            et magnis dis parturient montes, nascetur ridiculus mus. Aliquam erat volutpat. Phasellus
-                            volutpat mattis urna. Etiam lacinia nibh ut.</p>
-                    </div>
+            <div class="grid_12">
+                <h2 class="no_line2">Local Delegate - Physical Attendees</h2>
+                <div>
+                    <table style="width: 100%;">
+                        <tr>
+                            <th>Early Bird</th>
+                            <th>January 2024 - September 2024</th>
+                            <th>October 2025 - June 2025</th>
+                        </tr>
+                        <tr>
+                            <td>PSCS Members</td>
+                            <td>Php 22,500</td>
+                            <td>Php 25,000</td>
+                        </tr>
+                        <tr>
+                            <td>Non PSCS Members</td>
+                            <td>Php 27,000</td>
+                            <td>Php 30,000</td>
+                        </tr>
+                        <tr>
+                            <td>Students</td>
+                            <td>Php 18,000</td>
+                            <td>Php 20,000</td>
+                        </tr>
+                    </table>
                 </div>
-
-                <div class="wrapper marTop3">
-                    <img src="images/page3_pic2.jpg" alt="" class="img6">
-                    <div class="box">
-                        <p class="txt6"><span class="txt8"><time datetime="2013-01-01">May 18, 2014</time></span><br><a
-                                href="#">Vestibulum feugiat, purus et commodo</a></p>
-                        <p>Maecenas id ante a ipsum cursus ultricies ut in diam. Cum sociis natoque Aliquam erat
-                            volutpat. Phasellus volutpat mattis urna. Etiam lacinia nibh varius congue. Mauris ut
-                            porttitor sem. Vivamus bibendum semper ipsum. Donec vel commodo neque. Nam et consequat
-                            diam. Etiam augue justo, tempus vitae elit a, volutpat.</p>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="grid_4">
-                <h2 class="no_line2">News archives</h2>
-                <ul class="listWithMarker v2">
-                    <li><a href="#">January 2013</a></li>
-                    <li><a href="#">February 2013</a></li>
-                    <li><a href="#">March 2013</a></li>
-                    <li><a href="#">April 2013</a></li>
-                    <li><a href="#">May 2013</a></li>
-                    <li><a href="#">June 2013</a></li>
-                    <li><a href="#">July 2013</a></li>
-                    <li><a href="#">August 2013</a></li>
-                    <li><a href="#">September 2013</a></li>
-                    <li><a href="#">October 2013</a></li>
-                    <li><a href="#">November 2013</a></li>
-                </ul>
             </div>
 
             <div class="wrapper">
                 <div class="indent1"></div>
             </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="container">
+
+    <div class="row">
+        <div class="grid_12">
+            <div class="row">
+                &nbsp;
+                <div class="grid_12">
+                    <h2 class="no_line2">International Delegate - Online Attendees</h2>
+                    <div>
+                        <table style="width: 100%;">
+                            <tr>
+                                <th>Early Bird</th>
+                                <th>January 2024 - September 2024</th>
+                                <th>October 2025 - June 2025</th>
+                            </tr>
+                            <tr>
+                                <td>IFSCC Members</td>
+                                <td>285 USD</td>
+                                <td>315 USD</td>
+                            </tr>
+                            <tr>
+                                <td>Non IFSCC Members</td>
+                                <td>315 USD</td>
+                                <td>350 USD</td>
+                            </tr>
+                            <tr>
+                                <td>Students</td>
+                                <td>135 USD</td>
+                                <td>150 USD</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<div class="box-2">
+    <div class="container">
+        <div class="row">
+
+            <div class="grid_12">
+                <h2 class="no_line2">Local Delegate - Online Attendees</h2>
+                <div>
+                    <table style="width: 100%;">
+                        <tr>
+                            <th>Early Bird</th>
+                            <th>January 2024 - September 2024</th>
+                            <th>October 2025 - June 2025</th>
+                        </tr>
+                        <tr>
+                            <td>PSCS Members</td>
+                            <td>Php 6,750</td>
+                            <td>Php 7,500</td>
+                        </tr>
+                        <tr>
+                            <td>Non PSCS Members</td>
+                            <td>Php 9,000</td>
+                            <td>Php 10,000</td>
+                        </tr>
+                        <tr>
+                            <td>Students</td>
+                            <td>Php 4,500</td>
+                            <td>Php 4,950</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="wrapper">
+                <div class="indent1"></div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="container">
+
+    <div class="row">
+        <div class="grid_12">
+            <div class="row">
+                &nbsp;
+                <div class="grid_12">
+                    <h2 class="no_line2">Cancellation Policy</h2>
+                    <div class="row">
+                        
+                    
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<div class="box-2">
+    <div class="container">
+        <div class="row">
+
+            <div class="grid_12">
+                <h2 class="no_line2">Rooms at Conference Venue - Marriott Hotel</h2>
+                <div class="row">
+                    
+                
+                </div>
+
+                <p>To register for the conference, kindly click the button below and fill the registration form.</p>
+
+                <a href="{{ route('registration.create') }}" class="more_btn bg5">
+                    Offline Registration </br>
+                    (Pay by cheque / Demand Draft / Bank Transfer)
+                </a>
+
+                <p>
+                    For any queries regarding registration, please contact:</br>
+                    Conference Secretariat-ASCS Conference 2025</br>
+                    Mobile: +63 917 801 4640</br>
+                    Email: <a href="&#115;&#101;&#99;&#114;&#101;&#116;&#97;&#114;&#105;&#97;&#116;&#46;&#112;&#115;&#99;&#115;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#115;&#101;&#99;&#114;&#101;&#116;&#97;&#114;&#105;&#97;&#116;&#46;&#112;&#115;&#99;&#115;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a>
+                </p>
+
+            </div>
+
+            <div class="wrapper">
+                <div class="indent1"></div>
+            </div>
+
+            
 
         </div>
     </div>

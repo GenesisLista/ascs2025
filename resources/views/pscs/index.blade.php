@@ -30,6 +30,8 @@
                     Conference in 2025.</p>
             </div>
 
+            <img src="{{ asset('images/pscs/PSCS-1.jpg') }}" alt="philippine-society-for-cosmetic-science"
+                style="margin-top: 45px;">
         </div>
 
         <div class="grid_4">

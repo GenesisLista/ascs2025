@@ -325,6 +325,12 @@ h5{
 	margin-top: 20px;
 	color: #6f6f6f;
 }
+
+.txt5_welcome_page {
+	font:25px/30px 'Roboto', Arial, sans-serif;
+	margin-top: 20px;
+	color: #6f6f6f;
+}
 .txt6 {
 	font:14px/20px 'Roboto', Arial, sans-serif;
 	margin-top: 20px;
@@ -441,6 +447,8 @@ img{ margin-bottom: 0px;max-width:100%; height:auto;}
 	float: left;
 	margin-right: 31px;
 }
+
+.img_pscs_about_us{ margin-bottom: 0px;max-width:93%; height:auto;}
 
 .img7_pscs_events{
 	margin-top: 24px;
@@ -591,7 +599,8 @@ blockquote{
 }
 
 .box-1{
-	background: url(../images/bg_pic3.jpg) 50% 0 repeat-x #2eb73b;
+	/* background: url(../images/bg_pic3.jpg) 50% 0 repeat-x #2eb73b; */
+	background: url(../images/Marriot-Hotel-1.jpg) 50% 0 repeat-x #2eb73b;
 	margin-top: 48px;
 	padding-top: 86px;
 	padding-bottom: 399px;
@@ -622,7 +631,8 @@ blockquote{
 }
 
 .box-5{
-	background: url(../images/bg_pic1.jpeg) 50% 0 repeat-x #2eb73b;
+	/* background: url(../images/bg_pic1.jpeg) 50% 0 repeat-x #2eb73b; */
+	background: url(../images/bg_pic5.png) 50% 0 repeat-x #2eb73b;
 	margin-top: 48px;
 	padding-top: 86px;
 	padding-bottom: 399px;
@@ -912,4 +922,17 @@ p.txt_priv{
     height:100%;
     width:100%;
     position:absolute;
+}
+
+/** For Registration **/
+table, th, td {
+	border: 2px solid black;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+th {
+	font-weight: bold;
+	font-size: large;
 }
