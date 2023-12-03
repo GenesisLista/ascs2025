@@ -56,7 +56,7 @@
                         <tr>
                             <th>Early Bird</th>
                             <th>January 2024 - September 2024</th>
-                            <th>October 2025 - June 2025</th>
+                            <th>October 2024 - June 2025</th>
                         </tr>
                         <tr>
                             <td>PSCS Members</td>
@@ -98,7 +98,7 @@
                             <tr>
                                 <th>Early Bird</th>
                                 <th>January 2024 - September 2024</th>
-                                <th>October 2025 - June 2025</th>
+                                <th>October 2024 - June 2025</th>
                             </tr>
                             <tr>
                                 <td>IFSCC Members</td>
@@ -137,7 +137,7 @@
                         <tr>
                             <th>Early Bird</th>
                             <th>January 2024 - September 2024</th>
-                            <th>October 2025 - June 2025</th>
+                            <th>October 2024 - June 2025</th>
                         </tr>
                         <tr>
                             <td>PSCS Members</td>
