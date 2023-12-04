@@ -76,11 +76,10 @@
                 <div class="grid_4">
                     <p class="txt8_welcome_page">Invaluable Opportunity for Networking</p>
                     <p style="text-align: justify;">The event will be a gathering of like-minded individuals with
-                        limitless passion to discoverand
-                        experience advancement in cosmetic science. It will be well attended by local and international
+                        limitless passion to discover and experience advancement in cosmetic science. It will be well
+                        attended by local and international
                         formulators, researchers, chemists, chemical engineers, academe, and supporters of the industry.
-                        A
-                        better opportunity to extend your visibility and foster friendship in the cosmetic
+                        A better opportunity to extend your visibility and foster friendship in the cosmetic
                         science community.</p>
                 </div>
 
@@ -95,7 +94,8 @@
 
                 <div class="grid_4">
                     <p class="txt8_welcome_page">Discover Local Technology, Traditions, and Cultures</p>
-                    <p style="text-align: justify;">Experience first hand the warm hospitality and smiles of the Filipinos. Be amazed by our vibrant
+                    <p style="text-align: justify;">Experience first hand the warm hospitality and smiles of the
+                        Filipinos. Be amazed by our vibrant
                         culture and inspiring traditions. Be here and love it.</p>
                 </div>
             </div>
@@ -109,17 +109,17 @@
             <div class="grid_5">
                 <h2 class="no_line">useful links</h2>
                 <ul class="listWithMarker">
-                    <li><a href="{{ route('ascs.index') }}">About <span style="color: red">ASCS</span></a></li>
+                    <li><a href="{{ route('ascs.index') }}">About ASCS</a></li>
                     <li><a href="{{ route('ifscc.index') }}">About IFSCC</a></li>
                     <li><a href="{{ route('pscs.index') }}">About PSCS</a></li>
+                    <li><a href="https://www.pscs.org.ph/become_member" target="_blank" rel=”noreferrer”>PSCS Membership Form</a></li>
+                    <li><a href="{{ route('registration.create') }}">Conference Registration Form</a></li>
+                    <li><a href="javascript:void(0)">Abstract/Paper/Poster Submission</a></li>
                     <li><a href="javascript:void(0)">Program at glance</a></li>
                     <li><a href="{{ route('sponsorship.index') }}">Sponsorship package</a></li>
-                    <li><a href="{{ route('registration.index') }}">Registration</a></li>
-                    <li><a href="javascript:void(0)">Booth Exhibition</a></li>
+                    <li><a href="javascript:void(0)">Booth Exhibition / Country Pavilion Registration Form</a></li>
                     <li><a href="javascript:void(0)">Travel Package</a></li>
-                    <li><a href="javascript:void(0)">Abstract/Paper/Poster Submission</a></li>
                     <li><a href="{{ route('ifscc_benefactors.index') }}">IFSCC Benefactors</a></li>
-                    <li><a href="javascript:void(0)">Country Pavilion</a></li>
                     <li><a href="javascript:void(0)">Advertisement Subscription</a></li>
                 </ul>
             </div>

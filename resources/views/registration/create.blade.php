@@ -16,7 +16,7 @@
                     </label>
 
                     <label class="name">
-                        <input type="text" placeholder="Complete name (First name Middle name Last name)" />
+                        <input type="text" placeholder="Complete name" />
                         <span class="empty-message">*This field is required.</span>
                         <span class="error-message">*This is not a valid Complete name.</span>
                     </label>
@@ -64,16 +64,17 @@
                     </label>
 
                     <label class="telephone_number">
-                        <input type="text" placeholder="Office Telephone Number" />
+                        <input type="text" placeholder="Telephone Number" />
                         <span class="empty-message">*This field is required.</span>
-                        <span class="error-message">*This is not a valid Office Telephone Number.</span>
+                        <span class="error-message">*This is not a valid Telephone Number.</span>
                     </label>
 
                     <label class="mobile_number">
-                        <input type="text" placeholder="Office Mobile Number" />
+                        <input type="text" placeholder="Mobile Number" />
                         <span class="empty-message">*This field is required.</span>
-                        <span class="error-message">*This is not a valid Office Mobile Number.</span>
+                        <span class="error-message">*This is not a valid Mobile Number.</span>
                     </label>
+
                 </div>
 
                 <div class="form_btns">

@@ -12,6 +12,7 @@
 ASCS 2025 is the event for the PSCS where the Philippines is the host country.
 
 ## Updates
+- December 03, 2023, Update Footer, Header, Registration and Welcome Page.
 - December 02, 2023, Update Registration, About PSCS, and Welcome Page, layout Registration Form, Update header image Marriott
 - November 18, 2023, Update Welcome page, Create IFSCC Benefactor, Upload IFSCC Benefactor Images
 - November 17, 2023, Update Welcome, PSCS, and ASCS page, add the Google Analytics
