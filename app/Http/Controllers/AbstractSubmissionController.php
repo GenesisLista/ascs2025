@@ -21,7 +21,7 @@ class AbstractSubmissionController extends Controller
      */
     public function create()
     {
-        //
+        return view('abstract_submission.create');
     }
 
     /**

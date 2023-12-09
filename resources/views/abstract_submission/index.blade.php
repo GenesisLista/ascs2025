@@ -89,7 +89,7 @@
                                         during designated periods. </br>
                                     </span>
                                     <span style="padding-left:40px; float: left;">
-                                        * Please do not email abstract, all abstracts will be submitted by this website. CLICK HERE.
+                                        * Please do not email abstract, all abstracts will be submitted by this website. <a href="{{ route('abstract_submission.create') }}">CLICK HERE</a>.
                                     </span>
                                 </p>
                             </li>

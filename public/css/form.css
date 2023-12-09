@@ -42,7 +42,7 @@
 	display: none;
 }
 input{-webkit-appearance:none;}
-#contact-form input,
+#contact-form input, select,
 #contact-form textarea {
 	outline: none;
 	-webkit-border-radius: 0px;

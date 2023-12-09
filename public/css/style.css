@@ -927,8 +927,6 @@ p.txt_priv{
 /** For Registration **/
 table, th, td {
 	border: 2px solid black;
-	padding-bottom: 10px;
-	padding-top: 10px;
 	text-align: center;
 }
 
@@ -936,3 +934,10 @@ th {
 	font-weight: bold;
 	font-size: large;
 }
+
+th, td {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+  }
