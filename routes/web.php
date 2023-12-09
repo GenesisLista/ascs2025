@@ -8,6 +8,7 @@ use App\Http\Controllers\AscsController;
 use App\Http\Controllers\RegistrationController;
 use App\Http\Controllers\SponsorshipController;
 use App\Http\Controllers\IfsccBenefactorController;
+use App\Http\Controllers\AbstractSubmissionController;
 
 /*
 |--------------------------------------------------------------------------
@@ -35,7 +36,10 @@ Route::resource('registration', RegistrationController::class);
 # Sponsorship
 Route::resource('sponsorship', SponsorshipController::class);
 
-#IFSCC Benefactors
+# IFSCC Benefactors
 Route::resource('ifscc_benefactors', IfsccBenefactorController::class);
+
+# Abstract Form Submission and Guidelines
+Route::resource('abstract_submission', AbstractSubmissionController::class);
 
 

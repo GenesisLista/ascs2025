@@ -114,7 +114,7 @@
                     <li><a href="{{ route('pscs.index') }}">About PSCS</a></li>
                     <li><a href="https://www.pscs.org.ph/become_member" target="_blank" rel=”noreferrer”>PSCS Membership Form</a></li>
                     <li><a href="{{ route('registration.create') }}">Conference Registration Form</a></li>
-                    <li><a href="javascript:void(0)">Abstract/Paper/Poster Submission</a></li>
+                    <li><a href="{{ route('abstract_submission.index') }}">Abstract/Paper/Poster Submission</a></li>
                     <li><a href="javascript:void(0)">Program at glance</a></li>
                     <li><a href="{{ route('sponsorship.index') }}">Sponsorship package</a></li>
                     <li><a href="javascript:void(0)">Booth Exhibition / Country Pavilion Registration Form</a></li>
