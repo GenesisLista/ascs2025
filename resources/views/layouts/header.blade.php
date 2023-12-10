@@ -28,11 +28,20 @@
                                     <li><a href="{{ route('sponsorship.create') }}">Sponsorship Form</a></li>
                                 </ul>
                             </li>
-                            <li id="last-li"><a href="javascript:void(0)">Promotion<strong></strong></a></li>
+                            <li class="{{ Request::segment(1) === 'abstract_submission' ? 'current' : null }}">
+                                <a href="{{ route('abstract_submission.index') }}">Abstract<strong></strong></a>
+                                <ul class='submenu'>
+                                    <li><a href="{{ route('abstract_submission.create') }}">Abstract Form</a></li>
+                                </ul>
+                            </li>
+                            <li class="{{ Request::segment(1) === 'exhibition' ? 'current' : null }}">
+                                <a href="javascript:void(0)">Exhibition<strong></strong></a>
+                                <ul class='submenu'>
+                                    <li><a href="javascript:void(0)">Exhibition Form</a></li>
+                                </ul>
+                            </li>
                         </ul>
                     </nav>
-
-                    <h3 class="soc_icons txt6"><strong><u>Website Under Construction!</u></strong></h3>
 
                     <!-- <ul class="soc_icons">
                         <li><a href="#"><i class="fa fa-facebook"></i></a></li>

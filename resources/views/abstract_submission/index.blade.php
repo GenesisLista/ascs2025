@@ -115,11 +115,11 @@
                 <div>
                     <table style="width: 100%;">
                         <tr>
-                            <th colspan=2>Reading</th>
+                            <th colspan=2>Schedule of Deadlines</th>
                         </tr>
                         <tr>
                             <td>January 2024</td>
-                            <td>Call for papers and registratuon open</td>
+                            <td>Call for papers and registration open</td>
                         </tr>
                         <tr>
                             <td>June 2024</td>
@@ -127,7 +127,7 @@
                         </tr>
                         <tr>
                             <td>September 2024</td>
-                            <td>Acceptance and format notigication</td>
+                            <td>Acceptance and format notification</td>
                         </tr>
                         <tr>
                             <td>December 2024</td>
