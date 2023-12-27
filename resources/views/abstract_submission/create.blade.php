@@ -6,90 +6,119 @@
     <div class="row">
         <div class="grid_12">
             <h2 class="v3">Abstract Submission Form</h2>
-            <form id="contact-form">
+            <form id="contact-form" action="{{ route('abstract_submission.store') }}" method="POST" enctype="multipart/form-data">
+                {{ csrf_field() }}
+
                 <div class="success-message">Contact form submitted!</div>
 
                 <div class="wrapper">
                     <label class="name">
-                        <input type="text" placeholder="Author's full name" />
-                        <span class="empty-message">*This field is required.</span>
-                        <span class="error-message">*This is not a valid Complete name.</span>
+                        <input type="text" name="author" placeholder="Author's full name" />
+                        @if ($errors->has('author'))
+                            <span class="error_message">* This field is required.</span>
+                            &nbsp;
+                        @endif
                     </label>
 
                     <label class="email">
-                        <input type="text" placeholder="E-mail" />
-                        <span class="empty-message">*This field is required.</span>
-                        <span class="error-message">*This is not a valid email.</span>
+                        <input type="text" name="email" placeholder="E-mail" />
+                        @if ($errors->has('email'))
+                            <span class="error_message">* This field is required.</span>
+                            &nbsp;
+                        @endif
                     </label>
 
                     <label class="country">
-                        <input type="text" placeholder="Country" />
-                        <span class="empty-message">*This field is required.</span>
-                        <span class="error-message">*This is not a valid email.</span>
+                        <input type="text" name="country" placeholder="Country" />
+                        @if ($errors->has('country'))
+                            <span class="error_message">* This field is required.</span>
+                            &nbsp;
+                        @endif
                     </label>
 
                     <label class="code">
-                        <input type="text" placeholder="Code" />
-                        <span class="empty-message">*This field is required.</span>
-                        <span class="error-message">*This is not a valid designation.</span>
+                        <input type="text" name="code" placeholder="Code" />
+                        @if ($errors->has('code'))
+                            <span class="error_message">* This field is required.</span>
+                            &nbsp;
+                        @endif
                     </label>
 
                     <label class="phone">
-                        <input type="text" placeholder="Phone" />
-                        <span class="empty-message">*This field is required.</span>
-                        <span class="error-message">*This is not a valid company.</span>
+                        <input type="text" name="phone" placeholder="Phone" />
+                        @if ($errors->has('phone'))
+                            <span class="error_message">* This field is required.</span>
+                            &nbsp;
+                        @endif
                     </label>
 
                     <label class="company">
-                        <input type="text" placeholder="Institution or Company" />
-                        <span class="empty-message">*This field is required.</span>
-                        <span class="error-message">*This is not a valid address.</span>
+                        <input type="text" name="company" placeholder="Institution or Company" />
+                        @if ($errors->has('company'))
+                            <span class="error_message">* This field is required.</span>
+                            &nbsp;
+                        @endif
                     </label>
 
                     <label class="presenter">
-                        <input type="text" placeholder="Presenter full name" />
-                        <span class="empty-message">*This field is required.</span>
-                        <span class="error-message">*This is not a valid city.</span>
+                        <input type="text" name="presenter" placeholder="Presenter full name" />
+                        @if ($errors->has('presenter'))
+                            <span class="error_message">* This field is required.</span>
+                            &nbsp;
+                        @endif
                     </label>
 
                     <label class="title">
-                        <input type="text" placeholder="Abstract title" />
-                        <span class="empty-message">*This field is required.</span>
-                        <span class="error-message">*This is not a valid post code.</span>
+                        <input type="text" name="title" placeholder="Abstract title" />
+                        @if ($errors->has('title'))
+                            <span class="error_message">* This field is required.</span>
+                            &nbsp;
+                        @endif
                     </label>
 
-                    <label class="bio">
-                        <textarea placeholder="Presenter's Short Bio"></textarea>
-                        <span class="empty-message">*This field is required.</span>
-                        <span class="error-message">*The message is too short.</span>
+                    <label class="biography">
+                        <textarea name="biography" placeholder="Presenter's Short Bio"></textarea>
+                        @if ($errors->has('biography'))
+                            <span class="error_message">* This field is required.</span>
+                            &nbsp;
+                        @endif
                     </label>
-
+                    
                     <label class="theme">
-                        <select>
-                            <option>Please select the theme most relevant for your abstract</option>
-                            <option>Beauty technology and Digital application</option>
-                            <option>Beauty innovation in Raw material packaging and finished products</option>
-                            <option>Beauty tradition and Evolution</option>
-                            <option>Beauty safety and efficacy testing</option>
-                            <option>Natural resources for new ingredients</option>
+                        <select name="theme_id">
+                            <option value="">-- Please Choose Theme --</option>
+                            @foreach ($theme as $themes)
+                                <option value="{{ $themes->id }}">{{ $themes->name }}</option>
+                            @endforeach
                         </select>
+                        @if ($errors->has('theme_id'))
+                            <span class="error_message">* This field is required.</span>
+                            &nbsp;
+                        @endif
                     </label>
 
                     <label class="poster">
-                        <select>
-                            <option>Please select the poster format of presentation</option>
-                            <option>Poster</option>
-                            <option>Poduim ( Oral )</option>
+                        <select name="poster_id">
+                            <option value="">-- Please Choose Poster --</option>
+                            @foreach ($poster as $posters)
+                                <option value="{{ $posters->id }}">{{ $posters->name }}</option>
+                            @endforeach
                         </select>
+                        @if ($errors->has('poster_id'))
+                            <span class="error_message">* This field is required.</span>
+                            &nbsp;
+                        @endif
                     </label>
 
                     <label class="file">
                         <span>* Upload abstract file with Author's Name and Institution or Company name </br></span>
                         <span>* Upload only PDF Format </br></span>
                         <span>* Maximum of 15mb </br></span>
-                        <input type="file" placeholder="Abstract title" />
-                        <span class="empty-message">*This field is required.</span>
-                        <span class="error-message">*This is not a valid post code.</span>
+                        <input type="file" name="abstract_path" placeholder="Abstract title" />
+                        @if ($errors->has('abstract_path'))
+                            <span class="error_message">* This field is required.</span>
+                            &nbsp;
+                        @endif
                     </label>
 
                     <p>After submitting your abstract, the Secretariat will send a confirmation by email.</p>
@@ -98,7 +127,7 @@
 
                 <div class="form_btns">
                     <a href="{{ route('abstract_submission.index') }}" data-type="reset" class="more_btn bg5">Cancel</a>
-                    <a href="javascript:void(0)" data-type="submit" class="more_btn bg5">Submit</a>
+                    <button type="submit" data-type="submit" class="more_btn_save bg5"> Submit </button>
                 </div>
             </form>
 

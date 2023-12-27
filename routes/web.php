@@ -10,6 +10,8 @@ use App\Http\Controllers\SponsorshipController;
 use App\Http\Controllers\IfsccBenefactorController;
 use App\Http\Controllers\AbstractSubmissionController;
 
+use App\Http\Controllers\AbstractMailController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -42,4 +44,5 @@ Route::resource('ifscc_benefactors', IfsccBenefactorController::class);
 # Abstract Form Submission and Guidelines
 Route::resource('abstract_submission', AbstractSubmissionController::class);
 
-
+# This is for the abstract email
+Route::get('abstract-mail', [AbstractMailController::class, 'index']);

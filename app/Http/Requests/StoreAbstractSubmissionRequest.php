@@ -11,7 +11,7 @@ class StoreAbstractSubmissionRequest extends FormRequest
      */
     public function authorize(): bool
     {
-        return false;
+        return true;
     }
 
     /**
@@ -22,7 +22,18 @@ class StoreAbstractSubmissionRequest extends FormRequest
     public function rules(): array
     {
         return [
-            //
+            'author' => 'required',
+            'email' => 'required',
+            'country' => 'required',
+            'code' => 'required',
+            'phone' => 'required',
+            'company' => 'required',
+            'presenter' => 'required',
+            'title' => 'required',
+            'biography' => 'required',
+            'theme_id' => 'required',
+            'poster_id' => 'required',
+            'abstract_path' => 'required|mimes:pdf|max:15360' // 15MB x 1024
         ];
     }
 }

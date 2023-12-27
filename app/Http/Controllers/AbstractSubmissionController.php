@@ -4,7 +4,13 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\StoreAbstractSubmissionRequest;
 use App\Http\Requests\UpdateAbstractSubmissionRequest;
+
+use App\Models\Theme;
+use App\Models\Poster;
 use App\Models\AbstractSubmission;
+
+use Mail;
+use App\Mail\AbstractMail;
 
 class AbstractSubmissionController extends Controller
 {
@@ -21,15 +27,53 @@ class AbstractSubmissionController extends Controller
      */
     public function create()
     {
-        return view('abstract_submission.create');
+        // Theme
+        $theme = Theme::all();
+        $poster = Poster::all();
+        return view('abstract_submission.create')->with([
+            'theme' => $theme,
+            'poster' => $poster
+        ]);
     }
 
     /**
      * Store a newly created resource in storage.
      */
-    public function store(StoreAbstractSubmissionRequest $request)
+    public function store(StoreAbstractSubmissionRequest $request, AbstractSubmission $abstractSubmission)
     {
-        //
+
+        // This is for the email
+        $content = [
+            'subject' => 'This is the mail dubject', // This is not the subject
+            'body' => 'Thank you for Abstract submission for Ascs2025.' // This is the body content and also on the abstract.blade.php
+        ];
+
+        Mail::to($request->email)->send(new AbstractMail($content));
+
+        $abstract_path = $request->abstract_path->getClientOriginalName(); // Get the filename
+        $abstract = date('YmdHis').'_'.$abstract_path; // Append date and time on the file name to be unique
+        if($request->hasFile('abstract_path')) {
+            $request->abstract_path->storeAs('public/abstract', $abstract); // Save the file on the public/abstract storage
+        }
+
+        // Save the request
+        $abstractSubmission->author = $request->author;
+        $abstractSubmission->email = $request->email;
+        $abstractSubmission->country = $request->country;
+        $abstractSubmission->code = $request->code;
+        $abstractSubmission->phone = $request->phone;
+        $abstractSubmission->company = $request->company;
+        $abstractSubmission->presenter = $request->presenter;
+        $abstractSubmission->title = $request->title;
+        $abstractSubmission->biography = $request->biography;
+        $abstractSubmission->theme_id = $request->theme_id;
+        $abstractSubmission->poster_id = $request->poster_id;
+        $abstractSubmission->abstract_path = $abstract;
+        $abstractSubmission->save();
+        return redirect()->route('abstract_submission.index')->withSuccess('New abstract is added successfully');
+
+        // AbstractSubmission::create($request->all());
+        // return redirect()->route('abstract_submission.index')->withSuccess('New abstract is added successfully');
     }
 
     /**

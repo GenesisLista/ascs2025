@@ -12,6 +12,14 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
+        if(DB::table('themes')->count()==0){
+            $this->call(ThemeSeeder::class);
+        }
+
+        if(DB::table('posters')->count()==0){
+            $this->call(PosterSeeder::class);
+        }
+        
         // \App\Models\User::factory(10)->create();
 
         // \App\Models\User::factory()->create([

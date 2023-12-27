@@ -17,10 +17,13 @@
 
         <div class="grid_6">
             <h2 class="welcome_page">Sub-Themes</h2>
-            &nbsp;
-            <p>1. Beauty Technology and Innovation.</p>
-            <p>2. Tradition of Beauty products and their evolution.</p>
-            <p>3. Diversity and Individuality of cosmetic products.</p>
+            <p>
+                <span>1. Beauty technology and digital application. </br></span>
+                <span>2. Beauty innovation in raw material packaging and finished products. </br></span>
+                <span>3. Beauty tradition and evolution. </br></span>
+                <span>4. Beauty safety and efficiency testing. </br></span>
+                <span>5. Natural resources for new ingredients. </br></span>
+            </p>
         </div>
     </div>
 </div>
@@ -33,21 +36,21 @@
                 <p class="txt12_welcome_page">
                     Day 1 (June 4, 2025, 9:30am to 5:00pm)
                 </p>
-                <ul class="listWithMarker">
-                    <li>Welcome Ceremony</li>
-                    <li>Plenary Sessions</li>
-                    <li>Poster Presentations</li>
-                </ul>
+                <p>
+                    <span>1. Welcome Ceremony </br></span>
+                    <span>2. Plenary Sessions </br></span>
+                    <span>3. Poster Presentations </br></span>
+                </p>
 
                 <p class="txt12_welcome_page">
                     Day 2 (June 5, 2025, 10:00am to 5:00pm)
                 </p>
 
-                <ul class="listWithMarker">
-                    <li>Plenary Sessions</li>
-                    <li>Poster Presentations</li>
-                    <li>Gala Night (6:00pm to 9:00pm)</li>
-                </ul>
+                <p>
+                    <span>1. Plenary Sessions </br></span>
+                    <span>2. Poster Presentations </br></span>
+                    <span>3. Gala Night (6:00pm to 9:00pm) </br></span>
+                </p>
             </div>
 
             <div class="grid_6">
@@ -56,13 +59,13 @@
                     We encourage our fellow societies to support us in this worthwhile endeavor through the following:
                 </p>
 
-                <ul class="listWithMarker">
-                    <li>Abstract/Paper/Poster Submission</li>
-                    <li>Attendance of the ASCS 2025 Conference</li>
-                    <li>Sponsorship and Exhibition</li>
-                    <li>Country Pavilion</li>
-                    <li>Advertisement Subscription</li>
-                </ul>
+                <p>
+                    <span>1. Abstract/Paper/Poster Submission </br></span>
+                    <span>2. Attendance of the ASCS 2025 Conference </br></span>
+                    <span>3. Sponsorship and Exhibition </br></span>
+                    <span>4. Country Pavilion </br></span>
+                    <span>5. Advertisement Subscription </br></span>
+                </p>
             </div>
         </div>
     </div>
@@ -114,7 +117,8 @@
                     <li><a href="{{ route('pscs.index') }}">About PSCS</a></li>
                     <li><a href="https://www.pscs.org.ph/become_member" target="_blank" rel=”noreferrer”>PSCS Membership Form</a></li>
                     <li><a href="{{ route('registration.create') }}">Conference Registration Form</a></li>
-                    <li><a href="{{ route('abstract_submission.index') }}">Abstract/Paper/Poster Submission</a></li>
+                    <li><a href="{{ route('abstract_submission.index') }}">Abstract Submission Guidelines</a></li>
+                    <li><a href="{{ route('abstract_submission.create') }}">Abstract/Paper/Poster Submission Form</a></li>
                     <li><a href="javascript:void(0)">Program at glance</a></li>
                     <li><a href="{{ route('sponsorship.index') }}">Sponsorship package</a></li>
                     <li><a href="javascript:void(0)">Booth Exhibition / Country Pavilion Registration Form</a></li>
