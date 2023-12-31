@@ -36,7 +36,7 @@ class AbstractMail extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'Abstract Submission',
+            subject: 'Ascs2025 Abstract Submission',
         );
     }
 

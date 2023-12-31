@@ -20,11 +20,13 @@
 <body>
 <div>
     <p>{{ $content['body'] }}</p>
-    <p>The submission will be screened by the scientific committee.</p>
-    <p>This is autoreply on confirming receiving your abstract.</p>
+    <p>Thank you very much.</p>
+    <p>Our scientific committee  will screen said abstract.</p>
+    <p>This is an autoreply. For any other inquiries/clarifications, please email us at secretariat@ascs2025.com</p>
+
     <p class="signature">Regards,</p>
     <p class="signature">PSCS Secretariat</p>
-    <p>
+    <p class="signature">
         Mobile: +63 917 801 4640 </br>
         Address: Lot 2 Arty II, Corner Road 1, Mindanao Ave, Quezon City, Phils.
     </p>

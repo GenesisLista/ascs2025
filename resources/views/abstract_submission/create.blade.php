@@ -36,8 +36,8 @@
                         @endif
                     </label>
 
-                    <label class="code">
-                        <input type="text" name="code" placeholder="Code" />
+                    <label class="country_code">
+                        <input type="text" name="code" placeholder="Country Code" />
                         @if ($errors->has('code'))
                             <span class="error_message">* This field is required.</span>
                             &nbsp;

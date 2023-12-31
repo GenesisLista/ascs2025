@@ -44,8 +44,8 @@ class AbstractSubmissionController extends Controller
 
         // This is for the email
         $content = [
-            'subject' => 'This is the mail dubject', // This is not the subject
-            'body' => 'Thank you for Abstract submission for Ascs2025.' // This is the body content and also on the abstract.blade.php
+            'subject' => 'This is not the mail subject showed on the email', // This is not the subject, the correct subject is on Abstract > Envelope
+            'body' => 'This acknowledges receipt of your Abstract submission for ASCS 2025.' // This is the body content and also on the abstract.blade.php
         ];
 
         Mail::to($request->email)->send(new AbstractMail($content));
