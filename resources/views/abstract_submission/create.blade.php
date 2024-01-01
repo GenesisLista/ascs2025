@@ -121,7 +121,7 @@
                         @endif
                     </label>
 
-                    <p>After submitting your abstract, the Secretariat will send a confirmation by email.</p>
+                    <p>After submitting your abstract, the &#115;&#101;&#99;&#114;&#101;&#116;&#97;&#114;&#105;&#97;&#116;&#64;&#97;&#115;&#99;&#115;&#50;&#48;&#50;&#53;&#46;&#99;&#111;&#109; will send a confirmation by email.</p>
 
                 </div>
 

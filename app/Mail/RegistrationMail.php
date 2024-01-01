@@ -9,7 +9,7 @@ use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
 
-class AbstractMail extends Mailable
+class RegistrationMail extends Mailable
 {
     use Queueable, SerializesModels;
 
@@ -27,7 +27,7 @@ class AbstractMail extends Mailable
     public function build()
     {
         return $this->subject($this->content['subject'])
-        ->view('emails.abstract');
+        ->view('emails.registration'); // This is the registration.blade.php
     }
 
     /**
@@ -36,7 +36,7 @@ class AbstractMail extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'ASCS2025 Abstract Submission',
+            subject: 'ASCS Conference Registration',
         );
     }
 
@@ -46,7 +46,7 @@ class AbstractMail extends Mailable
     public function content(): Content
     {
         return new Content(
-            view: 'emails.abstract',
+            view: 'emails.registration', // This is the registration.blade.php
         );
     }
 

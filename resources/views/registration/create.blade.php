@@ -5,153 +5,176 @@
 <div class="container">
     <div class="row">
         <div class="grid_12">
-            <h2 class="v3">Registration Form</h2>
-            <form id="contact-form">
-                <div class="success-message">Contact form submitted!</div>
+            <h2 class="v3">Conference Registration Form</h2>
+            @if(session('success-submitted'))
+            <p class="txt6">{{ session('success-submitted') }}</p>
+            @endif
+            
+            <form id="contact-form" action="{{ route('registration.store') }}" method="POST"
+                enctype="multipart/form-data">
+                {{ csrf_field() }}
                 <div class="wrapper">
+                    <span class="error_message">* All fields are required</span>
                     <label class="email">
-                        <input type="text" placeholder="E-mail" />
-                        <span class="empty-message">*This field is required.</span>
-                        <span class="error-message">*This is not a valid email.</span>
+                        <input type="text" name='email' placeholder="* E-mail" />
+                        @if ($errors->has('email'))
+                        <span class="error_message">* This field is required.</span>
+                        &nbsp;
+                        @endif
                     </label>
 
                     <label class="name">
-                        <input type="text" placeholder="Complete name" />
-                        <span class="empty-message">*This field is required.</span>
-                        <span class="error-message">*This is not a valid Complete name.</span>
+                        <input type="text" name='name' placeholder="* Complete name" />
+                        @if ($errors->has('name'))
+                        <span class="error_message">* This field is required.</span>
+                        &nbsp;
+                        @endif
                     </label>
 
                     <label class="designation">
-                        <input type="text" placeholder="Designation" />
-                        <span class="empty-message">*This field is required.</span>
-                        <span class="error-message">*This is not a valid designation.</span>
+                        <input type="text" name='designation' placeholder="* Designation" />
+                        @if ($errors->has('designation'))
+                        <span class="error_message">* This field is required.</span>
+                        &nbsp;
+                        @endif
                     </label>
 
                     <label class="company">
-                        <input type="text" placeholder="Company / Organization Name" />
-                        <span class="empty-message">*This field is required.</span>
-                        <span class="error-message">*This is not a valid company.</span>
+                        <input type="text" name='company' placeholder="* Company / Organization Name" />
+                        @if ($errors->has('company'))
+                        <span class="error_message">* This field is required.</span>
+                        &nbsp;
+                        @endif
                     </label>
 
                     <label class="address">
-                        <input type="text" placeholder="Address" />
-                        <span class="empty-message">*This field is required.</span>
-                        <span class="error-message">*This is not a valid address.</span>
+                        <input type="text" name='address' placeholder="* Address" />
+                        @if ($errors->has('address'))
+                        <span class="error_message">* This field is required.</span>
+                        &nbsp;
+                        @endif
                     </label>
 
                     <label class="city">
-                        <input type="text" placeholder="City" />
-                        <span class="empty-message">*This field is required.</span>
-                        <span class="error-message">*This is not a valid city.</span>
-                    </label>
-
-                    <label class="countrycode">
-                        <input type="text" placeholder="Country Code" />
-                        <span class="empty-message">*This field is required.</span>
-                        <span class="error-message">*This is not a valid post code.</span>
+                        <input type="text" name='city' placeholder="* City" />
+                        @if ($errors->has('city'))
+                        <span class="error_message">* This field is required.</span>
+                        &nbsp;
+                        @endif
                     </label>
 
                     <label class="state">
-                        <input type="text" placeholder="State" />
-                        <span class="empty-message">*This field is required.</span>
-                        <span class="error-message">*This is not a valid state.</span>
+                        <input type="text" name='state' placeholder="* State" />
+                        @if ($errors->has('state'))
+                        <span class="error_message">* This field is required.</span>
+                        &nbsp;
+                        @endif
                     </label>
 
                     <label class="country">
-                        <input type="text" placeholder="Country" />
-                        <span class="empty-message">*This field is required.</span>
-                        <span class="error-message">*This is not a valid country.</span>
+                        <input type="text" name='country' placeholder="* Country" />
+                        @if ($errors->has('country'))
+                        <span class="error_message">* This field is required.</span>
+                        &nbsp;
+                        @endif
                     </label>
 
                     <label class="telephone_number">
-                        <input type="text" placeholder="Telephone Number" />
-                        <span class="empty-message">*This field is required.</span>
-                        <span class="error-message">*This is not a valid Telephone Number.</span>
+                        <input type="text" name='telephone_number' placeholder="* Telephone Number" />
+                        @if ($errors->has('telephone_number'))
+                        <span class="error_message">* This field is required.</span>
+                        &nbsp;
+                        @endif
+                    </label>
+
+                    <label class="country_code">
+                        <input type="text" name='country_code' placeholder="* Country Code" />
+                        @if ($errors->has('country_code'))
+                        <span class="error_message">* This field is required.</span>
+                        &nbsp;
+                        @endif
                     </label>
 
                     <label class="mobile_number">
-                        <input type="text" placeholder="Mobile Number" />
-                        <span class="empty-message">*This field is required.</span>
-                        <span class="error-message">*This is not a valid Mobile Number.</span>
+                        <input type="text" name='mobile_number' placeholder="* Mobile Number" />
+                        @if ($errors->has('mobile_number'))
+                        <span class="error_message">* This field is required.</span>
+                        &nbsp;
+                        @endif
                     </label>
 
+                    <p class="txt6">* Please choose ONE of the choices from the dropdown list below before submitting
+                        the form.</p>
+                    @if(session('success-rejected'))
+                    <span class="error_message">{{ session('success-rejected') }}</span>
+                    @endif
+
+                    <p>For International Delegate - Physical Attendees</p>
                     <label class="intl_delegate_physical">
                         <select name="intl_delegate_physical_id">
-                            <option value="">-- Please Choose International Delegate - Physical Attendees --</option>
-                            <option>IFSCC Members (Early Bird) / Jan - Sept 2024 / USD 500</option>
-                            <option>IFSCC Members / Oct 2024 - Jun 2025 / USD 550</option>
-                            <option> --- </option>
-                            <option>Non IFSCC Members (Early Bird) / Jan - Sept 2024 / USD 540</option>
-                            <option>Non IFSCC Members / Oct 2024 - Jun 2025 / USD 600/option>
-                            <option> --- </option>
-                            <option>Students (Early Bird) / Jan - Sept 2024 / USD 360</option>
-                            <option>Students / Oct 2024 - Jun 2025 / USD 400</option>
+                            <option value="">-- Please Choose --</option>
+                            @foreach ($idpa as $idpas)
+                            <option value="{{ $idpas->id }}">{{ $idpas->name }}</option>
+                            @endforeach
                         </select>
                         @if ($errors->has('intl_delegate_physical_id'))
-                            <span class="error_message">* This field is required.</span>
-                            &nbsp;
+                        <span class="error_message">* This field is required.</span>
+                        &nbsp;
                         @endif
                     </label>
 
+                    <p>For Local Delegate - Physical Attendees</p>
                     <label class="local_delegate_physical">
                         <select name="local_delegate_physical_id">
-                            <option value="">-- Please Choose Local Delegate - Physical Attendees --</option>
-                            <option>PSCS Members (Early Bird) / Jan - Sept 2024 / Php 22,500</option>
-                            <option>PSCS Members / Oct 2024 - Jun 2025 / Php 25,000</option>
-                            <option> --- </option>
-                            <option>Non PSCS Members / Jan - Sept 2024 / Php 27,000</option>
-                            <option>Non PSCS Members / Oct 2024 - Jun 2025 / Php 30,000</option>
-                            <option> --- </option>
-                            <option>Students / Jan - Sept 2024 / Php 18,000</option>
-                            <option>Students / Oct 2024 - Jun 2025 / Php 20,000</option>
+                            <option value="">-- Please Choose --</option>
+                            @foreach ($ldpa as $ldpas)
+                            <option value="{{ $ldpas->id }}">{{ $ldpas->name }}</option>
+                            @endforeach
                         </select>
                         @if ($errors->has('local_delegate_physical_id'))
-                            <span class="error_message">* This field is required.</span>
-                            &nbsp;
+                        <span class="error_message">* This field is required.</span>
+                        &nbsp;
                         @endif
                     </label>
 
+                    <p>For International Delegate - Online Attendees</p>
                     <label class="intl_delegate_online">
                         <select name="intl_delegate_online_id">
-                            <option value="">-- Please Choose International Delegate - Online Attendees --</option>
-                            <option>IFSCC Members (Early Bird) / Jan - Sept 2024 / USD 285</option>
-                            <option>IFSCC Members / Oct 2024 - Jun 2025 / USD 315</option>
-                            <option> --- </option>
-                            <option>Non IFSCC Members / Jan - Sept 2024 / USD 315</option>
-                            <option>Non IFSCC Members / Oct 2024 - Jun 2025 / USD 350</option>
-                            <option> --- </option>
-                            <option>Students / Jan - Sept 2024 / USD 135</option>
-                            <option>Students / Oct 2024 - Jun 2025 / USD 150</option>
+                            <option value="">-- Please Choose --</option>
+                            @foreach ($idoa as $idoas)
+                            <option value="{{ $idoas->id }}">{{ $idoas->name }}</option>
+                            @endforeach
                         </select>
                         @if ($errors->has('intl_delegate_online_id'))
-                            <span class="error_message">* This field is required.</span>
-                            &nbsp;
+                        <span class="error_message">* This field is required.</span>
+                        &nbsp;
                         @endif
                     </label>
 
+                    <p>For Local Delegate - Online Attendees</p>
                     <label class="local_delegate_online">
                         <select name="local_delegate_online_id">
-                            <option value="">-- Please Choose Local Delegate - Online Attendees --</option>
-                            <option>PSCS Members (Early Bird) / Jan - Sept 2024 / Php 6,750</option>
-                            <option>PSCS Members / Oct 2024 - Jun 2025 / Php 7,500</option>
-                            <option> --- </option>
-                            <option>Non PSCS Members / Jan - Sept 2024 / Php 9,000</option>
-                            <option>Non PSCS Members / Oct 2024 - Jun 2025 / Php 10,000</option>
-                            <option> --- </option>
-                            <option>Students / Jan - Sept 2024 / Php 4,500</option>
-                            <option>Students / Oct 2024 - Jun 2025 / Php 4,950</option>
+                            <option value="">-- Please Choose --</option>
+                            @foreach ($ldoa as $ldoas)
+                            <option value="{{ $ldoas->id }}">{{ $ldoas->name }}</option>
+                            @endforeach
                         </select>
                         @if ($errors->has('local_delegate_online_id'))
-                            <span class="error_message">* This field is required.</span>
-                            &nbsp;
+                        <span class="error_message">* This field is required.</span>
+                        &nbsp;
                         @endif
                     </label>
+
+                    <p>After submitting your conference registration form, the
+                        &#115;&#101;&#99;&#114;&#101;&#116;&#97;&#114;&#105;&#97;&#116;&#64;&#97;&#115;&#99;&#115;&#50;&#48;&#50;&#53;&#46;&#99;&#111;&#109;
+                        will send a confirmation and bank details by email.
+                    </p>
 
                 </div>
 
                 <div class="form_btns">
                     <a href="{{ route('registration.index') }}" data-type="reset" class="more_btn bg5">Cancel</a>
-                    <a href="javascript:void(0)" data-type="submit" class="more_btn bg5">Submit</a>
+                    <button type="submit" data-type="submit" class="more_btn_save bg5"> Submit </button>
                 </div>
             </form>
         </div>

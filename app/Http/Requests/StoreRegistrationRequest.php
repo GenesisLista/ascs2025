@@ -11,7 +11,7 @@ class StoreRegistrationRequest extends FormRequest
      */
     public function authorize(): bool
     {
-        return false;
+        return true;
     }
 
     /**
@@ -22,7 +22,17 @@ class StoreRegistrationRequest extends FormRequest
     public function rules(): array
     {
         return [
-            //
+            'email' => 'required',
+            'name' => 'required',
+            'designation' => 'required',
+            'company' => 'required',
+            'address' => 'required',
+            'city' => 'required',
+            'state' => 'required',
+            'country' => 'required',
+            'telephone_number' => 'required',
+            'country_code' => 'required',
+            'mobile_number' => 'required'
         ];
     }
 }

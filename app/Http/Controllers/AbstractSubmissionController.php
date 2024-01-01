@@ -27,9 +27,8 @@ class AbstractSubmissionController extends Controller
      */
     public function create()
     {
-        // Theme
-        $theme = Theme::all();
-        $poster = Poster::all();
+        $theme = Theme::all(); // Theme
+        $poster = Poster::all(); // Poster
         return view('abstract_submission.create')->with([
             'theme' => $theme,
             'poster' => $poster
