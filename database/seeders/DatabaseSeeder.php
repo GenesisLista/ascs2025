@@ -46,6 +46,23 @@ class DatabaseSeeder extends Seeder
         if(DB::table('local_delegate_onlines')->count()==0){
             $this->call(LocalDelegateOnlineSeeder::class);
         }
+
+        // -- Sponsorship / Exhibition Form
+
+        // Sponsorship Package
+        if(DB::table('sponsorship_packages')->count()==0){
+            $this->call(SponsorshipPackageSeeder::class);
+        }
+
+        // Booth Package
+        if(DB::table('booth_packages')->count()==0){
+            $this->call(BoothPackageSeeder::class);
+        }
+
+        // Promotional Package
+        if(DB::table('promotional_packages')->count()==0){
+            $this->call(PromotionalPackageSeeder::class);
+        }
         
         // \App\Models\User::factory(10)->create();
 

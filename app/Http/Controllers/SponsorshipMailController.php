@@ -5,9 +5,9 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use Mail;
-use App\Mail\RegistrationMail;
+use App\Mail\SponsorshipMail;
 
-class RegistrationMailController extends Controller
+class SponsorshipMailController extends Controller
 {
     public function index()
     {
@@ -16,7 +16,7 @@ class RegistrationMailController extends Controller
             'body' => 'This is the email body of how to send email from Laravel 10 with mailtrap.'
         ];
 
-        Mail::to('genesis.bergonia.lista@gmail.com')->send(new RegistrationMail($content));
+        Mail::to('genesis.bergonia.lista@gmail.com')->send(new SponsorshipMail($content));
 
         return "Email has been sent.";
     }

@@ -12,6 +12,7 @@
 ASCS 2025 is the event for the PSCS where the Philippines is the host country.
 
 ## Updates
+- January 02, 2024, Update Sponsorship / Exhibition Form, CRUD, Sending Email
 - January 01, 2024, Add Attendees Data using seeder, CRUD, Sending Email
 - December 31, 2023, Update Registration Form
 - December 27, 2023, Update Abstract Submission Form, Send Email to abstract registrant

@@ -121,7 +121,7 @@
                     <li><a href="{{ route('abstract_submission.create') }}">Abstract/Paper/Poster Submission Form</a></li>
                     <li><a href="javascript:void(0)">Program at glance</a></li>
                     <li><a href="{{ route('sponsorship.index') }}">Sponsorship package</a></li>
-                    <li><a href="javascript:void(0)">Booth Exhibition / Country Pavilion Registration Form</a></li>
+                    <li><a href="{{ route('sponsorship.create') }}">Sponsorship/Exhibition Registration Form</a></li>
                     <li><a href="javascript:void(0)">Travel Package</a></li>
                     <li><a href="{{ route('ifscc_benefactors.index') }}">IFSCC Benefactors</a></li>
                     <li><a href="javascript:void(0)">Advertisement Subscription</a></li>

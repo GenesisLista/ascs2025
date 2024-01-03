@@ -34,12 +34,6 @@
                                     <li><a href="{{ route('abstract_submission.create') }}">Abstract Form</a></li>
                                 </ul>
                             </li>
-                            <li class="{{ Request::segment(1) === 'exhibition' ? 'current' : null }}">
-                                <a href="javascript:void(0)">Exhibition<strong></strong></a>
-                                <ul class='submenu'>
-                                    <li><a href="javascript:void(0)">Exhibition Form</a></li>
-                                </ul>
-                            </li>
                         </ul>
                     </nav>
 

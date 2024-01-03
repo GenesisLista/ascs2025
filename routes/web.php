@@ -12,6 +12,7 @@ use App\Http\Controllers\AbstractSubmissionController;
 
 use App\Http\Controllers\AbstractMailController;
 use App\Http\Controllers\RegistrationMailController;
+use App\Http\Controllers\SponsorshipMailController;
 
 /*
 |--------------------------------------------------------------------------
@@ -50,3 +51,6 @@ Route::get('abstract-mail', [AbstractMailController::class, 'index']);
 
 # This is for the conference registration email
 Route::get('registration-mail', [RegistrationMailController::class, 'index']);
+
+# This is for the sponsorship / exhibition email
+Route::get('sponsorship-mail', [SponsorshipMailController::class, 'index']);
