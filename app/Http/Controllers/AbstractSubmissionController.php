@@ -47,7 +47,11 @@ class AbstractSubmissionController extends Controller
             'body' => 'This acknowledges receipt of your Abstract submission for ASCS 2025.' // This is the body content and also on the abstract.blade.php
         ];
 
-        Mail::to($request->email)->send(new AbstractMail($content));
+        Mail::to($request->email)
+        ->bcc('laudio.lg@amchem.org')
+        ->bcc('joy.abeleda@gmail.com')
+        ->bcc('genesis.bergonia.lista@gmail.com')
+        ->send(new AbstractMail($content));
 
         $abstract_path = $request->abstract_path->getClientOriginalName(); // Get the filename
         $abstract = date('YmdHis').'_'.$abstract_path; // Append date and time on the file name to be unique
@@ -69,7 +73,7 @@ class AbstractSubmissionController extends Controller
         $abstractSubmission->poster_id = $request->poster_id;
         $abstractSubmission->abstract_path = $abstract;
         $abstractSubmission->save();
-        return redirect()->route('abstract_submission.index')->withSuccess('New abstract is added successfully');
+        return redirect()->route('abstract_submission.create')->with('success-submitted', 'Abstract Submission form submitted successfully!');
 
         // AbstractSubmission::create($request->all());
         // return redirect()->route('abstract_submission.index')->withSuccess('New abstract is added successfully');

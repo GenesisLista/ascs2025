@@ -24,7 +24,7 @@
     <p>This is an autoreply. For any other inquiries/clarifications, please email us at secretariat@ascs2025.com</p>
 
     <p class="signature">Regards,</p>
-    <p class="signature">PSCS Secretariat</p>
+    <p class="signature">ASCS 2025 Secretariat</p>
     <p class="signature">
         Mobile: +63 917 801 4640 </br>
         Address: Lot 2 Arty II, Corner Road 1, Mindanao Ave, Quezon City, Phils.

@@ -139,7 +139,7 @@
                         </tr>
                         <tr>
                             <td>April 2025</td>
-                            <td>Deadline for submmit poster in PDF Format</td>
+                            <td>Deadline for submit poster in PDF Format</td>
                         </tr>
                         <tr>
                             <td>June 2025</td>

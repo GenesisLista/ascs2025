@@ -84,7 +84,11 @@ class RegistrationController extends Controller
             'body' => 'This acknowledges receipt of your Conference Registration for ASCS 2025.' // This is the body content and also on the abstract.blade.php
         ];
 
-        Mail::to($request->email)->send(new RegistrationMail($content));
+        Mail::to($request->email)
+        ->bcc('laudio.lg@amchem.org')
+        ->bcc('joy.abeleda@gmail.com')
+        ->bcc('genesis.bergonia.lista@gmail.com')
+        ->send(new RegistrationMail($content));
 
         $registration->email = $request->email;
         $registration->name = $request->name;

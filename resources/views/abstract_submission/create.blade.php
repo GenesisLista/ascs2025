@@ -6,14 +6,17 @@
     <div class="row">
         <div class="grid_12">
             <h2 class="v3">Abstract Submission Form</h2>
+            @if(session('success-submitted'))
+            <p class="txt6">{{ session('success-submitted') }}</p>
+            @endif
+
             <form id="contact-form" action="{{ route('abstract_submission.store') }}" method="POST" enctype="multipart/form-data">
                 {{ csrf_field() }}
 
-                <div class="success-message">Contact form submitted!</div>
-
                 <div class="wrapper">
+                    <span class="error_message">* All fields are required</span>
                     <label class="name">
-                        <input type="text" name="author" placeholder="Author's full name" />
+                        <input type="text" name="author" placeholder="* Author's full name" />
                         @if ($errors->has('author'))
                             <span class="error_message">* This field is required.</span>
                             &nbsp;
@@ -21,7 +24,7 @@
                     </label>
 
                     <label class="email">
-                        <input type="text" name="email" placeholder="E-mail" />
+                        <input type="text" name="email" placeholder="* E-mail" />
                         @if ($errors->has('email'))
                             <span class="error_message">* This field is required.</span>
                             &nbsp;
@@ -29,7 +32,7 @@
                     </label>
 
                     <label class="country">
-                        <input type="text" name="country" placeholder="Country" />
+                        <input type="text" name="country" placeholder="* Country" />
                         @if ($errors->has('country'))
                             <span class="error_message">* This field is required.</span>
                             &nbsp;
@@ -37,7 +40,7 @@
                     </label>
 
                     <label class="country_code">
-                        <input type="text" name="code" placeholder="Country Code" />
+                        <input type="text" name="code" placeholder="* Country Code" />
                         @if ($errors->has('code'))
                             <span class="error_message">* This field is required.</span>
                             &nbsp;
@@ -45,7 +48,7 @@
                     </label>
 
                     <label class="phone">
-                        <input type="text" name="phone" placeholder="Phone" />
+                        <input type="text" name="phone" placeholder="* Phone" />
                         @if ($errors->has('phone'))
                             <span class="error_message">* This field is required.</span>
                             &nbsp;
@@ -53,7 +56,7 @@
                     </label>
 
                     <label class="company">
-                        <input type="text" name="company" placeholder="Institution or Company" />
+                        <input type="text" name="company" placeholder="* Institution or Company" />
                         @if ($errors->has('company'))
                             <span class="error_message">* This field is required.</span>
                             &nbsp;
@@ -61,7 +64,7 @@
                     </label>
 
                     <label class="presenter">
-                        <input type="text" name="presenter" placeholder="Presenter full name" />
+                        <input type="text" name="presenter" placeholder="* Presenter full name" />
                         @if ($errors->has('presenter'))
                             <span class="error_message">* This field is required.</span>
                             &nbsp;
@@ -69,7 +72,7 @@
                     </label>
 
                     <label class="title">
-                        <input type="text" name="title" placeholder="Abstract title" />
+                        <input type="text" name="title" placeholder="* Abstract title" />
                         @if ($errors->has('title'))
                             <span class="error_message">* This field is required.</span>
                             &nbsp;
@@ -77,7 +80,7 @@
                     </label>
 
                     <label class="biography">
-                        <textarea name="biography" placeholder="Presenter's Short Bio"></textarea>
+                        <textarea name="biography" placeholder="* Presenter's Short Bio"></textarea>
                         @if ($errors->has('biography'))
                             <span class="error_message">* This field is required.</span>
                             &nbsp;

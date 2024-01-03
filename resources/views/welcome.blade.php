@@ -34,7 +34,7 @@
             <div class="grid_6">
                 <h2 class="welcome_page">Program at a glance</h2>
                 <p class="txt12_welcome_page">
-                    Day 1 (June 4, 2025, 9:30am to 5:00pm)
+                    Day 1 (June 4, 2025, 9:00am to 5:00pm)
                 </p>
                 <p>
                     <span>1. Welcome Ceremony </br></span>
@@ -124,7 +124,6 @@
                     <li><a href="{{ route('sponsorship.create') }}">Sponsorship/Exhibition Registration Form</a></li>
                     <li><a href="javascript:void(0)">Travel Package</a></li>
                     <li><a href="{{ route('ifscc_benefactors.index') }}">IFSCC Benefactors</a></li>
-                    <li><a href="javascript:void(0)">Advertisement Subscription</a></li>
                 </ul>
             </div>
 
@@ -148,8 +147,8 @@
         <p class="txt10">Lot 2 Arty II, Talipapa 2, Quezon City, 1116 Philippines</p>
         <img src="{{ asset('images/icon2.png') }}" alt="" class="img3 no_resize">
         <p class="txt11"><a
-                href="mailto:&#115;&#101;&#99;&#114;&#101;&#116;&#97;&#114;&#105;&#97;&#116;&#46;&#112;&#115;&#99;&#115;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;"
-                class="link2">&#115;&#101;&#99;&#114;&#101;&#116;&#97;&#114;&#105;&#97;&#116;&#46;&#112;&#115;&#99;&#115;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a>
+                href="mailto:&#115;&#101;&#99;&#114;&#101;&#116;&#97;&#114;&#105;&#97;&#116;&#64;&#97;&#115;&#99;&#115;&#50;&#48;&#50;&#53;&#46;&#99;&#111;&#109;"
+                class="link2">&#115;&#101;&#99;&#114;&#101;&#116;&#97;&#114;&#105;&#97;&#116;&#64;&#97;&#115;&#99;&#115;&#50;&#48;&#50;&#53;&#46;&#99;&#111;&#109;</a>
         </p>
     </div>
 </div>

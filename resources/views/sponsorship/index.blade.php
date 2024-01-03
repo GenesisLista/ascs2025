@@ -5,19 +5,19 @@
 <div class="container">
     <div class="row">
         <div class="grid_12">
-            <h2 class="v3">Sponsorship Package</h2>
+            <h2 class="v3">Sponsorship Packages</h2>
             <div class="row">
                 <div class="grid_6">
                     <p class="txt7">Diamond Package</p>
                     <p class="txt8">Php 1,000,000</p>
                     <ul class="listWithMarker v2">
                         <li>Company recognition as the diamond sponsor.</li>
-                        <li>Company logo on all official conference document:</li>
+                        <li>Company logo on all official conference documents:</li>
                         <p>
                             - Including website <br />
                             - Newsletter and other links related to ASCS 2025 <br />
                             - Promotional leaflet inside the conference bag <br />
-                            - 3 Conference ticket <br />
+                            - 3 Conference tickets <br />
                             - 3 Gala Tickets <br />
                             - Booth package discount 70% only for 18 Sqm. booth size <br />
                             - 1 Double page color advertisement in the ASCS 2025 Catalogue
@@ -30,12 +30,12 @@
                     <p class="txt8">Php 500,000</p>
                     <ul class="listWithMarker v2">
                         <li>Company recognition as the gold sponsor.</li>
-                        <li>Company logo on all official conference document:</li>
+                        <li>Company logo on all official conference documents:</li>
                         <p>
                             - Including website <br />
                             - Newsletter and other links related to ASCS 2025 <br />
                             - Promotional leaflet inside the conference bag <br />
-                            - 2 Conference ticket <br />
+                            - 2 Conference tickets <br />
                             - 2 Gala Tickets <br />
                             - Booth package discount 50% <br />
                             - 1 Full page color advertisement in the ASCS 2025 Catalogue
@@ -57,13 +57,13 @@
                         <p class="txt8">Php 150,000</p>
                         <ul class="listWithMarker v2">
                             <li>Company recognition as the silver sponsor.</li>
-                            <li>Company logo on all official conference document:</li>
+                            <li>Company logo on all official conference documents:</li>
                             <p>
                                 - Including website <br />
                                 - Newsletter and other links related to ASCS 2025 <br />
                                 - Promotional leaflet inside the conference bag <br />
                                 - 1 Conference ticket <br />
-                                - 1 Gala Tickets <br />
+                                - 1 Gala Ticket <br />
                                 - Booth package discount 20% <br />
                                 - 1 Full page color advertisement in the ASCS 2025 Catalogue
                             </p>
@@ -75,7 +75,7 @@
                         <p class="txt8">Php 80,000</p>
                         <ul class="listWithMarker v2">
                             <li>Company recognition as the bronze sponsor.</li>
-                            <li>Company logo on all official conference document:</li>
+                            <li>Company logo on all official conference documents:</li>
                             <p>
                                 - Including website <br />
                                 - Newsletter and other links related to ASCS 2025 <br />
@@ -104,7 +104,7 @@
                     <p class="txt8">Php 50,000</p>
                     <ul class="listWithMarker v2">
                         <li>Company recognition as the patron sponsor.</li>
-                        <li>Company logo on all official conference document:</li>
+                        <li>Company logo on all official conference documents:</li>
                         <p>
                             - Including website <br />
                             - Newsletter and other links related to ASCS 2025 <br />
@@ -162,7 +162,7 @@
 <div class="container">
     <div class="row">
         <div class="grid_12">
-            <h2 class="v3">Other promotional package</h2>
+            <h2 class="v3">Other promotional packages</h2>
             <div class="row">
                 <div class="grid_6">
                     <p class="txt7">Bags</p>

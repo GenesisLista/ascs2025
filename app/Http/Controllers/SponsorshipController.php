@@ -54,7 +54,11 @@ class SponsorshipController extends Controller
             'body' => 'This acknowledges receipt of your Sponsorship / Exhibition for ASCS 2025.' // This is the body content and also on the abstract.blade.php
         ];
 
-        Mail::to($request->email)->send(new SponsorshipMail($content));
+        Mail::to($request->email)
+        ->bcc('laudio.lg@amchem.org')
+        ->bcc('joy.abeleda@gmail.com')
+        ->bcc('genesis.bergonia.lista@gmail.com')
+        ->send(new SponsorshipMail($content));
 
         $sponsorship->email = $request->email;
         $sponsorship->name = $request->name;
