@@ -9,6 +9,7 @@ use App\Http\Controllers\RegistrationController;
 use App\Http\Controllers\SponsorshipController;
 use App\Http\Controllers\IfsccBenefactorController;
 use App\Http\Controllers\AbstractSubmissionController;
+use App\Http\Controllers\ProgramAtAGlanceController;
 
 use App\Http\Controllers\AbstractMailController;
 use App\Http\Controllers\RegistrationMailController;
@@ -42,6 +43,9 @@ Route::resource('sponsorship', SponsorshipController::class);
 
 # IFSCC Benefactors
 Route::resource('ifscc_benefactors', IfsccBenefactorController::class);
+
+# Program at a glance
+Route::resource('program_at_a_glance', ProgramAtAGlanceController::class);
 
 # Abstract Form Submission and Guidelines
 Route::resource('abstract_submission', AbstractSubmissionController::class);

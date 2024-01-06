@@ -119,7 +119,7 @@
                     <li><a href="{{ route('registration.create') }}">Conference Registration Form</a></li>
                     <li><a href="{{ route('abstract_submission.index') }}">Abstract Submission Guidelines</a></li>
                     <li><a href="{{ route('abstract_submission.create') }}">Abstract/Paper/Poster Submission Form</a></li>
-                    <li><a href="javascript:void(0)">Program at glance</a></li>
+                    <li><a href="{{ route('program_at_a_glance.index') }}">Program at a glance</a></li>
                     <li><a href="{{ route('sponsorship.index') }}">Sponsorship package</a></li>
                     <li><a href="{{ route('sponsorship.create') }}">Sponsorship/Exhibition Registration Form</a></li>
                     <li><a href="javascript:void(0)">Travel Package</a></li>
