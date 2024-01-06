@@ -81,7 +81,7 @@ class RegistrationController extends Controller
         // This is for the email
         $content = [
             'subject' => 'This is not the mail subject showed on the email', // This is not the subject, the correct subject is on Abstract > Envelope
-            'body' => 'This acknowledges receipt of your Conference Registration for ASCS 2025.' // This is the body content and also on the abstract.blade.php
+            'body' => 'Dear Valued Colleague/s,' // This is the body content and also on the abstract.blade.php
         ];
 
         Mail::to($request->email)

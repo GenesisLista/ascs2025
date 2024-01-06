@@ -20,14 +20,32 @@
 <body>
 <div>
     <p>{{ $content['body'] }}</p>
-    <p>Thank you very much.</p>
-    <p>Our scientific committee  will screen said abstract.</p>
-    <p>This is an autoreply. For any other inquiries/clarifications, please email us at secretariat@ascs2025.com</p>
 
-    <p class="signature">Regards,</p>
-    <p class="signature">ASCS 2025 Secretariat</p>
+    <p>Thank you for your Abstract submission to the 17th ASCS Conference in Manila on June 4 to 5, 2025.</p>
+
+    <p>
+        The Scientific Committee will review your submission. <br>
+        Final notification will be by September 2024 [please.check with Scientific Committee for final timeline]
+    </p>
+
+    <p>
+        For further inquiries and clarifications, feel free to email the secretariat at the email mentioned above or call us at 0919-9999999. <br>
+        We may also send you emails for clarification from time to time.
+    </p>
+
+    <p>
+        Looking forward to welcome you at the 17th ASCS Conference, Manila 2025. 
+    </p>
+
+    <p>
+        This is an autoreply. </br>
+        For any other inquiries/clarifications, please email us at secretariat@ascs2025.com
+    </p>
+
     <p class="signature">
-        Mobile: +63 917 801 4640 </br>
+        Warm Regards, <br><br>
+        ASCS 2025 Secretariat <br>
+        Mobile: +63 917 801 4640 <br>
         Address: Lot 2 Arty II, Corner Road 1, Mindanao Ave, Quezon City, Phils.
     </p>
 </div>
