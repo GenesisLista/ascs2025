@@ -18,27 +18,39 @@ class IntlDelegatePhysicalSeeder extends Seeder
         $name = [
             [
                 'id'=>1,
-                'name'=>'IFSCC Members (Early Bird) / Jan - Sept 2024 / USD 500'
+                'name'=>'IFSCC Members (Very Early Bird) / Jan - Jun 2024 / USD 450'
             ],
             [
                 'id'=>2,
-                'name'=>'IFSCC Members / Oct 2024 - Jun 2025 / USD 550'
+                'name'=>'IFSCC Members (Early Bird) / Jul - Dec 2024 / USD 500'
             ],
             [
                 'id'=>3,
-                'name'=>'Non IFSCC Members (Early Bird) / Jan - Sept 2024 / USD 540'
+                'name'=>'IFSCC Members (Regular) / Jan 2024 - Jun 2025 / USD 550'
             ],
             [
                 'id'=>4,
-                'name'=>'Non IFSCC Members / Oct 2024 - Jun 2025 / USD 600'
+                'name'=>'Non IFSCC Members (Very Early Bird) / Jan - Jun 2024 / USD 486'
             ],
             [
                 'id'=>5,
-                'name'=>'Students (Early Bird) / Jan - Sept 2024 / USD 360'
+                'name'=>'Non IFSCC Members (Early Bird) / Jul - Dec 2024 / USD 540'
             ],
             [
                 'id'=>6,
-                'name'=>'Students / Oct 2024 - Jun 2025 / USD 400'
+                'name'=>'Non IFSCC Members (Regular) / Jan 2024 - Jun 2025 / USD 600'
+            ],
+            [
+                'id'=>7,
+                'name'=>'Students (Very Early Bird) / Jan - Jun 2024 / USD 384'
+            ],
+            [
+                'id'=>8,
+                'name'=>'Students (Early Bird) / Jul - Dec 2024 / USD 360'
+            ],
+            [
+                'id'=>9,
+                'name'=>'Students (Regular) / Jan 2024 - Jun 2025 / USD 400'
             ]
         ];
 

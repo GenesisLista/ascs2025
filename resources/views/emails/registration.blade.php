@@ -41,7 +41,7 @@
     </p>
 
     <p>
-        For further inquiries and clarifications, feel free to email the secretariat at the email mentioned above or call us at 0919-9999999. <br>
+        For further inquiries and clarifications, feel free to email the secretariat at the email mentioned above or call us at +63 917 801 4640. <br>
         Please also await our emails for updates and developments from time to time.
     </p>
 

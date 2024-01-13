@@ -111,4 +111,12 @@ class SponsorshipController extends Controller
     {
         //
     }
+
+    public function list()
+    {
+        $sponsorship = Sponsorship::all();
+        return view('sponsorship.list')->with([
+            'sponsorship' => $sponsorship
+        ]);
+    }
 }

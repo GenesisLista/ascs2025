@@ -14,6 +14,8 @@ use App\Models\LocalDelegatePhysical;
 use Mail;
 use App\Mail\RegistrationMail;
 
+use Illuminate\Support\Facades\DB;
+
 class RegistrationController extends Controller
 {
     /**
@@ -141,5 +143,17 @@ class RegistrationController extends Controller
     public function destroy(Registration $registration)
     {
         //
+    }
+
+    public function list()
+    {
+        // $registration = DB::table('registrations')
+        //                 ->join('intl_delegate_physicals', 'registrations.intl_delegate_physical_id', '=', 'intl_delegate_physicals.id')
+        //                 ->select('registrations.*', 'intl_delegate_physicals.name AS idpaname')
+        //                 ->get();
+        $registration = Registration::all();
+        return view('registration.list')->with([
+            'registration' => $registration
+        ]);
     }
 }

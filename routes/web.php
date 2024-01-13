@@ -36,9 +36,11 @@ Route::resource('ifscc', IfsccController::class);
 Route::resource('ascs', AscsController::class);
 
 # Registration
+Route::get('/registration/list', [RegistrationController::class, 'list'])->name('registration.list');
 Route::resource('registration', RegistrationController::class);
 
 # Sponsorship
+Route::get('/sponsorship/list', [SponsorshipController::class, 'list'])->name('sponsorship.list');
 Route::resource('sponsorship', SponsorshipController::class);
 
 # IFSCC Benefactors

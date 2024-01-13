@@ -18,27 +18,39 @@ class IntlDelegateOnlineSeeder extends Seeder
         $name = [
             [
                 'id'=>1,
-                'name'=>'IFSCC Members (Early Bird) / Jan - Sept 2024 / USD 285'
+                'name'=>'IFSCC Members (Very Early Bird) / Jan - Jun 2024 / USD 257'
             ],
             [
                 'id'=>2,
-                'name'=>'IFSCC Members / Oct 2024 - Jun 2025 / USD 315'
+                'name'=>'IFSCC Members (Early Bird) / Jul - Dec 2024 / USD 285'
             ],
             [
                 'id'=>3,
-                'name'=>'Non IFSCC Members / Jan - Sept 2024 / USD 315'
+                'name'=>'IFSCC Members (Regular) / Jan 2024 - Jun 2025 / USD 315'
             ],
             [
                 'id'=>4,
-                'name'=>'Non IFSCC Members / Oct 2024 - Jun 2025 / USD 350'
+                'name'=>'Non IFSCC Members (Very Early Bird)  / Jan - Jun 2024 / USD 284'
             ],
             [
                 'id'=>5,
-                'name'=>'Students / Jan - Sept 2024 / USD 135'
+                'name'=>'Non IFSCC Members (Early Bird)  / Jul - Dec 2024 / USD 315'
             ],
             [
                 'id'=>6,
-                'name'=>'Students / Oct 2024 - Jun 2025 / USD 150'
+                'name'=>'Non IFSCC Members (Regular) / Jan 2024 - Jun 2025 / USD 350'
+            ],
+            [
+                'id'=>7,
+                'name'=>'Students (Very Early Bird)  / Jan - Jun 2024 / USD 122'
+            ],
+            [
+                'id'=>8,
+                'name'=>'Students (Early Bird)  / Jul - Dec 2024 / USD 135'
+            ],
+            [
+                'id'=>9,
+                'name'=>'Students (Regular) / Jan 2024 - Jun 2025 / USD 150'
             ]
         ];
 
