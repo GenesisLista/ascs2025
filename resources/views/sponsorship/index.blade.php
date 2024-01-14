@@ -149,6 +149,14 @@
                         <p class="txt8">Php 170,000</p>
                     </div>
                 </div>
+
+                <div class="row">
+                    <div class="grid_3">
+                        <p class="txt7"> 50 SQM</p>
+                        <span class="txt6"> Country Pavilion</span>
+                        <p class="txt8">USD 17,600</p>
+                    </div>
+                </div>
             </div>
 
             <div class="wrapper">

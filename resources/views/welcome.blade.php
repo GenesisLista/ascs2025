@@ -122,7 +122,8 @@
                     <li><a href="{{ route('program_at_a_glance.index') }}">Program at a glance</a></li>
                     <li><a href="{{ route('sponsorship.index') }}">Sponsorship package</a></li>
                     <li><a href="{{ route('sponsorship.create') }}">Sponsorship/Exhibition Registration Form</a></li>
-                    <li><a href="javascript:void(0)">Travel Package</a></li>
+                    <li><a href="{{ route('tour_package.index') }}">Tour Package</a></li>
+                    <li><a href="{{ route('hotel_reservation.index') }}">Hotel Reservation</a></li>
                     <li><a href="{{ route('ifscc_benefactors.index') }}">IFSCC Benefactors</a></li>
                 </ul>
             </div>

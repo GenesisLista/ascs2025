@@ -74,9 +74,6 @@ class AbstractSubmissionController extends Controller
         $abstractSubmission->abstract_path = $abstract;
         $abstractSubmission->save();
         return redirect()->route('abstract_submission.create')->with('success-submitted', 'Abstract Submission form submitted successfully!');
-
-        // AbstractSubmission::create($request->all());
-        // return redirect()->route('abstract_submission.index')->withSuccess('New abstract is added successfully');
     }
 
     /**

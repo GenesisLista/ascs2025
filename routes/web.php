@@ -10,6 +10,8 @@ use App\Http\Controllers\SponsorshipController;
 use App\Http\Controllers\IfsccBenefactorController;
 use App\Http\Controllers\AbstractSubmissionController;
 use App\Http\Controllers\ProgramAtAGlanceController;
+use App\Http\Controllers\TourPackageController;
+use App\Http\Controllers\HotelReservationController;
 
 use App\Http\Controllers\AbstractMailController;
 use App\Http\Controllers\RegistrationMailController;
@@ -48,6 +50,12 @@ Route::resource('ifscc_benefactors', IfsccBenefactorController::class);
 
 # Program at a glance
 Route::resource('program_at_a_glance', ProgramAtAGlanceController::class);
+
+# Tour Package
+Route::resource('tour_package', TourPackageController::class);
+
+# Hotel Reservation
+Route::resource('hotel_reservation', HotelReservationController::class);
 
 # Abstract Form Submission and Guidelines
 Route::resource('abstract_submission', AbstractSubmissionController::class);

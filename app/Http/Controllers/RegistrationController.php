@@ -54,7 +54,7 @@ class RegistrationController extends Controller
         // 0-0-0-0
         if($request->intl_delegate_physical_id == null && $request->local_delegate_physical_id == null && $request->intl_delegate_online_id == null && $request->local_delegate_online_id == null) {
             return redirect()->route('registration.create')->with('success-rejected','Please choose one for ID-PA, LD-PA, ID-OA, LD-OA');
-            $enail = false;
+            $email = false;
         }
 
         // 0-0-0-1 local_delegate_online_id
@@ -63,7 +63,7 @@ class RegistrationController extends Controller
             $ldpa = null;
             $idoa = null;
             $ldoa = $request->local_delegate_online_id;
-            $enail = true;
+            $email = true;
         }
 
         // 0-0-1-0 intl_delegate_online_id
@@ -72,7 +72,7 @@ class RegistrationController extends Controller
             $ldpa = null;
             $idoa = $request->intl_delegate_online_id;
             $ldoa = null;
-            $enail = true;
+            $email = true;
         }
 
         // 0-0-1-1 intl_delegate_online_id, local_delegate_online_id
@@ -81,7 +81,7 @@ class RegistrationController extends Controller
             $ldpa = null;
             $idoa = $request->intl_delegate_online_id;
             $ldoa = $request->local_delegate_online_id;
-            $enail = true;
+            $email = true;
         }
 
         // 0-1-0-0 local_delegate_physical_id
@@ -90,7 +90,7 @@ class RegistrationController extends Controller
             $ldpa = $request->local_delegate_physical_id;
             $idoa = null;
             $ldoa = null;
-            $enail = true;
+            $email = true;
         }
 
         // 0-1-0-1 local_delegate_physical_id, local_delegate_online_id
@@ -99,7 +99,7 @@ class RegistrationController extends Controller
             $ldpa = $request->local_delegate_physical_id;
             $idoa = null;
             $ldoa = $request->local_delegate_online_id;
-            $enail = true;
+            $email = true;
         }
 
         // 0-1-1-0 local_delegate_physical_id, intl_delegate_online_id
@@ -108,7 +108,7 @@ class RegistrationController extends Controller
             $ldpa = $request->local_delegate_physical_id;
             $idoa = $request->intl_delegate_online_id;
             $ldoa = null;
-            $enail = true;
+            $email = true;
         }
 
         // 0-1-1-1 local_delegate_physical_id, intl_delegate_online_id, local_delegate_online_id
@@ -117,7 +117,7 @@ class RegistrationController extends Controller
             $ldpa = $request->local_delegate_physical_id;
             $idoa = $request->intl_delegate_online_id;
             $ldoa = $request->local_delegate_online_id;
-            $enail = true;
+            $email = true;
         }
 
         // 1-0-0-0 intl_delegate_physical_id
@@ -126,7 +126,7 @@ class RegistrationController extends Controller
             $ldpa = null;
             $idoa = null;
             $ldoa = null;
-            $enail = true;
+            $email = true;
         }
 
         // 1-0-0-1 intl_delegate_physical_id, local_delegate_online_id
@@ -135,7 +135,7 @@ class RegistrationController extends Controller
             $ldpa = null;
             $idoa = null;
             $ldoa = $request->local_delegate_online_id;
-            $enail = true;
+            $email = true;
         }
 
         // 1-0-1-0 intl_delegate_physical_id, intl_delegate_online_id
@@ -144,7 +144,7 @@ class RegistrationController extends Controller
             $ldpa = null;
             $idoa = $request->intl_delegate_online_id;
             $ldoa = null;
-            $enail = true;
+            $email = true;
         }
 
         // 1-0-1-1 intl_delegate_physical_id, intl_delegate_online_id, local_delegate_online_id
@@ -153,7 +153,7 @@ class RegistrationController extends Controller
             $ldpa = null;
             $idoa = $request->intl_delegate_online_id;
             $ldoa = $request->local_delegate_online_id;
-            $enail = true;
+            $email = true;
         }
 
         // 1-1-0-0 intl_delegate_physical_id, local_delegate_physical_id
@@ -162,7 +162,7 @@ class RegistrationController extends Controller
             $ldpa = $request->local_delegate_physical_id;
             $idoa = null;
             $ldoa = null;
-            $enail = true;
+            $email = true;
         }
 
         // 1-1-0-1 intl_delegate_physical_id, local_delegate_physical_id, local_delegate_online_id
@@ -171,7 +171,7 @@ class RegistrationController extends Controller
             $ldpa = $request->local_delegate_physical_id;
             $idoa = null;
             $ldoa = $request->local_delegate_online_id;
-            $enail = true;
+            $email = true;
         }
 
         // 1-1-1-0 intl_delegate_physical_id, local_delegate_physical_id, intl_delegate_online_id
@@ -180,7 +180,7 @@ class RegistrationController extends Controller
             $ldpa = $request->local_delegate_physical_id;
             $idoa = $request->intl_delegate_online_id;
             $ldoa = null;
-            $enail = true;
+            $email = true;
         }
 
         // 1-1-1-1 intl_delegate_physical_id, local_delegate_physical_id, intl_delegate_online_id, local_delegate_online_id
@@ -189,11 +189,11 @@ class RegistrationController extends Controller
             $ldpa = $request->local_delegate_physical_id;
             $idoa = $request->intl_delegate_online_id;
             $ldoa = $request->local_delegate_online_id;
-            $enail = true;
+            $email = true;
         }
         
         // This is for the email, only send when fields has values
-        if($enail == true){
+        if($email == true){
             $content = [
                 'subject' => 'This is not the mail subject showed on the email', // This is not the subject, the correct subject is on Abstract > Envelope
                 'body' => 'Dear Valued Colleague/s,' // This is the body content and also on the abstract.blade.php

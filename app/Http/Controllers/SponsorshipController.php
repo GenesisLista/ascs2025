@@ -43,22 +43,81 @@ class SponsorshipController extends Controller
      */
     public function store(StoreSponsorshipRequest $request, Sponsorship $sponsorship)
     {
-        // Check if no choices are chosen
+        // 0-0-0
         if($request->sponsorship_package == null && $request->booth_package == null && $request->promotional_package == null){
             return redirect()->route('sponsorship.create')->with('success-rejected','Please select one choice from the dropdown list.');
+            $email = false;
+        }
+
+        // 0-0-1 promotional_package
+        if($request->sponsorship_package == null && $request->booth_package == null && $request->promotional_package != null){
+            $sp = null;
+            $bp = null;
+            $pp = $request->promotional_package;
+            $email = true;
+        }
+
+        // 0-1-0 booth_package
+        if($request->sponsorship_package == null && $request->booth_package != null && $request->promotional_package == null){
+            $sp = null;
+            $bp = $request->booth_package;
+            $pp = null;
+            $email = true;
+        }
+
+        // 0-1-1 booth_package, promotional_package
+        if($request->sponsorship_package == null && $request->booth_package != null && $request->promotional_package != null){
+            $sp = null;
+            $bp = $request->booth_package;
+            $pp = $request->promotional_package;
+            $email = true;
+        }
+
+        // 1-0-0 sponsorship_package
+        if($request->sponsorship_package != null && $request->booth_package == null && $request->promotional_package == null){
+            $sp = $request->sponsorship_package;
+            $bp = null;
+            $pp = null;
+            $email = true;
+        }
+
+        // 1-0-1 sponsorship_package, promotional_package
+        if($request->sponsorship_package != null && $request->booth_package == null && $request->promotional_package != null){
+            $sp = $request->sponsorship_package;
+            $bp = null;
+            $pp = $request->promotional_package;
+            $email = true;
+        }
+
+        // 1-1-0 sponsorship_package, booth_package
+        if($request->sponsorship_package != null && $request->booth_package != null && $request->promotional_package == null){
+            $sp = $request->sponsorship_package;
+            $bp = $request->booth_package;
+            $pp = null;
+            $email = true;
+        }
+
+        // 1-1-1 sponsorship_package, booth_package, promotional_package
+        if($request->sponsorship_package != null && $request->booth_package != null && $request->promotional_package != null){
+            $sp = $request->sponsorship_package;
+            $bp = $request->booth_package;
+            $pp = $request->promotional_package;
+            $email = true;
         }
 
         // This is for the email
-        $content = [
-            'subject' => 'This is not the mail subject showed on the email', // This is not the subject, the correct subject is on Abstract > Envelope
-            'body' => 'Dear Valued Colleague/s,' // This is the body content and also on the abstract.blade.php
-        ];
-
-        Mail::to($request->email)
-        ->bcc('laudio.lg@amchem.org')
-        ->bcc('joy.abeleda@gmail.com')
-        ->bcc('genesis.bergonia.lista@gmail.com')
-        ->send(new SponsorshipMail($content));
+        if($email == true){
+            $content = [
+                'subject' => 'This is not the mail subject showed on the email', // This is not the subject, the correct subject is on Abstract > Envelope
+                'body' => 'Dear Valued Colleague/s,' // This is the body content and also on the abstract.blade.php
+            ];
+    
+            Mail::to($request->email)
+            ->bcc('laudio.lg@amchem.org')
+            ->bcc('joy.abeleda@gmail.com')
+            ->bcc('genesis.bergonia.lista@gmail.com')
+            ->send(new SponsorshipMail($content));
+        }
 
         $sponsorship->email = $request->email;
         $sponsorship->name = $request->name;
@@ -71,9 +130,9 @@ class SponsorshipController extends Controller
         $sponsorship->telephone_number = $request->telephone_number;
         $sponsorship->country_code = $request->country_code;
         $sponsorship->mobile_number = $request->mobile_number;
-        $sponsorship->sponsorship_package_id = $request->sponsorship_package;
-        $sponsorship->booth_package_id = $request->booth_package;
-        $sponsorship->promotional_id = $request->promotional_package;
+        $sponsorship->sponsorship_package_id = $sp;
+        $sponsorship->booth_package_id = $bp;
+        $sponsorship->promotional_id = $pp;
         $sponsorship->save();
 
         // Registration::create($request->all());
