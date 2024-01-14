@@ -18,7 +18,7 @@
                                 <th>Delegates</th>
                                 <th>Very Early Bird Jan - Jun 2024</th>
                                 <th>Early Bird Jul - Dec 2024</th>
-                                <th>Regular Jan 2024 - Jun 2025</th>
+                                <th>Regular Jan - Jun 2025</th>
                             </tr>
                             <tr>
                                 <td>IFSCC Members</td>
@@ -61,7 +61,7 @@
                             <th>Delegates</th>
                             <th>Very Early Bird Jan - Jun 2024</th>
                             <th>Early Bird Jul - Dec 2024</th>
-                            <th>Regular Jan 2024 - Jun 2025</th>
+                            <th>Regular Jan - Jun 2025</th>
                         </tr>
                         <tr>
                             <td>PSCS Members</td>
@@ -107,7 +107,7 @@
                                 <th>Delegates</th>
                                 <th>Very Early Bird Jan - Jun 2024</th>
                                 <th>Early Bird Jul - Dec 2024</th>
-                                <th>Regular Jan 2024 - Jun 2025</th>
+                                <th>Regular Jan - Jun 2025</th>
                             </tr>
                             <tr>
                                 <td>IFSCC Members</td>
@@ -150,7 +150,7 @@
                             <th>Delegates</th>
                             <th>Very Early Bird Jan - Jun 2024</th>
                             <th>Early Bird Jul - Dec 2024</th>
-                            <th>Regular Jan 2024 - Jun 2025</th>
+                            <th>Regular Jan - Jun 2025</th>
                         </tr>
                         <tr>
                             <td>PSCS Members</td>

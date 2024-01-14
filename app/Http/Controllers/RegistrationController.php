@@ -10,6 +10,7 @@ use App\Models\IntlDelegateOnline;
 use App\Models\IntlDelegatePhysical;
 use App\Models\LocalDelegateOnline;
 use App\Models\LocalDelegatePhysical;
+use App\Models\SpecialDietary;
 
 use Mail;
 use App\Mail\RegistrationMail;
@@ -35,11 +36,13 @@ class RegistrationController extends Controller
         $idpa = IntlDelegatePhysical::all(); // International Delegate Physical
         $ldoa = LocalDelegateOnline::all(); // Local Delegate Online
         $ldpa = LocalDelegatePhysical::all(); // Local Delegate Physical
+        $sd = SpecialDietary::all(); // Special Dietary
         return view('registration.create')->with([
             'idoa' => $idoa,
             'idpa' => $idpa,
             'ldoa' => $ldoa,
-            'ldpa' => $ldpa
+            'ldpa' => $ldpa,
+            'sd' => $sd
         ]);
     }
 
@@ -48,49 +51,160 @@ class RegistrationController extends Controller
      */
     public function store(StoreRegistrationRequest $request, Registration $registration)
     {
-        // intl_delegate_physical_id
+        // 0-0-0-0
+        if($request->intl_delegate_physical_id == null && $request->local_delegate_physical_id == null && $request->intl_delegate_online_id == null && $request->local_delegate_online_id == null) {
+            return redirect()->route('registration.create')->with('success-rejected','Please choose one for ID-PA, LD-PA, ID-OA, LD-OA');
+            $enail = false;
+        }
+
+        // 0-0-0-1 local_delegate_online_id
+        if($request->intl_delegate_physical_id == null && $request->local_delegate_physical_id == null && $request->intl_delegate_online_id == null && $request->local_delegate_online_id != null){
+            $idpa = null;
+            $ldpa = null;
+            $idoa = null;
+            $ldoa = $request->local_delegate_online_id;
+            $enail = true;
+        }
+
+        // 0-0-1-0 intl_delegate_online_id
+        if($request->intl_delegate_physical_id == null && $request->local_delegate_physical_id == null && $request->intl_delegate_online_id != null && $request->local_delegate_online_id == null){
+            $idpa = null;
+            $ldpa = null;
+            $idoa = $request->intl_delegate_online_id;
+            $ldoa = null;
+            $enail = true;
+        }
+
+        // 0-0-1-1 intl_delegate_online_id, local_delegate_online_id
+        if($request->intl_delegate_physical_id == null && $request->local_delegate_physical_id == null && $request->intl_delegate_online_id != null && $request->local_delegate_online_id != null){
+            $idpa = null;
+            $ldpa = null;
+            $idoa = $request->intl_delegate_online_id;
+            $ldoa = $request->local_delegate_online_id;
+            $enail = true;
+        }
+
+        // 0-1-0-0 local_delegate_physical_id
+        if($request->intl_delegate_physical_id == null && $request->local_delegate_physical_id != null && $request->intl_delegate_online_id == null && $request->local_delegate_online_id == null){
+            $idpa = null;
+            $ldpa = $request->local_delegate_physical_id;
+            $idoa = null;
+            $ldoa = null;
+            $enail = true;
+        }
+
+        // 0-1-0-1 local_delegate_physical_id, local_delegate_online_id
+        if($request->intl_delegate_physical_id == null && $request->local_delegate_physical_id != null && $request->intl_delegate_online_id == null && $request->local_delegate_online_id != null){
+            $idpa = null;
+            $ldpa = $request->local_delegate_physical_id;
+            $idoa = null;
+            $ldoa = $request->local_delegate_online_id;
+            $enail = true;
+        }
+
+        // 0-1-1-0 local_delegate_physical_id, intl_delegate_online_id
+        if($request->intl_delegate_physical_id == null && $request->local_delegate_physical_id != null && $request->intl_delegate_online_id != null && $request->local_delegate_online_id == null){
+            $idpa = null;
+            $ldpa = $request->local_delegate_physical_id;
+            $idoa = $request->intl_delegate_online_id;
+            $ldoa = null;
+            $enail = true;
+        }
+
+        // 0-1-1-1 local_delegate_physical_id, intl_delegate_online_id, local_delegate_online_id
+        if($request->intl_delegate_physical_id == null && $request->local_delegate_physical_id != null && $request->intl_delegate_online_id != null && $request->local_delegate_online_id != null){
+            $idpa = null;
+            $ldpa = $request->local_delegate_physical_id;
+            $idoa = $request->intl_delegate_online_id;
+            $ldoa = $request->local_delegate_online_id;
+            $enail = true;
+        }
+
+        // 1-0-0-0 intl_delegate_physical_id
         if($request->intl_delegate_physical_id != null && $request->local_delegate_physical_id == null && $request->intl_delegate_online_id == null && $request->local_delegate_online_id == null){
             $idpa = $request->intl_delegate_physical_id;
-            $ldpa = $request->local_delegate_physical_id;
-            $idoa = $request->intl_delegate_online_id;
-            $ldoa = $request->local_delegate_online_id;
-        }
-        
-        // local_delegate_physical_id
-        if ($request->intl_delegate_physical_id == null && $request->local_delegate_physical_id != null && $request->intl_delegate_online_id == null && $request->local_delegate_online_id == null) {
-            $idpa = $request->intl_delegate_physical_id;
-            $ldpa = $request->local_delegate_physical_id;
-            $idoa = $request->intl_delegate_online_id;
-            $ldoa = $request->local_delegate_online_id;
-        }
-        
-        // intl_delegate_online_id
-        if ($request->intl_delegate_physical_id == null && $request->local_delegate_physical_id == null && $request->intl_delegate_online_id != null && $request->local_delegate_online_id == null) {
-            $idpa = $request->intl_delegate_physical_id;
-            $ldpa = $request->local_delegate_physical_id;
-            $idoa = $request->intl_delegate_online_id;
-            $ldoa = $request->local_delegate_online_id;
-        }
-        
-        // local_delegate_online_id
-        if ($request->intl_delegate_physical_id == null && $request->local_delegate_physical_id == null && $request->intl_delegate_online_id == null && $request->local_delegate_online_id != null) {
-            $idpa = $request->intl_delegate_physical_id;
-            $ldpa = $request->local_delegate_physical_id;
-            $idoa = $request->intl_delegate_online_id;
-            $ldoa = $request->local_delegate_online_id;
+            $ldpa = null;
+            $idoa = null;
+            $ldoa = null;
+            $enail = true;
         }
 
-        // This is for the email
-        $content = [
-            'subject' => 'This is not the mail subject showed on the email', // This is not the subject, the correct subject is on Abstract > Envelope
-            'body' => 'Dear Valued Colleague/s,' // This is the body content and also on the abstract.blade.php
-        ];
+        // 1-0-0-1 intl_delegate_physical_id, local_delegate_online_id
+        if($request->intl_delegate_physical_id != null && $request->local_delegate_physical_id == null && $request->intl_delegate_online_id == null && $request->local_delegate_online_id != null){
+            $idpa = $request->intl_delegate_physical_id;
+            $ldpa = null;
+            $idoa = null;
+            $ldoa = $request->local_delegate_online_id;
+            $enail = true;
+        }
 
-        Mail::to($request->email)
-        ->bcc('laudio.lg@amchem.org')
-        ->bcc('joy.abeleda@gmail.com')
-        ->bcc('genesis.bergonia.lista@gmail.com')
-        ->send(new RegistrationMail($content));
+        // 1-0-1-0 intl_delegate_physical_id, intl_delegate_online_id
+        if($request->intl_delegate_physical_id != null && $request->local_delegate_physical_id == null && $request->intl_delegate_online_id != null && $request->local_delegate_online_id == null){
+            $idpa = $request->intl_delegate_physical_id;
+            $ldpa = null;
+            $idoa = $request->intl_delegate_online_id;
+            $ldoa = null;
+            $enail = true;
+        }
+
+        // 1-0-1-1 intl_delegate_physical_id, intl_delegate_online_id, local_delegate_online_id
+        if($request->intl_delegate_physical_id != null && $request->local_delegate_physical_id == null && $request->intl_delegate_online_id != null && $request->local_delegate_online_id != null){
+            $idpa = $request->intl_delegate_physical_id;
+            $ldpa = null;
+            $idoa = $request->intl_delegate_online_id;
+            $ldoa = $request->local_delegate_online_id;
+            $enail = true;
+        }
+
+        // 1-1-0-0 intl_delegate_physical_id, local_delegate_physical_id
+        if($request->intl_delegate_physical_id != null && $request->local_delegate_physical_id != null && $request->intl_delegate_online_id == null && $request->local_delegate_online_id == null){
+            $idpa = $request->intl_delegate_physical_id;
+            $ldpa = $request->local_delegate_physical_id;
+            $idoa = null;
+            $ldoa = null;
+            $enail = true;
+        }
+
+        // 1-1-0-1 intl_delegate_physical_id, local_delegate_physical_id, local_delegate_online_id
+        if($request->intl_delegate_physical_id != null && $request->local_delegate_physical_id != null && $request->intl_delegate_online_id == null && $request->local_delegate_online_id != null){
+            $idpa = $request->intl_delegate_physical_id;
+            $ldpa = $request->local_delegate_physical_id;
+            $idoa = null;
+            $ldoa = $request->local_delegate_online_id;
+            $enail = true;
+        }
+
+        // 1-1-1-0 intl_delegate_physical_id, local_delegate_physical_id, intl_delegate_online_id
+        if($request->intl_delegate_physical_id != null && $request->local_delegate_physical_id != null && $request->intl_delegate_online_id != null && $request->local_delegate_online_id == null){
+            $idpa = $request->intl_delegate_physical_id;
+            $ldpa = $request->local_delegate_physical_id;
+            $idoa = $request->intl_delegate_online_id;
+            $ldoa = null;
+            $enail = true;
+        }
+
+        // 1-1-1-1 intl_delegate_physical_id, local_delegate_physical_id, intl_delegate_online_id, local_delegate_online_id
+        if($request->intl_delegate_physical_id != null && $request->local_delegate_physical_id != null && $request->intl_delegate_online_id != null && $request->local_delegate_online_id != null){
+            $idpa = $request->intl_delegate_physical_id;
+            $ldpa = $request->local_delegate_physical_id;
+            $idoa = $request->intl_delegate_online_id;
+            $ldoa = $request->local_delegate_online_id;
+            $enail = true;
+        }
+        
+        // This is for the email, only send when fields has values
+        if($enail == true){
+            $content = [
+                'subject' => 'This is not the mail subject showed on the email', // This is not the subject, the correct subject is on Abstract > Envelope
+                'body' => 'Dear Valued Colleague/s,' // This is the body content and also on the abstract.blade.php
+            ];
+    
+            Mail::to($request->email)
+            ->bcc('laudio.lg@amchem.org')
+            ->bcc('joy.abeleda@gmail.com')
+            ->bcc('genesis.bergonia.lista@gmail.com')
+            ->send(new RegistrationMail($content));
+        }
 
         $registration->email = $request->email;
         $registration->name = $request->name;
@@ -107,9 +221,10 @@ class RegistrationController extends Controller
         $registration->local_delegate_physical_id = $ldpa;
         $registration->intl_delegate_online_id = $idoa;
         $registration->local_delegate_online_id = $ldoa;
+        $registration->special_dietary_id = $request->special_dietary_id;
+        $registration->special_dietary_notes = $request->special_dietary_other_notes;
         $registration->save();
 
-        // Registration::create($request->all());
         return redirect()->route('registration.create')->with('success-submitted','Conference Registration form submitted successfully!');
     }
 

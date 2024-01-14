@@ -165,6 +165,25 @@
                         @endif
                     </label>
 
+                    <p>For Special Dietary</p>
+                    <label class="special_dietary">
+                        <select name="special_dietary_id">
+                            <option value="">-- Please Choose --</option>
+                            @foreach ($sd as $special)
+                            <option value="{{ $special->id }}">{{ $special->name }}</option>
+                            @endforeach
+                        </select>
+                        @if ($errors->has('local_delegate_online_id'))
+                        <span class="error_message">* This field is required.</span>
+                        &nbsp;
+                        @endif
+                    </label>
+
+                    <p>For Special Dietary Other Notes</p>
+                    <label class="special_dietary_other_notes">
+                        <input type="text" name='special_dietary_other_notes' placeholder="Special dietary other notes" />
+                    </label>
+
                     <p>After submitting your conference registration form, the
                         &#115;&#101;&#99;&#114;&#101;&#116;&#97;&#114;&#105;&#97;&#116;&#64;&#97;&#115;&#99;&#115;&#50;&#48;&#50;&#53;&#46;&#99;&#111;&#109;
                         will send a confirmation and bank details by email.

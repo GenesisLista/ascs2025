@@ -12,6 +12,7 @@
 ASCS 2025 is the event for the PSCS where the Philippines is the host country.
 
 ## Updates
+- Januray 13, 2024, Update Registration page, add Special Dietary
 - January 07, 2024, Update Registration, Sponsorship, and Abstract Emails, Create list page
 - January 06, 2024, Update Registration, Sponsorship, and Abstract Emails
 - January 04, 2024, Create Program at a glance page

@@ -47,6 +47,11 @@ class DatabaseSeeder extends Seeder
             $this->call(LocalDelegateOnlineSeeder::class);
         }
 
+        // Special Dietary
+        if(DB::table('special_dietaries')->count()==0){
+            $this->call(SpecialDietarySeeder::class);
+        }
+
         // -- Sponsorship / Exhibition Form
 
         // Sponsorship Package
