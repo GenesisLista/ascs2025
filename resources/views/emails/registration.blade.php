@@ -25,15 +25,19 @@
 
     <p>For the fee, please deposit or wire transfer to either of the accounts below:</p>
 
-    <p>
+    <!-- <p>
         <strong>DOLLAR ACCOUNT (International Attendees)</strong> <br>
         Account Name: PHILIPPINE SOCIETY FOR COSMETIC SCIENCE INC. <br>
         Account Number: 123-456-789 <br>
         Swift Code: ABCDE
-    </p>
+    </p> -->
+
+    <p>
         <strong>PESO CURRENT ACCOUNT (Local Attendees)</strong> <br>
         Account Name: PHILIPPINE SOCIETY FOR COSMETIC SCIENCE INC. <br>
-        Account Number: 123-456-789
+        Account Number: 00000-5887-9517 <br>
+        Bank Name: Security Bank <br>
+        Branch: St. Ignatius- Katipunan
     </p>
 
     <p>
