@@ -18,11 +18,11 @@
         <div class="grid_6">
             <h2 class="welcome_page">Sub-Themes</h2>
             <p>
-                <span>1. Beauty technology and digital application. </br></span>
-                <span>2. Beauty innovation in raw material packaging and finished products. </br></span>
-                <span>3. Beauty tradition and evolution. </br></span>
-                <span>4. Beauty safety and efficiency testing. </br></span>
-                <span>5. Natural resources for new ingredients. </br></span>
+                <span>1. Beauty Technology and Digital Application </br></span>
+                <span>2. Beauty Innovation in Raw Materials, Packaging and Finished Products </br></span>
+                <span>3. Beauty Tradition and Evolution </br></span>
+                <span>4. Beauty Safety and Efficiency Testing </br></span>
+                <span>5. Natural Resources for New Ingredients </br></span>
             </p>
         </div>
     </div>
