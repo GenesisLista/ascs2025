@@ -23,7 +23,7 @@
 
     <p>Thank you for your registration to the 17th ASCS Conference in Manila on June 4 to 5, 2025.</p>
 
-    <p>For the fee, please deposit or wire transfer to either of the accounts below:</p>
+    <p>For the fee, please deposit or wire transfer to the account below:</p>
 
     <!-- <p>
         <strong>DOLLAR ACCOUNT (International Attendees)</strong> <br>

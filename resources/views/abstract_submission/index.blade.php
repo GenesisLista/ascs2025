@@ -127,7 +127,7 @@
                         </tr>
                         <tr>
                             <td>September 2024</td>
-                            <td>Acceptance and format notification</td>
+                            <td>Acceptance and formal notification</td>
                         </tr>
                         <tr>
                             <td>December 2024</td>
