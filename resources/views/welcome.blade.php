@@ -21,7 +21,7 @@
                 <span>1. Beauty Technology and Digital Application </br></span>
                 <span>2. Beauty Innovation in Raw Materials, Packaging and Finished Products </br></span>
                 <span>3. Beauty Tradition and Evolution </br></span>
-                <span>4. Beauty Safety and Efficiency Testing </br></span>
+                <span>4. Beauty Safety and Efficacy Testing </br></span>
                 <span>5. Natural Resources for New Ingredients </br></span>
             </p>
         </div>
