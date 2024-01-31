@@ -130,29 +130,12 @@
                 <h2 class="v3">Booth Packages</h2>
                 <div class="row">
                     <div class="grid_3">
-                        <p class="txt7">4 SQM</p>
-                        <p class="txt8">Php 40,000</p>
-                    </div>
-
-                    <div class="grid_3">
                         <p class="txt7">6 SQM</p>
-                        <p class="txt8">Php 60,000</p>
+                        <p class="txt8">USD 2,000</p>
                     </div>
 
                     <div class="grid_3">
-                        <p class="txt7">9 SQM</p>
-                        <p class="txt8">Php 90,000</p>
-                    </div>
-
-                    <div class="grid_3">
-                        <p class="txt7">18 SQM</p>
-                        <p class="txt8">Php 170,000</p>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="grid_3">
-                        <p class="txt7"> 50 SQM</p>
+                        <p class="txt7"> 60 SQM</p>
                         <span class="txt6"> Country Pavilion</span>
                         <p class="txt8">USD 17,600</p>
                     </div>
