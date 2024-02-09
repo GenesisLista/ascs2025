@@ -137,20 +137,6 @@
                         @endif
                     </label>
 
-                    <p>For Promotional Pacakges</p>
-                    <label class="promotional_package">
-                        <select name="promotional_package">
-                            <option value="">-- Please Choose --</option>
-                            @foreach ($promotional as $pp)
-                            <option value="{{ $pp->id }}">{{ $pp->name }}</option>
-                            @endforeach
-                        </select>
-                        @if ($errors->has('promotional_package'))
-                        <span class="error_message">* This field is required.</span>
-                        &nbsp;
-                        @endif
-                    </label>
-
                     <p>After submitting your sponsorship / exhibition form, the
                         &#115;&#101;&#99;&#114;&#101;&#116;&#97;&#114;&#105;&#97;&#116;&#64;&#97;&#115;&#99;&#115;&#50;&#48;&#50;&#53;&#46;&#99;&#111;&#109;
                         will send a confirmation and bank details by email.

@@ -43,65 +43,30 @@ class SponsorshipController extends Controller
      */
     public function store(StoreSponsorshipRequest $request, Sponsorship $sponsorship)
     {
-        // 0-0-0
-        if($request->sponsorship_package == null && $request->booth_package == null && $request->promotional_package == null){
+        // 0-0
+        if($request->sponsorship_package == null && $request->booth_package == null){
             return redirect()->route('sponsorship.create')->with('success-rejected','Please select one choice from the dropdown list.');
             $email = false;
         }
 
-        // 0-0-1 promotional_package
-        if($request->sponsorship_package == null && $request->booth_package == null && $request->promotional_package != null){
-            $sp = null;
-            $bp = null;
-            $pp = $request->promotional_package;
-            $email = true;
-        }
-
-        // 0-1-0 booth_package
-        if($request->sponsorship_package == null && $request->booth_package != null && $request->promotional_package == null){
+        // 0-1
+        if($request->sponsorship_package == null && $request->booth_package != null){
             $sp = null;
             $bp = $request->booth_package;
-            $pp = null;
             $email = true;
         }
 
-        // 0-1-1 booth_package, promotional_package
-        if($request->sponsorship_package == null && $request->booth_package != null && $request->promotional_package != null){
-            $sp = null;
-            $bp = $request->booth_package;
-            $pp = $request->promotional_package;
-            $email = true;
-        }
-
-        // 1-0-0 sponsorship_package
-        if($request->sponsorship_package != null && $request->booth_package == null && $request->promotional_package == null){
+        // 1-0
+        if($request->sponsorship_package != null && $request->booth_package == null){
             $sp = $request->sponsorship_package;
             $bp = null;
-            $pp = null;
             $email = true;
         }
 
-        // 1-0-1 sponsorship_package, promotional_package
-        if($request->sponsorship_package != null && $request->booth_package == null && $request->promotional_package != null){
-            $sp = $request->sponsorship_package;
-            $bp = null;
-            $pp = $request->promotional_package;
-            $email = true;
-        }
-
-        // 1-1-0 sponsorship_package, booth_package
-        if($request->sponsorship_package != null && $request->booth_package != null && $request->promotional_package == null){
+        // 1-1
+        if($request->sponsorship_package != null && $request->booth_package != null){
             $sp = $request->sponsorship_package;
             $bp = $request->booth_package;
-            $pp = null;
-            $email = true;
-        }
-
-        // 1-1-1 sponsorship_package, booth_package, promotional_package
-        if($request->sponsorship_package != null && $request->booth_package != null && $request->promotional_package != null){
-            $sp = $request->sponsorship_package;
-            $bp = $request->booth_package;
-            $pp = $request->promotional_package;
             $email = true;
         }
 
@@ -132,7 +97,6 @@ class SponsorshipController extends Controller
         $sponsorship->mobile_number = $request->mobile_number;
         $sponsorship->sponsorship_package_id = $sp;
         $sponsorship->booth_package_id = $bp;
-        $sponsorship->promotional_id = $pp;
         $sponsorship->save();
 
         // Registration::create($request->all());

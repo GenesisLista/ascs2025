@@ -137,7 +137,7 @@
                     <div class="grid_3">
                         <p class="txt7"> 60 SQM</p>
                         <span class="txt6"> Country Pavilion</span>
-                        <p class="txt8">USD 17,600</p>
+                        <p class="txt8">USD 19,500</p>
                     </div>
                 </div>
             </div>
