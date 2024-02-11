@@ -106,7 +106,7 @@
     </div>
 </div>
 
-<div class="box-2">
+<div class="box-2" style="padding-top: 30px;">
     <div class="container">
         <div class="row">
 
