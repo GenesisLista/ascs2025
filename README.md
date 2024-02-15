@@ -52,3 +52,4 @@ ASCS 2025 is the event for the PSCS where the Philippines is the host country.
 - October 19, 2023, Setup GoDaddy and Laravel
 - October 18, 2023, Update PSCS, ASCS, IFSCC contents and images
 - October 16, 2023, Initial commit, upload Welcome, About us, PSCS, IFSCC and ASCS Pages
+- [Document 3](docs/document_3.md)
