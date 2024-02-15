@@ -12,3 +12,4 @@
 ASCS 2025 is the event for the PSCS where the Philippines is the host country.
 
 
+- [Update](docs/update.md)
