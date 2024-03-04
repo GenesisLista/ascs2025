@@ -54,7 +54,7 @@
 
         @if(Request::segment(1) == null)
         <!-- Welcome page -->
-        <div class="box-1">
+        <!-- <div class="box-1">
             <div class="container">
                 <div class="row">
                     <div class="grid_12">
@@ -62,10 +62,10 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         @else
         <!-- Other page -->
-        <div class="box-5 content_box">
+        <!-- <div class="box-5 content_box">
             <div class="container">
                 <div class="row">
                     <div class="grid_12">
@@ -73,7 +73,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         @endif
 
     </header>

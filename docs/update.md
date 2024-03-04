@@ -1,5 +1,5 @@
 ## Updates
-* This is a test
+* Febraury 26, 2024, Update welcome page to temporary under maintenance
 * February 10, 2024, Update welcome page, add Announcement
 * February 04, 2024, Update sponsorhip page
 * January 31, 2023, Update sponsorship page
