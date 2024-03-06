@@ -59,14 +59,14 @@
         <div class="div-content">
 
             <!--=======header=================================-->
-            <!-- @include('layouts.header') -->
+            @include('layouts.header')
 
             <!--=======content================================-->
 
             @yield('content')
 
             <!--=======footer=================================-->
-            <!-- @include('layouts.footer') -->
+            @include('layouts.footer')
 
         </div>
     </div>

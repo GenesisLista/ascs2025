@@ -22,12 +22,12 @@
                                     <li><a href="{{ route('registration.create') }}">Registration Form</a></li>
                                 </ul>
                             </li>
-                            <li class="{{ Request::segment(1) === 'sponsorship' ? 'current' : null }}">
+                            <!-- <li class="{{ Request::segment(1) === 'sponsorship' ? 'current' : null }}">
                                 <a href="{{ route('sponsorship.index') }}">Sponsorship<strong></strong></a>
                                 <ul class='submenu'>
                                     <li><a href="{{ route('sponsorship.create') }}">Sponsorship Form</a></li>
                                 </ul>
-                            </li>
+                            </li> -->
                             <li class="{{ Request::segment(1) === 'abstract_submission' ? 'current' : null }}">
                                 <a href="{{ route('abstract_submission.index') }}">Abstract<strong></strong></a>
                                 <ul class='submenu'>
@@ -54,7 +54,7 @@
 
         @if(Request::segment(1) == null)
         <!-- Welcome page -->
-        <!-- <div class="box-1">
+        <div class="box-1">
             <div class="container">
                 <div class="row">
                     <div class="grid_12">
@@ -62,10 +62,10 @@
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
         @else
         <!-- Other page -->
-        <!-- <div class="box-5 content_box">
+        <div class="box-5 content_box">
             <div class="container">
                 <div class="row">
                     <div class="grid_12">
@@ -73,7 +73,7 @@
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
         @endif
 
     </header>
