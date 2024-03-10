@@ -53,7 +53,7 @@ class RegistrationController extends Controller
     {
         // 0-0-0-0
         if($request->intl_delegate_physical_id == null && $request->local_delegate_physical_id == null && $request->intl_delegate_online_id == null && $request->local_delegate_online_id == null) {
-            return redirect()->route('registration.create')->with('success-rejected','Please choose one for ID-PA, LD-PA, ID-OA, LD-OA');
+            return redirect()->route('registration.create')->with('success-rejected','Please choose one for ID-PA, LD-PA');
             $email = false;
         }
 

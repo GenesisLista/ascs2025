@@ -601,10 +601,12 @@ blockquote{
 .box-1{
 	/* background: url(../images/bg_pic3.jpg) 50% 0 repeat-x #2eb73b; */
 	/* background: url(../images/boracay_1.jpg) 50% 0 repeat-x #2eb73b; */
-	background: url(../images/boracay_2.png) 50% 0 repeat-x #2eb73b;
+	/* background: url(../images/boracay_2.png) 50% 0 repeat-x #2eb73b; */
+	background: url(../images/World-Trade-Center-1.png) 50% 0 repeat-x #2eb73b;
 	margin-top: 48px;
 	padding-top: 86px;
-	padding-bottom: 399px;
+	/* padding-bottom: 399px; */
+	padding-bottom: 159px;
 }
 /* .box-1.content_box{padding-bottom: 62px;margin-bottom: -16px;} */
 
@@ -633,10 +635,13 @@ blockquote{
 
 .box-5{
 	/* background: url(../images/bg_pic1.jpeg) 50% 0 repeat-x #2eb73b; */
-	background: url(../images/bg_pic5.png) 50% 0 repeat-x #2eb73b;
+	/* background: url(../images/bg_pic5.png) 50% 0 repeat-x #2eb73b; */
+	/* background: url(../images/boracay_2.png) 50% 0 repeat-x #2eb73b; */
+	background: url(../images/World-Trade-Center-1.png) 50% 0 repeat-x #2eb73b;
 	margin-top: 48px;
 	padding-top: 86px;
-	padding-bottom: 399px;
+	/* padding-bottom: 399px; */
+	padding-bottom: 159px;
 }
 .box-5.content_box{padding-bottom: 62px;margin-bottom: -16px;}
 

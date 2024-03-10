@@ -122,11 +122,11 @@
                             <td>Call for papers and registration open</td>
                         </tr>
                         <tr>
-                            <td>June 2024</td>
+                            <td>September 2024</td>
                             <td>Abstract submission deadline</td>
                         </tr>
                         <tr>
-                            <td>September 2024</td>
+                            <td>November 2024</td>
                             <td>Acceptance and formal notification</td>
                         </tr>
                         <tr>

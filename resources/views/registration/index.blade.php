@@ -100,6 +100,42 @@
             <div class="row">
                 &nbsp;
                 <div class="grid_12">
+                    <h2 class="no_line2">Rooms at Conference Venue</h2>
+                    <div class="row">
+
+
+                    </div>
+
+                    <p>To register for the conference, kindly click the button below and fill the registration form.</p>
+
+                    <a href="{{ route('registration.create') }}" class="more_btn bg5">
+                        Offline Registration </br>
+                        (Pay by cheque / Demand Draft / Bank Transfer)
+                    </a>
+
+                    <p>
+                        For any queries regarding registration, please contact:</br>
+                        Conference Secretariat-ASCS Conference 2025</br>
+                        Mobile: +63 917 801 4640</br>
+                        Email: <a
+                            href="&#115;&#101;&#99;&#114;&#101;&#116;&#97;&#114;&#105;&#97;&#116;&#46;&#112;&#115;&#99;&#115;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#115;&#101;&#99;&#114;&#101;&#116;&#97;&#114;&#105;&#97;&#116;&#46;&#112;&#115;&#99;&#115;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a>
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<!-- <div class="container">
+
+    <div class="row">
+        <div class="grid_12">
+            <div class="row">
+                &nbsp;
+                <div class="grid_12">
                     <h2 class="no_line2">International Delegate - Online Attendees</h2>
                     <div>
                         <table style="width: 100%;">
@@ -136,9 +172,9 @@
         </div>
 
     </div>
-</div>
+</div> -->
 
-<div class="box-2">
+<!-- <div class="box-2">
     <div class="container">
         <div class="row">
 
@@ -180,9 +216,9 @@
 
         </div>
     </div>
-</div>
+</div> -->
 
-<div class="container">
+<!-- <div class="container">
 
     <div class="row">
         <div class="grid_12">
@@ -201,9 +237,9 @@
         </div>
 
     </div>
-</div>
+</div> -->
 
-<div class="box-2">
+<!-- <div class="box-2">
     <div class="container">
         <div class="row">
 
@@ -239,5 +275,5 @@
 
         </div>
     </div>
-</div>
+</div> -->
 @stop

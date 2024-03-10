@@ -137,7 +137,7 @@
                         @endif
                     </label>
 
-                    <p>For International Delegate - Online Attendees</p>
+                    <!-- <p>For International Delegate - Online Attendees</p>
                     <label class="intl_delegate_online">
                         <select name="intl_delegate_online_id">
                             <option value="">-- Please Choose --</option>
@@ -149,9 +149,9 @@
                         <span class="error_message">* This field is required.</span>
                         &nbsp;
                         @endif
-                    </label>
+                    </label> -->
 
-                    <p>For Local Delegate - Online Attendees</p>
+                    <!-- <p>For Local Delegate - Online Attendees</p>
                     <label class="local_delegate_online">
                         <select name="local_delegate_online_id">
                             <option value="">-- Please Choose --</option>
@@ -163,7 +163,7 @@
                         <span class="error_message">* This field is required.</span>
                         &nbsp;
                         @endif
-                    </label>
+                    </label> -->
 
                     <p>For Special Dietary</p>
                     <label class="special_dietary">

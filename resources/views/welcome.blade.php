@@ -113,14 +113,14 @@
                 <h2 class="v3">Announcements</h2>
                 <div class="row">
                     <div class="grid_6">
-                        <img src="{{ asset('images/Tentative_Theme.png') }}" alt="Suppliers Day 2023 Day 2"
+                        <img src="{{ asset('images/Tentative_Theme.png') }}" alt="ASCS 2025 Theme"
                             class="img7_pscs_events">
                     </div>
 
-                    <div class="grid_6">
+                    <!-- <div class="grid_6">
                         <img src="{{ asset('images/Important_Dates_to_Remember.png') }}" alt="Suppliers Day 2023 Day 2"
                             class="img7_pscs_events">
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
