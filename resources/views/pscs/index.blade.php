@@ -17,8 +17,7 @@
             <div class="wrapper">
                 <p>
                     Formed on 12 November 1979, PSCS was established to aid the local cosmetic chemists in their quest
-                    for
-                    advancement an development in cosmetic formulations, research, discoveries, breakthroughs, and
+                    for advancement and development in cosmetic formulations, research, discoveries, breakthroughs, and
                     technology.
                 </p>
             </div>

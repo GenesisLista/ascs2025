@@ -23,7 +23,7 @@
                             <li>Beauty technology and digital application</li>
                             <li>Beauty innovation in raw material packaging and finished products</li>
                             <li>Beauty tradition and evolution</li>
-                            <li>Beauty safety and efficiency testing</li>
+                            <li>Beauty safety and efficacy testing</li>
                             <li>Natural resources for new ingredients</li>
                         </ul>
                         </p>
@@ -38,14 +38,14 @@
                             </li>
                             <li>
                                 Abstract should describe original scientific work and must not have been previously
-                                published submitted for publication,
+                                submitted for publication,
                                 or submitted to any other conference or congress.
                             </li>
                             <li>
                                 Abstract must include the following:
                                 <p>
                                     1. Title ( Maximum 25 words ) </br>
-                                    2. Authors and affilication </br>
+                                    2. Authors and Affiliation </br>
                                     3. Three to five keywords should be submitted to aid the review process. </br>
                                     4. Introduction: Stating the purpose or aim of the paper. </br>
                                     5. Methods </br>
@@ -70,11 +70,11 @@
                                         presented at any conference or congress. </br>
                                     </span>
                                     <span style="padding-left:40px; padding-bottom: 5px; float: left;">
-                                        * Each author whose abstraact is accepted thereby is required to accept the copyright statement for both
+                                        * Each author whose abstract is accepted thereby is required to accept the copyright statement for both
                                         the abstract and the full paper. </br>
                                     </span>
                                     <span style="padding-left:40px; padding-bottom: 5px; float: left;">
-                                        * Scientific committee with review all abstract submitted and include them into designtated sessions (podium or poster)
+                                        * Scientific committee will review all abstract submitted and include them into designtated sessions (podium or poster)
                                         as qualified by the committee. </br>
                                     </span>
                                     <span style="padding-left:40px; padding-bottom: 5px; float: left;">
@@ -85,7 +85,7 @@
                                         schedule of the conference. </br>
                                     </span>
                                     <span style="padding-left:40px; padding-bottom: 5px; float: left;">
-                                        * Poster must be printed for the poster display throughout its conference and presenting author will be present
+                                        * Poster must be printed for the poster display throughout the conference and presenting author will be present
                                         during designated periods. </br>
                                     </span>
                                     <span style="padding-left:40px; float: left;">
@@ -139,7 +139,7 @@
                         </tr>
                         <tr>
                             <td>April 2025</td>
-                            <td>Deadline for submit poster in PDF Format</td>
+                            <td>Deadline to submit poster in PDF Format</td>
                         </tr>
                         <tr>
                             <td>June 2025</td>
