@@ -31,7 +31,7 @@
 <div class="box-2">
     <div class="container">
         <div class="row">
-            <div class="grid_6">
+            <!-- <div class="grid_6">
                 <h2 class="welcome_page">Program at a glance</h2>
                 <p class="txt12_welcome_page">
                     Day 1 (June 4, 2025, 9:00am to 5:00pm)
@@ -51,7 +51,7 @@
                     <span>2. Poster Presentations </br></span>
                     <span>3. Gala Night (6:00pm to 9:00pm) </br></span>
                 </p>
-            </div>
+            </div> -->
 
             <div class="grid_6">
                 <h2 class="welcome_page">Be part of ASCS 2025</h2>
@@ -140,8 +140,8 @@
                 <li><a href="{{ route('registration.create') }}">Conference Registration Form</a></li>
                 <li><a href="{{ route('abstract_submission.index') }}">Abstract Submission Guidelines</a></li>
                 <li><a href="{{ route('abstract_submission.create') }}">Abstract/Paper/Poster Submission Form</a></li>
-                <li><a href="{{ route('program_at_a_glance.index') }}">Program at a glance</a></li>
-                <!-- <li><a href="{{ route('sponsorship.index') }}">Sponsorship package</a></li>
+                <!-- <li><a href="{{ route('program_at_a_glance.index') }}">Program at a glance</a></li>
+                <li><a href="{{ route('sponsorship.index') }}">Sponsorship package</a></li>
                 <li><a href="{{ route('sponsorship.create') }}">Sponsorship/Exhibition Registration Form</a></li> -->
                 <li><a href="{{ route('tour_package.index') }}">Tour Package</a></li>
                 <!-- <li><a href="{{ route('hotel_reservation.index') }}">Hotel Reservation</a></li> -->
