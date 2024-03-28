@@ -63,4 +63,44 @@ class TourPackageController extends Controller
     {
         //
     }
+
+    /**
+     * Golf Tournament
+     */
+    public function golf_tournament()
+    {
+        return view('tour_package.golf_tournament');
+    }
+
+    /**
+     * City Tour
+     */
+    public function city_tour()
+    {
+        return view('tour_package.city_tour');
+    }
+
+    /**
+     * Travel Package
+     */
+    public function travel_package()
+    {
+        return view('tour_package.travel_package');
+    }
+
+    /**
+     * Karaoke Night
+     */
+    public function karaoke_night()
+    {
+        return view('tour_package.karaoke_night');
+    }
+
+    /**
+     * Ballroom Night
+     */
+    public function ballroom_night()
+    {
+        return view('tour_package.ballroom_night');
+    }
 }

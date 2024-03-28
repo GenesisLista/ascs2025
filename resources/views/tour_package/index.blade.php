@@ -23,7 +23,7 @@
                             Baliquamaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam
                             corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Asruis autem vel
                             eum iure feruyas reprehenderit, qui a voluptate nertyaesra.</p>
-                        <a href="#" class="more_btn bg5">Vote</a>
+                        <a href="{{ route('tour_package.golf_tournament') }}" data-type="reset" class="more_btn bg5">Select</a>
 
                         <div class="hline2 v2">
                             <div class="col3 marRight1">
@@ -63,7 +63,7 @@
                         Baliquamaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam
                         corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Asruis autem vel
                         eum iure feruyas reprehenderit, qui a voluptate nertyaesra.</p>
-                    <a href="#" class="more_btn bg5">Vote</a>
+                    <a href="{{ route('tour_package.city_tour') }}" data-type="reset" class="more_btn bg5">Select</a>
 
                     <div class="hline2 v2">
                         <div class="col3 marRight1">
@@ -88,7 +88,7 @@
 <div class="container">
     <div class="row">
         <div class="grid_12">
-            <h2>Tour Package</h2>
+            <h2>Travel Package</h2>
             <div class="wrapper">
                 <img src="{{ asset('images/Tour-package/Boracay.png') }}" alt="" class="img4"
                     style="width: 40%; height: 40%;">
@@ -98,7 +98,7 @@
                     Baliquamaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam
                     corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Asruis autem vel
                     eum iure feruyas reprehenderit, qui a voluptate nertyaesra.</p>
-                <a href="#" class="more_btn bg5">Vote</a>
+                <a href="{{ route('tour_package.travel_package') }}" data-type="reset" class="more_btn bg5">Select</a>
 
                 <div class="hline2 v2">
                     <div class="col3 marRight1">
@@ -133,7 +133,7 @@
                         Baliquamaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam
                         corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Asruis autem vel
                         eum iure feruyas reprehenderit, qui a voluptate nertyaesra.</p>
-                    <a href="#" class="more_btn bg5">Vote</a>
+                    <a href="{{ route('tour_package.karaoke_night') }}" data-type="reset" class="more_btn bg5">Select</a>
 
                     <div class="hline2 v2">
                         <div class="col3 marRight1">
@@ -168,7 +168,7 @@
                     Baliquamaerat voluptatem. ut enim ad minima veniam, quis nostrum exercitationem ullam
                     corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Asruis autem vel
                     eum iure feruyas reprehenderit, qui a voluptate nertyaesra.</p>
-                <a href="#" class="more_btn bg5">Vote</a>
+                    <a href="{{ route('tour_package.ballroom_night') }}" data-type="reset" class="more_btn bg5">Select</a>
 
                 <div class="hline2 v2">
                     <div class="col3 marRight1">

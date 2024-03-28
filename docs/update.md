@@ -1,4 +1,6 @@
 ## Updates
+* March 28, 2024, Create a test input for the spams
+* March 12, 2024, Update Welcome Page
 * March 10, 2024, Update Tour Package Page
 * March 06, 2024, Update Welcome page, hide Sponsorship Page
 * Febraury 26, 2024, Update welcome page to temporary under maintenance

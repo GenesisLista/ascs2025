@@ -9,7 +9,7 @@
             @if(session('success-submitted'))
             <p class="txt6">{{ session('success-submitted') }}</p>
             @endif
-            
+
             <form id="contact-form" action="{{ route('registration.store') }}" method="POST"
                 enctype="multipart/form-data">
                 {{ csrf_field() }}
@@ -181,7 +181,8 @@
 
                     <p>For Special Dietary Other Notes</p>
                     <label class="special_dietary_other_notes">
-                        <input type="text" name='special_dietary_other_notes' placeholder="Special dietary other notes" />
+                        <input type="text" name='special_dietary_other_notes'
+                            placeholder="Special dietary other notes" />
                     </label>
 
                     <p>After submitting your conference registration form, the
@@ -189,6 +190,12 @@
                         will send a confirmation and bank details by email.
                     </p>
 
+                </div>
+
+                <div class="wrapper" style="display: none;">
+                    <label for="textonly">Text Only
+                        <input type="text" name="textonly" id="textonly" />
+                    </label>
                 </div>
 
                 <div class="form_btns">

@@ -52,6 +52,11 @@ Route::resource('ifscc_benefactors', IfsccBenefactorController::class);
 Route::resource('program_at_a_glance', ProgramAtAGlanceController::class);
 
 # Tour Package
+Route::get('/tour_package/ballroom_night', [TourPackageController::class, 'ballroom_night'])->name('tour_package.ballroom_night');
+Route::get('/tour_package/karaoke_night', [TourPackageController::class, 'karaoke_night'])->name('tour_package.karaoke_night');
+Route::get('/tour_package/travel_package', [TourPackageController::class, 'travel_package'])->name('tour_package.travel_package');
+Route::get('/tour_package/city_tour', [TourPackageController::class, 'city_tour'])->name('tour_package.city_tour');
+Route::get('/tour_package/golf_tournament', [TourPackageController::class, 'golf_tournament'])->name('tour_package.golf_tournament');
 Route::resource('tour_package', TourPackageController::class);
 
 # Hotel Reservation
