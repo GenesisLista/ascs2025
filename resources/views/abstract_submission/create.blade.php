@@ -126,6 +126,12 @@
 
                     <p>After submitting your abstract, the &#115;&#101;&#99;&#114;&#101;&#116;&#97;&#114;&#105;&#97;&#116;&#64;&#97;&#115;&#99;&#115;&#50;&#48;&#50;&#53;&#46;&#99;&#111;&#109; will send a confirmation by email.</p>
 
+                    <div class="wrapper" style="display: none;">
+                        <label for="textonly">Text Only
+                            <input type="text" name="textonly" id="textonly" />
+                        </label>
+                    </div>
+
                 </div>
 
                 <div class="form_btns">

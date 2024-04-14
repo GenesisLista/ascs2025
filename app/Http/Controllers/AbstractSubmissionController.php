@@ -41,39 +41,51 @@ class AbstractSubmissionController extends Controller
     public function store(StoreAbstractSubmissionRequest $request, AbstractSubmission $abstractSubmission)
     {
 
-        // This is for the email
-        $content = [
-            'subject' => 'This is not the mail subject showed on the email', // This is not the subject, the correct subject is on Abstract > Envelope
-            'body' => 'Dear Valued Colleague/s,' // This is the body content and also on the abstract.blade.php
-        ];
+        # This is a test if the submit form is a spam or not
+        # The $request->textonly should return empty because the input field is hidden and not required
+        # If the $request->textonly is not empty it means it is a bot/spam
+        if($request->textonly != null){
+            # Spam request just return okay
+            return redirect()->route('abstract_submission.create')->with('success-submitted', 'Abstract Submission form submitted successfully!');
+        }else {
 
-        Mail::to($request->email)
-        ->bcc('laudio.lg@amchem.org')
-        ->bcc('joy.abeleda@gmail.com')
-        ->bcc('genesis.bergonia.lista@gmail.com')
-        ->send(new AbstractMail($content));
+            // This is for the email
+            $content = [
+                'subject' => 'This is not the mail subject showed on the email', // This is not the subject, the correct subject is on Abstract > Envelope
+                'body' => 'Dear Valued Colleague/s,' // This is the body content and also on the abstract.blade.php
+            ];
 
-        $abstract_path = $request->abstract_path->getClientOriginalName(); // Get the filename
-        $abstract = date('YmdHis').'_'.$abstract_path; // Append date and time on the file name to be unique
-        if($request->hasFile('abstract_path')) {
-            $request->abstract_path->storeAs('public/abstract', $abstract); // Save the file on the public/abstract storage
-        }
+            Mail::to($request->email)
+            ->bcc('laudio.lg@amchem.org')
+            ->bcc('pscspresident@gmail.com')
+            ->bcc('pearl.valenton@refinette.net')
+            ->bcc('genesis.bergonia.lista@gmail.com')
+            ->send(new AbstractMail($content));
 
-        // Save the request
-        $abstractSubmission->author = $request->author;
-        $abstractSubmission->email = $request->email;
-        $abstractSubmission->country = $request->country;
-        $abstractSubmission->code = $request->code;
-        $abstractSubmission->phone = $request->phone;
-        $abstractSubmission->company = $request->company;
-        $abstractSubmission->presenter = $request->presenter;
-        $abstractSubmission->title = $request->title;
-        $abstractSubmission->biography = $request->biography;
-        $abstractSubmission->theme_id = $request->theme_id;
-        $abstractSubmission->poster_id = $request->poster_id;
-        $abstractSubmission->abstract_path = $abstract;
-        $abstractSubmission->save();
-        return redirect()->route('abstract_submission.create')->with('success-submitted', 'Abstract Submission form submitted successfully!');
+            $abstract_path = $request->abstract_path->getClientOriginalName(); // Get the filename
+            $abstract = date('YmdHis').'_'.$abstract_path; // Append date and time on the file name to be unique
+            if($request->hasFile('abstract_path')) {
+                $request->abstract_path->storeAs('public/abstract', $abstract); // Save the file on the public/abstract storage
+            }
+
+            // Save the request
+            $abstractSubmission->author = $request->author;
+            $abstractSubmission->email = $request->email;
+            $abstractSubmission->country = $request->country;
+            $abstractSubmission->code = $request->code;
+            $abstractSubmission->phone = $request->phone;
+            $abstractSubmission->company = $request->company;
+            $abstractSubmission->presenter = $request->presenter;
+            $abstractSubmission->title = $request->title;
+            $abstractSubmission->biography = $request->biography;
+            $abstractSubmission->theme_id = $request->theme_id;
+            $abstractSubmission->poster_id = $request->poster_id;
+            $abstractSubmission->abstract_path = $abstract;
+            $abstractSubmission->save();
+            return redirect()->route('abstract_submission.create')->with('success-submitted', 'Abstract Submission form submitted successfully!');
+
+        } # End of spam test
+        
     }
 
     /**

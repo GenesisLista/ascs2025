@@ -53,7 +53,7 @@ class RegistrationController extends Controller
     {
 
         # This is a test if the submit form is a spam or not
-        # The $request->textonly should return empty because the input field is hidden and not retquired
+        # The $request->textonly should return empty because the input field is hidden and not required
         # If the $request->textonly is not empty it means it is a bot/spam
         if($request->textonly != null){
             # Spam request just return okay
@@ -211,9 +211,10 @@ class RegistrationController extends Controller
                 ];
         
                 Mail::to($request->email)
-                // ->bcc('laudio.lg@amchem.org')
-                // ->bcc('joy.abeleda@gmail.com')
-                // ->bcc('genesis.bergonia.lista@gmail.com')
+                ->bcc('laudio.lg@amchem.org')
+                ->bcc('pscspresident@gmail.com')
+                ->bcc('pearl.valenton@refinette.net')
+                ->bcc('genesis.bergonia.lista@gmail.com')
                 ->send(new RegistrationMail($content));
             }
 

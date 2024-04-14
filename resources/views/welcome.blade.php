@@ -106,7 +106,7 @@
     </div>
 </div>
 
-<div class="box-2" style="padding-bottom: 40px;">
+<!-- <div class="box-2" style="padding-bottom: 40px;">
     <div class="container">
         <div class="row">
             <div class="grid_12">
@@ -117,17 +117,55 @@
                             class="img7_pscs_events">
                     </div>
 
-                    <!-- <div class="grid_6">
+                    <div class="grid_6">
                         <img src="{{ asset('images/Important_Dates_to_Remember.png') }}" alt="Suppliers Day 2023 Day 2"
                             class="img7_pscs_events">
-                    </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<div class="box-2" style="padding-bottom: 40px;">
+    <div class="container">
+        <div class="row">
+            <div class="grid_5">
+                <h2 class="no_line">useful links</h2>
+                <ul class="listWithMarker">
+                    <li><a href="{{ route('ascs.index') }}">About ASCS</a></li>
+                    <li><a href="{{ route('ifscc.index') }}">About IFSCC</a></li>
+                    <li><a href="{{ route('pscs.index') }}">About PSCS</a></li>
+                    <li><a href="https://www.pscs.org.ph/become_member" target="_blank" rel=”noreferrer”>PSCS Membership
+                            Form</a></li>
+                    <li><a href="{{ route('registration.create') }}">Conference Registration Form</a></li>
+                    <li><a href="{{ route('abstract_submission.index') }}">Abstract Submission Guidelines</a></li>
+                    <li><a href="{{ route('abstract_submission.create') }}">Abstract/Paper/Poster Submission Form</a>
+                    </li>
+                    <!-- <li><a href="{{ route('program_at_a_glance.index') }}">Program at a glance</a></li>
+                    <li><a href="{{ route('sponsorship.index') }}">Sponsorship package</a></li>
+                    <li><a href="{{ route('sponsorship.create') }}">Sponsorship/Exhibition Registration Form</a></li> -->
+                    <!-- <li><a href="{{ route('hotel_reservation.index') }}">Hotel Reservation</a></li> -->
+                    <li><a href="{{ route('tour_package.index') }}">Tour Package</a></li>
+                    <li><a href="{{ route('ifscc_benefactors.index') }}">IFSCC Benefactors</a></li>
+                </ul>
+            </div>
+
+            <div class="grid_6 preffix_1">
+                <h2 class="ascs-video">About ASCS</h2>
+                <div class="row">
+                    &nbsp;
+                    <div class="grid_6 video-responsive">
+                        <iframe width="400" height="300"
+                            src="https://www.youtube.com/embed/hlRAwh-24NQ?autoplay=0&rel=0"></iframe>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-<div class="container" style="padding-top: 30px; padding-bottom: 20px;">
+<!-- <div class="container" style="padding-top: 30px; padding-bottom: 20px;">
     <div class="row">
         <div class="grid_5">
             <h2 class="no_line">useful links</h2>
@@ -139,12 +177,12 @@
                         Form</a></li>
                 <li><a href="{{ route('registration.create') }}">Conference Registration Form</a></li>
                 <li><a href="{{ route('abstract_submission.index') }}">Abstract Submission Guidelines</a></li>
-                <li><a href="{{ route('abstract_submission.create') }}">Abstract/Paper/Poster Submission Form</a></li>
+                <li><a href="{{ route('abstract_submission.create') }}">Abstract/Paper/Poster Submission Form</a></li> -->
                 <!-- <li><a href="{{ route('program_at_a_glance.index') }}">Program at a glance</a></li>
                 <li><a href="{{ route('sponsorship.index') }}">Sponsorship package</a></li>
                 <li><a href="{{ route('sponsorship.create') }}">Sponsorship/Exhibition Registration Form</a></li> -->
-                <li><a href="{{ route('tour_package.index') }}">Tour Package</a></li>
                 <!-- <li><a href="{{ route('hotel_reservation.index') }}">Hotel Reservation</a></li> -->
+                <!-- <li><a href="{{ route('tour_package.index') }}">Tour Package</a></li>
                 <li><a href="{{ route('ifscc_benefactors.index') }}">IFSCC Benefactors</a></li>
             </ul>
         </div>
@@ -160,7 +198,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 <br />
 
