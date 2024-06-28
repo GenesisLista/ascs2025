@@ -1,4 +1,5 @@
 ## Updates
+* June 28, 2024, Update Abstract submission
 * April 14, 2024, Enable email for registration and abstract
 * March 28, 2024, Create a test input for the spams
 * March 12, 2024, Update Welcome Page

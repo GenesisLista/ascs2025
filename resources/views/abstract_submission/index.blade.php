@@ -118,31 +118,27 @@
                             <th colspan=2>Schedule of Deadlines</th>
                         </tr>
                         <tr>
-                            <td>January 2024</td>
+                            <td>January 31, 2024</td>
                             <td>Call for papers and registration open</td>
                         </tr>
                         <tr>
-                            <td>September 2024</td>
+                            <td>December 31, 2024</td>
                             <td>Abstract submission deadline</td>
                         </tr>
                         <tr>
-                            <td>November 2024</td>
+                            <td>January 31, 2025</td>
                             <td>Acceptance and formal notification</td>
                         </tr>
                         <tr>
-                            <td>December 2024</td>
-                            <td>Deadline for full papers submission</td>
-                        </tr>
-                        <tr>
-                            <td>January 2025</td>
+                            <td>February 28, 2025</td>
                             <td>Deadline for author presenter registration</td>
                         </tr>
                         <tr>
-                            <td>April 2025</td>
+                            <td>April 30, 2025</td>
                             <td>Deadline to submit poster in PDF Format</td>
                         </tr>
                         <tr>
-                            <td>June 2025</td>
+                            <td>June 4-5, 2025</td>
                             <td>Conference podium and poster sessions</td>
                         </tr>
                     </table>
