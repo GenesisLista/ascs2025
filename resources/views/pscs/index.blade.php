@@ -27,6 +27,9 @@
                     and recent cosmetic trends and technology around the world, thus the reason for vying and accepting
                     the most exciting and ambitious endeavor of the organization - the hosting of the 17th ASCS
                     Conference in 2025.</p>
+
+                <p><a href="https://www.pscs.org.ph/become_member" class="more_btn bg5" target="_blank" rel=”noreferrer”>PSCS Membership
+                        Form</a></p>
             </div>
 
             <img src="{{ asset('images/pscs/PSCS-1.jpg') }}" alt="philippine-society-for-cosmetic-science"
@@ -37,14 +40,14 @@
             <h2>Events</h2>
 
             <div class="wrapper">
-                <img src="{{ asset('images/pscs/suppliers_day_2023_day_1.jpg') }}" alt="Suppliers Day 2023 Day 1"
+                <img src="{{ asset('images/cosmobeaute/Cosmobeaute-PH.jpg') }}" alt="Cosmobeaut&#233; - Empowering Cosmetic Science"
                     class="img7_pscs_events">
             </div>
 
-            <div class="wrapper">
+            {{-- <div class="wrapper">
                 <img src="{{ asset('images/pscs/suppliers_day_2023_day_2.jpg') }}" alt="Suppliers Day 2023 Day 2"
                     class="img7_pscs_events">
-            </div>
+            </div> --}}
 
         </div>
 

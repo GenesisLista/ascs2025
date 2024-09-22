@@ -4,6 +4,33 @@
 @section('content')
 <div class="container">
     <div class="row">
+        <div class="grid_12">
+            <h2 class="v3">Cuurent Events</h2>
+            <div class="row">
+                <div class="grid_4">
+                    <img src="{{ asset('images/cosmobeaute/Cosmobeaute-PH.jpg') }}" alt="Cosmobeaut&#233; - Empowering Cosmetic Science" class="img7_pscs_events">
+                </div>
+
+                {{-- <div class="grid_4">
+                    <p class="txt8_welcome_page">Diversify Your Perspective</p>
+                    &nbsp;
+                    <p style="text-align: justify;">Be exposed to different ideas, advancements, technology, issues,
+                        regulations,
+                        concepts, discoveries, and breakthroughs to broaden your horizon and challenge yourself to
+                        new, fresh, and contemporary perspectives</p>
+                </div>
+
+                <div class="grid_4">
+                    <p class="txt8_welcome_page">Discover Local Technology, Traditions, and Cultures</p>
+                    <p style="text-align: justify;">Experience first hand the warm hospitality and smiles of the
+                        Filipinos. Be amazed by our vibrant
+                        culture and inspiring traditions. Be here and love it.</p>
+                </div> --}}
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
         <div class="grid_6">
             <h2 class="welcome_page">Our Theme</h2>
             <p class="txt5_welcome_page">
@@ -136,8 +163,6 @@
                     <li><a href="{{ route('ascs.index') }}">About ASCS</a></li>
                     <li><a href="{{ route('ifscc.index') }}">About IFSCC</a></li>
                     <li><a href="{{ route('pscs.index') }}">About PSCS</a></li>
-                    <li><a href="https://www.pscs.org.ph/become_member" target="_blank" rel=”noreferrer”>PSCS Membership
-                            Form</a></li>
                     <li><a href="{{ route('registration.create') }}">Conference Registration Form</a></li>
                     <li><a href="{{ route('abstract_submission.index') }}">Abstract Submission Guidelines</a></li>
                     <li><a href="{{ route('abstract_submission.create') }}">Abstract/Paper/Poster Submission Form</a>
@@ -146,7 +171,6 @@
                     <li><a href="{{ route('sponsorship.index') }}">Sponsorship package</a></li>
                     <li><a href="{{ route('sponsorship.create') }}">Sponsorship/Exhibition Registration Form</a></li> -->
                     <!-- <li><a href="{{ route('hotel_reservation.index') }}">Hotel Reservation</a></li> -->
-                    <li><a href="{{ route('tour_package.index') }}">Tour Package</a></li>
                     <li><a href="{{ route('ifscc_benefactors.index') }}">IFSCC Benefactors</a></li>
                 </ul>
             </div>
