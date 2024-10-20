@@ -5,10 +5,13 @@
 <div class="container">
     <div class="row">
         <div class="grid_12">
-            <h2 class="v3">Cuurent Events</h2>
+            <h2 class="v3">Current Events</h2>
             <div class="row">
                 <div class="grid_4">
                     <img src="{{ asset('images/cosmobeaute/Cosmobeaute-PH.jpg') }}" alt="Cosmobeaut&#233; - Empowering Cosmetic Science" class="img7_pscs_events">
+                </div>
+                <div class="grid_4">
+                    <img src="{{ asset('images/Call_For_Abstract_2024.jpg') }}" alt="Cosmobeaut&#233; - Empowering Cosmetic Science" class="img7_pscs_events">
                 </div>
 
                 {{-- <div class="grid_4">

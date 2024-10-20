@@ -44,10 +44,10 @@
                     class="img7_pscs_events">
             </div>
 
-            {{-- <div class="wrapper">
-                <img src="{{ asset('images/pscs/suppliers_day_2023_day_2.jpg') }}" alt="Suppliers Day 2023 Day 2"
+            <div class="wrapper">
+                <img src="{{ asset('images/Call_For_Abstract_2024.jpg') }}" alt="Call For Abstract"
                     class="img7_pscs_events">
-            </div> --}}
+            </div>
 
         </div>
 
