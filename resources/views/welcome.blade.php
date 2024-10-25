@@ -10,25 +10,14 @@
                 <div class="grid_4">
                     <img src="{{ asset('images/cosmobeaute/Cosmobeaute-PH.jpg') }}" alt="Cosmobeaut&#233; - Empowering Cosmetic Science" class="img7_pscs_events">
                 </div>
+                
+                <div class="grid_4">
+                    <iframe width="100%" height="350px" src="https://www.youtube.com/embed/m2XE6pEI3N4?autoplay=1&mute=1&rel=0" style="margin-top: 7%;"></iframe>
+                </div>
+
                 <div class="grid_4">
                     <img src="{{ asset('images/Call_For_Abstract_2024.jpg') }}" alt="Cosmobeaut&#233; - Empowering Cosmetic Science" class="img7_pscs_events">
                 </div>
-
-                {{-- <div class="grid_4">
-                    <p class="txt8_welcome_page">Diversify Your Perspective</p>
-                    &nbsp;
-                    <p style="text-align: justify;">Be exposed to different ideas, advancements, technology, issues,
-                        regulations,
-                        concepts, discoveries, and breakthroughs to broaden your horizon and challenge yourself to
-                        new, fresh, and contemporary perspectives</p>
-                </div>
-
-                <div class="grid_4">
-                    <p class="txt8_welcome_page">Discover Local Technology, Traditions, and Cultures</p>
-                    <p style="text-align: justify;">Experience first hand the warm hospitality and smiles of the
-                        Filipinos. Be amazed by our vibrant
-                        culture and inspiring traditions. Be here and love it.</p>
-                </div> --}}
             </div>
         </div>
     </div>
@@ -184,7 +173,7 @@
                     &nbsp;
                     <div class="grid_6 video-responsive">
                         <iframe width="400" height="300"
-                            src="https://www.youtube.com/embed/hlRAwh-24NQ?autoplay=0&rel=0"></iframe>
+                            src="https://www.youtube.com/embed/hlRAwh-24NQ?autoplay=1&mute=1&rel=0"></iframe>
                     </div>
                 </div>
             </div>
