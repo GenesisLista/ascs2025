@@ -7,16 +7,20 @@
         <div class="grid_12">
             <h2 class="v3">Current Events</h2>
             <div class="row">
-                <div class="grid_4">
+                <div class="grid_3">
                     <img src="{{ asset('images/cosmobeaute/Cosmobeaute-PH.jpg') }}" alt="Cosmobeaut&#233; - Empowering Cosmetic Science" class="img7_pscs_events">
                 </div>
                 
-                <div class="grid_4">
+                <div class="grid_3">
                     <iframe width="100%" height="350px" src="https://www.youtube.com/embed/m2XE6pEI3N4?autoplay=1&mute=1&rel=0" style="margin-top: 7%;"></iframe>
                 </div>
 
-                <div class="grid_4">
+                <div class="grid_3">
                     <img src="{{ asset('images/Call_For_Abstract_2024.jpg') }}" alt="Cosmobeaut&#233; - Empowering Cosmetic Science" class="img7_pscs_events">
+                </div>
+
+                <div class="grid_3">
+                    <img src="{{ asset('images/cosmobeaute/PSCS-Moana-2-Movie-Night.jpg') }}" alt="Cosmobeaut&#233; - Empowering Cosmetic Science" class="img7_pscs_events">
                 </div>
             </div>
         </div>
