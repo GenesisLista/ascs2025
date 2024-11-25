@@ -168,12 +168,12 @@
             </div>
 
             <div class="grid_6 preffix_1">
-                <h2 class="ascs-video">About ASCS</h2>
+                <h2 class="ascs-video">About Cosmetic Garden</h2>
                 <div class="row">
                     &nbsp;
                     <div class="grid_6 video-responsive">
                         <iframe width="400" height="300"
-                            src="https://www.youtube.com/embed/hlRAwh-24NQ?autoplay=1&mute=1&rel=0"></iframe>
+                            src="https://www.youtube.com/embed/vYiuiR-PYss?autoplay=1&mute=1&rel=0"></iframe>
                     </div>
                 </div>
             </div>
