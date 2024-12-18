@@ -21,16 +21,14 @@
 <div>
     <p>{{ $content['body'] }}</p>
 
-    <p>Thank you for your Abstract submission to the 17th ASCS Conference in Manila on June 4 to 5, 2025.</p>
+    <p>Thank you for your Abstract submission to the 17th ASCS Conference in Manila on June 4 to 6, 2025.</p>
 
     <p>
-        The Scientific Committee will review your submission. <br>
-        Final notification will be by September 2024 [please.check with Scientific Committee for final timeline]
+        The Scientific Committee will review your submission and final notification will be send to you.
     </p>
 
     <p>
-        For further inquiries and clarifications, feel free to email the secretariat at the email mentioned below or call us at +63 917 801 4640. <br>
-        We may also send you emails for clarification from time to time.
+        For further inquiries and clarifications, feel free to email the secretariat at the email mentioned below or call us at +63 917 801 4640.
     </p>
 
     <p>
