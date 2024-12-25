@@ -21,17 +21,10 @@
 <div>
     <p>{{ $content['body'] }}</p>
 
-    <p>Thank you for your submission as sponsor/exhibitor to the 17th ASCS Conference in Manila on June 4 to 5, 2025.</p>
+    <p>Thank you for your submission as sponsor/exhibitor to the 17th ASCS Conference in Manila on June 4 to 6, 2025.</p>
 
     <p>For the fee, please deposit or wire transfer to the account below:</p>
     
-    <!-- <p>
-        <strong>DOLLAR ACCOUNT (International Attendees)</strong> <br>
-        Account Name: PHILIPPINE SOCIETY FOR COSMETIC SCIENCE INC. <br>
-        Account Number: 123-456-789 <br>
-        Swift Code: ABCDE
-    </p> -->
-
     <p>
         <strong>PESO CURRENT ACCOUNT (Local Attendees)</strong> <br>
         Account Name: PHILIPPINE SOCIETY FOR COSMETIC SCIENCE INC. <br>
