@@ -31,7 +31,7 @@
                 </div>
 
                 <div class="grid_4">
-                    <img src="{{ asset('images/Call_For_Abstract_2024.jpg') }}"
+                    <img src="{{ asset('images/Call_For_Abstract_2024_V2.jpg') }}"
                         alt="Cosmobeaut&#233; - Empowering Cosmetic Science" class="img7_pscs_events">
                 </div>
             </div>
