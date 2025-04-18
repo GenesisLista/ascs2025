@@ -5,12 +5,47 @@
 <div class="container">
     <div class="row">
         <div class="grid_12">
+            <h2 class="v3">Countdown!</h2>
+            <div class="row">
+                <div class="grid_12">
+                    <div class="form_btns_countdown">
+                        <a href="javascript:void(0)" class="more_btn bg5">
+                            <b>
+                                <span style="font-size: 50px; color: red;">
+                                    @php
+                                    $now = time(); // or your date as well
+                                    $your_date = strtotime("2025-06-03");
+                                    $datediff = $now - $your_date;
+                                    echo abs(round($datediff / (60 * 60 * 24)));
+                                    @endphp
+                                </span>
+                            </b>
+
+                            Days to go! 17th ASCS 2025 Conference will be held on 04-06 June 2025
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="grid_12">
             <h2 class="v3">Announcements</h2>
             <div class="row">
                 <div class="grid_12">
                     <p class="txt12_welcome_page">
-                        Abstract Submission is extended up to January 31, 2025 !!!
+                        Congratulations to all abstract submissions accepted for Oral and Poster Presentation.
                     </p>
+
+                    <div class="form_btns">
+                        <a href="{{ route('registration.create') }}" target="_blank" class="more_btn bg5">ASCS 2025
+                            Registration</a>
+                        <a href="{{ asset('images/ascs/Revised-Guidelines-for-the-Full-Paper-for-Podium-Oral-Presentation.pdf') }}"
+                            target="_blank" class="more_btn bg5">For oral presentation guidelines</a>
+                        <a href="{{ asset('images/ascs/Guidelines-for-the-Poster-Presentation.pdf') }}" target="_blank"
+                            class="more_btn bg5">For poster presentation guidelines</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -19,21 +54,39 @@
         <div class="grid_12">
             <h2 class="v3">Current Events</h2>
             <div class="row">
+                <div class="grid_6">
+                    <img src="{{ asset('images/ascs/ASCS-Gala-Night.png') }}"
+                        alt="Cosmobeaut&#233; - Empowering Cosmetic Science" class="img7_pscs_events">
+                </div>
+
+                <div class="grid_6">
+                    <img src="{{ asset('images/cosmobeaute/cosmobeaute-poster.jpg') }}"
+                        alt="Cosmobeaut&#233; - Empowering Cosmetic Science" class="img7_pscs_events">
+                </div>
+            </div>
+
+            <div class="row">
+
                 <div class="grid_4">
                     <img src="{{ asset('images/cosmobeaute/Cosmobeaute-PH.jpg') }}"
                         alt="Cosmobeaut&#233; - Empowering Cosmetic Science" class="img7_pscs_events">
                 </div>
 
                 <div class="grid_4">
+                    <a href="{{ asset('images/2024_Arunasiri_IFSCC Paper.pdf') }}" target="_blank"><img
+                            src="{{ asset('images/Aruna-PDF.png') }}"
+                            alt="The Impact on Trends and Future Prospects of Research and Development for the Indian Cosmetic Industry, Based on the ASCS Conference 2024"
+                            class="img7_pscs_events"></a>
+                </div>
+
+
+                
+                <div class="grid_4">
                     <iframe width="100%" height="350px"
                         src="https://www.youtube.com/embed/m2XE6pEI3N4?autoplay=1&mute=1&rel=0"
                         style="margin-top: 7%;"></iframe>
                 </div>
 
-                <div class="grid_4">
-                    <img src="{{ asset('images/Call_For_Abstract_2024_V2.jpg') }}"
-                        alt="Cosmobeaut&#233; - Empowering Cosmetic Science" class="img7_pscs_events">
-                </div>
             </div>
         </div>
     </div>

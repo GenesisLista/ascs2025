@@ -107,7 +107,12 @@
                     </div>
 
                     <p>To register for the conference, kindly click the button below and fill the registration form.</p>
-
+                
+                    <a href="https://paypal.me/nolifelgtabia?country.x=PH&locale.x=en_US" target="_blank" class="more_btn bg5">
+                        Online Registration </br>
+                        (Pay by Paypal)
+                    </a>
+                    <br/>
                     <a href="{{ route('registration.create') }}" class="more_btn bg5">
                         Offline Registration </br>
                         (Pay by cheque / Demand Draft / Bank Transfer)

@@ -138,6 +138,12 @@ input{-webkit-appearance:none;}
 	padding: 11px 26px !important;
 	float: left;
 }
+.form_btns_countdown a {
+	margin-right: 20px;
+	margin-top: 30px !important;
+	padding: 30px 50px !important;
+	float: left;
+}
 /*--- contact_form end------*/
 
 @media only screen and (max-width: 1199px) {

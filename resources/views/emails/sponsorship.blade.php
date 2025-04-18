@@ -33,7 +33,18 @@
         Branch: St. Ignatius- Katipunan <br>
 
         Swift Code: SETCPHMMXXX <br>
-        Receiver's Address: Lot 2 Arty II, Corner Road 1, Mindanao Ave, Quezon City, Phils.
+        Receiver's Address: Lot 2 Arty II, Corner Road 1, Mindanao Ave, Quezon City, 1116 Phils.
+    </p>
+
+    <p>
+        <strong>DOLLAR CURRENT ACCOUNT (Local Attendees)</strong> <br>
+        Account Name: PHILIPPINE SOCIETY FOR COSMETIC SCIENCE INC. <br>
+        Account Number: 1016-5200-1484 <br>
+        Bank Name: China Bank <br>
+        Branch: 1016 Eastwood City Eulogio Rodriguez Jr. Ave. Quezon City, 1110 Philippines <br>
+        
+        Bank Swift Code: CHBKPHMM <br>
+        Receiver's Address: Lot 2 Arty II, Corner Road 1, Mindanao Ave, Quezon City, 1116 Phils. <br>
     </p>
 
     <p>
