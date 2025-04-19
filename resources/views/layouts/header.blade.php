@@ -34,6 +34,8 @@
                                     <li><a href="{{ route('abstract_submission.create') }}">Abstract Form</a></li>
                                 </ul>
                             </li>
+                            <li class="{{ Request::segment(1) === 'hotel_reservation' ? 'current' : null }}"><a
+                                    href="{{ route('hotel_reservation.index') }}">Hotel<strong></strong></a></li>
                         </ul>
                     </nav>
 
