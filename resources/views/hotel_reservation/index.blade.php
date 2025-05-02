@@ -74,7 +74,7 @@
         <div class="row">
 
             <div class="grid_6">
-                <img src="{{ asset('images/hotel/Admiral-Hotel.jpeg') }}" alt="PSCS - ASCS - Admiral Hotel Philippines"
+                <img src="{{ asset('images/hotel/Admiral-Hotel-Manila.jpg') }}" alt="PSCS - ASCS - Admiral Hotel Philippines"
                     class="img7_pscs_events">
             </div>
             <div class="grid_6">
@@ -82,16 +82,15 @@
                     Admiral Hotel
                 </p>
                 <p>
-                    Admiral Hotel Manila is a luxury hotel located in the heart of Manila, Philippines. It is known for
-                    its elegant design, modern amenities, and stunning views of Manila Bay. The hotel offers a range of
-                    accommodations, dining options, and recreational facilities, making it a popular choice for both
-                    business and leisure travelers.
+                    Admiral Hotel Manila is a luxury hotel located in the heart of Manila, Philippines. It is one of the few remaining historic landmarks along Roxas Boulevard.  Built in 1939, it was the social hub of the Philippine elite during the pre-war era.  It has been restored to its glory days and expanded to meet the demands of the present times.
                 </p>
 
                 <p>
-                    The hotel features a variety of room types, including deluxe rooms and suites, all equipped with
-                    modern amenities such as flat-screen TVs, minibars, and complimentary Wi-Fi. Guests can enjoy
-                    dining at the hotel's restaurants, which offer a range of international cuisines.
+                    It is known for its elegant design, modern amenities, and stunning views of Manila Bay. The hotel offers a range of accommodations, dining options, and recreational facilities, making it a popular choice for both business and leisure travelers.
+                </p>
+
+                <p>
+                    The hotel features a variety of room types, including deluxe rooms and suites, all equipped with modern amenities such as flat-screen TVs, minibars, and complimentary Wi-Fi. Guests can enjoy dining at the hotel's restaurants, which offer a range of international cuisines.
                 </p>
 
                 <p>

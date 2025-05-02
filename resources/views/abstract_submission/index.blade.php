@@ -6,6 +6,14 @@
     <div class="row">
         <div class="grid_12">
             <h2 class="v3">Abstract submission regulation and guidelines</h2>
+            <div class="row">
+                <div class="grid_12">
+                    <div class="form_btns">
+                        <a href="javascript:void(0)" target="_blank"
+                            class="more_btn bg5">To further assist you, the PSCS is proposing to handle poster printing for the ASCS conference. To facilitate this,  please email us a copy of your final poster design in the format outlined in the attached guidelines by 30 April 2025.  This will ensure our team can print it correctly.</a>
+                    </div>
+                </div>
+            </div>
 
             <div class="row">
 
@@ -28,73 +36,111 @@
                         </ul>
                         </p>
                         <p>
-                            3. Abstract guidelines
-                        <ul class="listWithMarker">
-                            <li>
-                                Abstracts must be submitted in English and should have a minimum of 300 words but not
-                                exceed 530 words.
-                                Tables and figures can be included in the abstract only if they are essential to the
-                                understanding of the abstract.
-                            </li>
-                            <li>
-                                Abstract should describe original scientific work and must not have been previously
-                                submitted for publication,
-                                or submitted to any other conference or congress.
-                            </li>
-                            <li>
-                                Abstract must include the following:
-                                <p>
-                                    1. Title ( Maximum 25 words ) </br>
-                                    2. Authors and Affiliation </br>
-                                    3. Three to five keywords should be submitted to aid the review process. </br>
-                                    4. Introduction: Stating the purpose or aim of the paper. </br>
-                                    5. Methods </br>
-                                    6. Results </br>
-                                    7. Discussion </br>
-                                    <span style="padding-left:40px; padding-bottom: 5px; float: left;">
-                                        * Authors should use INCI names or IUPAC, USP, NF names and avoid the use of any
-                                        commercial or chemical trade names.
-                                        The mentioning of equipment trade names is acceptable unless the intenction of the
-                                        presentation is to promote the use of said equipment. </br>
-                                    </span>
-                                    <span style="padding-left:40px; padding-bottom: 5px; float: left;">
-                                        * Authors of accepted abstracts must submit the full paper by the requested
-                                        deadline.
-                                        The manuscript should not exceed 5,000 words and can include illustrations, charts
-                                        and tables. </br>
-                                    </span>
-                                    <span style="padding-left:40px; padding-bottom: 5px; float: left;">
-                                        * At the time of the Congress, all scientific work in Podium presentation and
-                                        posters must be original scientific work
-                                        and must not have been previously purblished nor submitted for publication or
-                                        presented at any conference or congress. </br>
-                                    </span>
-                                    <span style="padding-left:40px; padding-bottom: 5px; float: left;">
-                                        * Each author whose abstract is accepted thereby is required to accept the copyright statement for both
-                                        the abstract and the full paper. </br>
-                                    </span>
-                                    <span style="padding-left:40px; padding-bottom: 5px; float: left;">
-                                        * Scientific committee will review all abstract submitted and include them into designtated sessions (podium or poster)
-                                        as qualified by the committee. </br>
-                                    </span>
-                                    <span style="padding-left:40px; padding-bottom: 5px; float: left;">
-                                        * Abstract selected must be presented by the designated author. </br>
-                                    </span>
-                                    <span style="padding-left:40px; padding-bottom: 5px; float: left;">
-                                        * The designated presenter is expected to register and present the content in the abstract during the designated
-                                        schedule of the conference. </br>
-                                    </span>
-                                    <span style="padding-left:40px; padding-bottom: 5px; float: left;">
-                                        * Poster must be printed for the poster display throughout the conference and presenting author will be present
-                                        during designated periods. </br>
-                                    </span>
-                                    <span style="padding-left:40px; float: left;">
-                                        * Please do not email abstract, all abstracts will be submitted by this website. <a href="{{ route('abstract_submission.create') }}">CLICK HERE</a>.
-                                    </span>
-                                </p>
-                            </li>
-
-                        </ul>
+                            3. GUIDELINES FOR THE FULL PAPER FOR PODIUM (ORAL) PRESENTATION
+                            <ul class="listWithMarker">
+                                <li>
+                                    <span style="font-weight: bold;">Title and Author Information</span> <br>
+                                    The title must be concise and informative. The full names of all authors, along with their respective
+affiliations and addresses, should be clearly stated. Include also the email address of the corresponding author.
+                                </li>
+                                <li>
+                                    <span style="font-weight: bold;">Abstract</span> <br>
+                                    The abstract should be a single-paragraph summary of the study, less than 5,000 words. It must
+concisely present the study’s rationale, objectives, methodology, key findings, and conclusions.
+The abstract will be included in the Book of Abstracts.
+                                </li>
+                                <li>
+                                    <span style="font-weight: bold;">Keywords</span> <br>
+                                    Provide 4–5 relevant keywords that accurately represent the study’s content.
+                                </li>
+                                <li>
+                                    <span style="font-weight: bold;">Introduction</span> <br>
+                                    The introduction must outline the study's rationale, significance, and objectives. While citing
+related literature is optional, it may be included to provide context. This section should be limited
+to three paragraphs.
+                                </li>
+                                <li>
+                                    <span style="font-weight: bold;">Methodology</span> <br>
+                                    The methodology must provide a detailed description of the research design, procedures, and
+protocols employed in the study. If applicable, statistical methods and analysis should be
+specified. Standardized procedures and theoretical frameworks should be cited appropriately. If
+human subjects were involved, indicate whether ethical clearance was obtained.
+                                </li>
+                                <li>
+                                    <span style="font-weight: bold;">Results and Discussion</span> <br>
+                                    This section must present the study's findings using text, tables, and/or graphs, as appropriate.
+The discussion should interpret the results, highlight their significance, and compare them with
+findings from previous studies.
+                                </li>
+                                <li>
+                                    <span style="font-weight: bold;">Conclusion</span> <br>
+                                    The conclusion should provide a concise summary of key findings and their practical implications.
+It may also highlight study limitations and propose directions for future research, if applicable.
+                                </li>
+                                <li>
+                                    <span style="font-weight: bold;">References</span> <br>
+                                    All cited sources, including journal articles, books, and online references, must be listed in
+accordance with the APA citation style.
+                                </li>
+                                <li>
+                                    <span style="font-weight: bold;">General Formatting Guidelines</span> <br>
+                                    1. Font: Cambria, size 10.5; Spacing: 1.15 <br>
+                                    2. Paper Size: A4 (8.27 × 11.69 inches); Margins: 1 inch on all sides
+                                </li>
+                                <li>
+                                    <span style="font-weight: bold;">STEPS FOR ORAL PRESENTOR:</span> <br>
+                                    1. Accept as presenter. <br>
+                                    2. <a href="https://www.ascs2025.com/registration/create" target="_blank">Registration</a> is until March 31, 2025. <br>
+                                    3. Will send SOA for payment once registered <br>
+                                    4. Full report submission is until 1st week of May 2025, email to ASCS secretariat. <br>
+                                    5. PowerPoint Presentation file submission is until 1st week of May 2025 email to ASCS secretariat. <br>
+                                    6. Submit Picture and CV for introduction email to ASCS secretariat. <br>
+                                </li>
+                            </ul>
+                        </p>
+                        
+                        <p>
+                            4. GUIDELINES FOR THE POSTER PRESENTATION:
+                            <ul class="listWithMarker">
+                                <li>
+                                    The poster must include the following sections: Title, Author(s) and Affiliation(s), Introduction,
+Objectives, Methodology, Results, Conclusion, and Acknowledgments.
+                                </li>
+                                <li>
+                                    The poster dimensions must be 30 inches × 40 inches in holes, in portrait orientation.
+                                </li>
+                                <li>
+                                    Use a sans-serif font (e.g., Arial, Verdana, Helvetica, etc.) for readability. Avoid serif fonts such as
+Times New Roman. Font sizes should be at least 24 pt for the body text and 60 pt for the title.
+                                </li>
+                                <li>
+                                    Color Scheme: Use a visually appealing and professional color scheme with a light background and
+dark text for contrast. Avoid overly bright or clashing colors.
+                                </li>
+                                <li>
+                                    Images and Graphics: </br>
+                                    1. Use high-resolution images (at least 300 dpi) to maintain clarity when printed. </br>
+                                    2. Ensure graphs and charts are labeled clearly and use distinguishable colors. </br>
+                                </li>
+                                <li>
+                                    Layout and Spacing: Ensure a balanced layout with sufficient white space to enhance readability.
+Avoid overcrowding text and visuals.
+                                </li>
+                                <li>
+                                    Include at the bottom part of the poster: This poster is prepared for the 17th ASCS Conference.
+                                </li>
+                                <li>
+                                    Poster setup (ingress) will begin on June 3, 2025 at 9:00am onwards, and removal (egress) must be
+completed on June 5, 2025 at 5:00pm.
+                                </li>
+                                <li>
+                                    <span style="font-weight: bold;">STEPS:</span> <br>
+                                    1. Acceptance of confirmation. <br>
+                                    2. Register and Pay until March 31, 2025 see link https://www.ascs2025.com/registration/create <br>
+                                    3. Email Abstract Poster Layout and content ONLY by April 30, 2025 to ASCS secretariat. <br>
+                                    4. Submit CV and PICTURE to ASCS secretariat.
+                                </li>
+                            </ul>
                         </p>
                     </div>
                 </div>

@@ -4,7 +4,7 @@
 @section('content')
 <div class="container">
     <div class="row">
-        <div class="grid_8">
+        <div class="grid_6">
             <h2>About PSCS</h2>
             <div class="wrapper">
                 <p>
@@ -36,17 +36,15 @@
                 style="margin-top: 45px;">
         </div>
 
-        <div class="grid_4">
-            <h2>Events</h2>
-
+        <div class="grid_6">
+            <h2>About Cosmetic Garden</h2>
+            
             <div class="wrapper">
-                <img src="{{ asset('images/cosmobeaute/Cosmobeaute-PH.jpg') }}" alt="Cosmobeaut&#233; - Empowering Cosmetic Science"
-                    class="img7_pscs_events">
-            </div>
-
-            <div class="wrapper">
-                <img src="{{ asset('images/Call_For_Abstract_2024.jpg') }}" alt="Call For Abstract"
-                    class="img7_pscs_events">
+                &nbsp;
+                <div>
+                    <iframe width="500" height="300"
+                        src="https://www.youtube.com/embed/vYiuiR-PYss?autoplay=1&mute=1&rel=0"></iframe>
+                </div>
             </div>
 
         </div>

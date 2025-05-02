@@ -53,17 +53,6 @@
     <div class="row">
         <div class="grid_12">
             <h2 class="v3">Current Events</h2>
-            <div class="row">
-                <div class="grid_6">
-                    <img src="{{ asset('images/ascs/ASCS-Gala-Night.png') }}"
-                        alt="Cosmobeaut&#233; - Empowering Cosmetic Science" class="img7_pscs_events">
-                </div>
-
-                <div class="grid_6">
-                    <img src="{{ asset('images/cosmobeaute/cosmobeaute-poster.jpg') }}"
-                        alt="Cosmobeaut&#233; - Empowering Cosmetic Science" class="img7_pscs_events">
-                </div>
-            </div>
 
             <div class="row">
 
@@ -88,6 +77,24 @@
                 </div>
 
             </div>
+
+            <div class="row">
+                <div class="grid_4">
+                    <img src="{{ asset('images/gala_1_NO_FARE.PNG') }}"
+                        alt="Cosmobeaut&#233; - Empowering Cosmetic Science" class="img7_pscs_events">
+                </div>
+
+                <div class="grid_4">
+                    <img src="{{ asset('images/gala_2.PNG') }}"
+                        alt="Cosmobeaut&#233; - Empowering Cosmetic Science" class="img7_pscs_events">
+                </div>
+
+                <div class="grid_4">
+                    <img src="{{ asset('images/Exhibitors_Cosmobeaute.jpg') }}"
+                        alt="Cosmobeaut&#233; - Empowering Cosmetic Science" class="img7_pscs_events">
+                </div>
+            </div>
+            
         </div>
     </div>
 </div>
@@ -196,7 +203,7 @@
             </ul>
         </div>
 
-        <div class="grid_6 preffix_1">
+        {{-- <div class="grid_6 preffix_1">
             <h2 class="ascs-video">About Cosmetic Garden</h2>
             <div class="row">
                 &nbsp;
@@ -205,7 +212,7 @@
                         src="https://www.youtube.com/embed/vYiuiR-PYss?autoplay=1&mute=1&rel=0"></iframe>
                 </div>
             </div>
-        </div>
+        </div> --}}
     </div>
 </div>
 
