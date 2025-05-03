@@ -122,6 +122,7 @@
         <div class="grid_6">
             <img src="{{ asset('images/hotel/Hotel-101-A.jpeg') }}" alt="PSCS - ASCS - Hotel 101 Philippines"
                 class="img7_pscs_events">
+                
         </div>
 
         <div class="grid_6">
@@ -159,9 +160,8 @@
     <div class="container">
         <div class="row">
 
-            <div class="grid_6">
-                <img src="{{ asset('images/hotel/Okada-Hotel.jpeg') }}" alt="PSCS - ASCS - Okada Hotel Philippines"
-                    class="img7_pscs_events">
+            <div class="grid_6" style="padding-top: 30px;">
+                    <iframe width="550" height="300" src="https://www.youtube.com/embed/1lkVxBh0IkI?autoplay=1&mute=1&rel=0" title="Okada Hotel"></iframe>
             </div>
             <div class="grid_6">
                 <p class="txt12_welcome_page">
