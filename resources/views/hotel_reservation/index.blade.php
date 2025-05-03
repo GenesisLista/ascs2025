@@ -161,7 +161,7 @@
         <div class="row">
 
             <div class="grid_6" style="padding-top: 30px;">
-                    <iframe width="550" height="300" src="https://www.youtube.com/embed/1lkVxBh0IkI?autoplay=1&mute=1&rel=0" title="Okada Hotel"></iframe>
+                    <iframe width="100%" height="300" src="https://www.youtube.com/embed/1lkVxBh0IkI?autoplay=1&mute=1&rel=0" title="Okada Hotel"></iframe>
             </div>
             <div class="grid_6">
                 <p class="txt12_welcome_page">
