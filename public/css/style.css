@@ -128,7 +128,7 @@ a[href^="tel:"] {
 .bg2{background: #f67570 !important;}
 .bg3{background: #ff856c !important;}
 .bg4{background: #fb9800 !important;}
-.bg5{background: #62d03a !important;}
+.bg5{background: #3a76d0 !important;}
 
 /* Global properties ======================================================== */
 html, body { margin:0; padding:0; height:100%;}
@@ -624,7 +624,8 @@ blockquote{
 
 .box-2{
 	width: 100%;
-	background: #fff;
+	/* background: #fff; */
+	background: #a6b1df;
 	margin-top: 68px;
 	padding: 0px 0 30px;
 }

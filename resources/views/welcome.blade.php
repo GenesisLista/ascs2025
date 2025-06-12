@@ -5,32 +5,6 @@
 <div class="container">
     <div class="row">
         <div class="grid_12">
-            <h2 class="v3">Countdown!</h2>
-            <div class="row">
-                <div class="grid_12">
-                    <div class="form_btns_countdown">
-                        <a href="javascript:void(0)" class="more_btn bg5">
-                            <b>
-                                <span style="font-size: 50px; color: red;">
-                                    @php
-                                    $now = time(); // or your date as well
-                                    $your_date = strtotime("2025-06-03");
-                                    $datediff = $now - $your_date;
-                                    echo abs(round($datediff / (60 * 60 * 24)));
-                                    @endphp
-                                </span>
-                            </b>
-
-                            Days to go! 17th ASCS 2025 Conference will be held on 04-06 June 2025
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="grid_12">
             <h2 class="v3">Announcements</h2>
             <div class="row">
                 <div class="grid_12">
