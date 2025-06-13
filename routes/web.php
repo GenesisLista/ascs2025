@@ -17,6 +17,8 @@ use App\Http\Controllers\AbstractMailController;
 use App\Http\Controllers\RegistrationMailController;
 use App\Http\Controllers\SponsorshipMailController;
 
+use App\Http\Controllers\DayOneController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -73,3 +75,6 @@ Route::get('registration-mail', [RegistrationMailController::class, 'index']);
 
 # This is for the sponsorship / exhibition email
 Route::get('sponsorship-mail', [SponsorshipMailController::class, 'index']);
+
+# This is for the Day One Event
+Route::get('day-one-event', [DayOneController::class, 'index']);
