@@ -24,7 +24,7 @@
                 &nbsp;
                 <ul class="nav nav-pills nav-fill">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="{{ route('ascs-conference.photo_list') }}">Photos</a>
+                        <a class="nav-link active" aria-current="page" href="{{ route('ascs-conference.index') }}">Photos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#videos">Videos</a>

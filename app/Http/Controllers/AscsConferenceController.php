@@ -73,4 +73,12 @@ class AscsConferenceController extends Controller
         $photos = Photo::all();
         return view('ascs_conference.photo_list', compact('photos'));
     }
+
+    /**
+     * This will display the Videos
+     */
+    public function videos()
+    {
+        return view('ascs_conference.videos');
+    }
 }

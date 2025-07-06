@@ -24,16 +24,16 @@
 
                 <ul class="nav nav-pills nav-fill">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="{{ route('ascs-conference.photo_list') }}">Photos</a>
+                        <a class="nav-link active" aria-current="page" href="{{ url('ascs-conference') }}">Conference</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#videos">Videos</a>
+                        <a class="nav-link" href="#">Natura Aeropack</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#">UPLB Tour</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        <a class="nav-link" href="{{ route('ascs-conference.videos') }}">Videos</a>
                     </li>
                 </ul>
 
