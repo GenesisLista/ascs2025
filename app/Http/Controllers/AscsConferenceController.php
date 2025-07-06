@@ -81,4 +81,12 @@ class AscsConferenceController extends Controller
     {
         return view('ascs_conference.videos');
     }
+
+    /**
+     * This will display the Natura Aeropack Photos
+     */
+    public function natura_aeropack()
+    {
+        return view('ascs_conference.natura_aeropack');
+    }
 }

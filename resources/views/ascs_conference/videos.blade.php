@@ -18,7 +18,7 @@
                     <a class="nav-link" href="{{ url('ascs-conference') }}">Conference</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Natura Aeropack</a>
+                    <a class="nav-link" href="{{ route('ascs-conference.natura_aeropack') }}">Natura Aeropack</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">UPLB Tour</a>
