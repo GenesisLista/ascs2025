@@ -20,8 +20,8 @@
         <div class="grid_12">
             <h2 class="v3">ASCS Conference</h2>
 
-                <br>
-
+            <!-- <div class="row"> -->
+                &nbsp;
                 <ul class="nav nav-pills nav-fill">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="{{ route('ascs-conference.photo_list') }}">Photos</a>
@@ -37,8 +37,7 @@
                     </li>
                 </ul>
 
-                <br>
-
+                                <div class="grid_12" style="margin-top: 30px;">
                     
                     <div id="photoCarousel" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
@@ -61,6 +60,8 @@
 
                     </div>
 
+                </div>
+            <!-- </div> -->
 
         </div>
 

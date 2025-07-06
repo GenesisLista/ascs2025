@@ -19,12 +19,12 @@ class PhotoSeeder extends Seeder
             [
                 'id'=>1,
                 'title'=>'ASCS Conference',
-                'image_path'=>'images/ascs_event/MCS02195.jpg'
+                'image_path'=>'images/ascs_event/ascs_conference_001.jpg'
             ],
             [
                 'id'=>2,
                 'title'=>'ASCS Conference',
-                'image_path'=>'images/ascs_event/MCS02196.jpg'
+                'image_path'=>'images/ascs_event/ascs_conference_002.jpg'
             ]
         ];
 

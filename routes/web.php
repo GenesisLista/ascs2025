@@ -77,4 +77,5 @@ Route::get('registration-mail', [RegistrationMailController::class, 'index']);
 Route::get('sponsorship-mail', [SponsorshipMailController::class, 'index']);
 
 # This is for the Day One Event
+Route::get('/ascs-conference/events', [AscsConferenceController::class, 'photo_list'])->name('ascs-conference.photo_list');
 Route::get('ascs-conference', [AscsConferenceController::class, 'index']);
