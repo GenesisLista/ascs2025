@@ -17,7 +17,7 @@ use App\Http\Controllers\AbstractMailController;
 use App\Http\Controllers\RegistrationMailController;
 use App\Http\Controllers\SponsorshipMailController;
 
-use App\Http\Controllers\DayOneController;
+use App\Http\Controllers\AscsConferenceController;
 
 /*
 |--------------------------------------------------------------------------
@@ -77,4 +77,4 @@ Route::get('registration-mail', [RegistrationMailController::class, 'index']);
 Route::get('sponsorship-mail', [SponsorshipMailController::class, 'index']);
 
 # This is for the Day One Event
-Route::get('day-one-event', [DayOneController::class, 'index']);
+Route::get('ascs-conference', [AscsConferenceController::class, 'index']);

@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="format-detection" content="telephone=no" />
     <link rel="icon" href="{{ asset('images/favicon.ico') }}" type="image/x-icon">
-
+    @stack('styles')
     @stack('before-styles')
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <script src="{{ asset('js/jquery.js') }}"></script>
@@ -65,6 +65,7 @@
 
             @yield('content')
 
+            @stack('scripts')
             <!--=======footer=================================-->
             @include('layouts.footer')
 

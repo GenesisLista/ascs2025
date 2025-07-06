@@ -68,6 +68,11 @@ class DatabaseSeeder extends Seeder
         if(DB::table('promotional_packages')->count()==0){
             $this->call(PromotionalPackageSeeder::class);
         }
+
+        // ASCS Event Photo
+        if(DB::table('photos')->count()==0){
+            $this->call(PhotoSeeder::class);
+        }
         
         // \App\Models\User::factory(10)->create();
 
