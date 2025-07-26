@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 
 use App\Models\Photo;
+use App\Models\NaturaAeropack;
 
 class AscsConferenceController extends Controller
 {
@@ -87,6 +88,7 @@ class AscsConferenceController extends Controller
      */
     public function natura_aeropack()
     {
-        return view('ascs_conference.natura_aeropack');
+        $natura_aeropack = NaturaAeropack::all();
+        return view('ascs_conference.natura_aeropack', compact('natura_aeropack'));
     }
 }

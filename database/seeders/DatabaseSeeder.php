@@ -73,6 +73,11 @@ class DatabaseSeeder extends Seeder
         if(DB::table('photos')->count()==0){
             $this->call(PhotoSeeder::class);
         }
+
+        // Natura Aeropack
+        if(DB::table('natura_aeropacks')->count()==0){
+            $this->call(NaturaAeropackSeeder::class);
+        }
         
         // \App\Models\User::factory(10)->create();
 
