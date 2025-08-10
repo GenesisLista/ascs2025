@@ -3,144 +3,58 @@
 
 @section('content')
 <div class="container">
-    
     <div class="row">
-        <div class="grid_12">
-            <h2 class="v3">Current Events</h2>
-
-            <div class="row">
-
-                <div class="grid_3">
-                    
-                </div>
-
-                <div class="grid_6">
-                    <a href="{{ asset('images/ascs/Day 1 ASCS Intl Conference.jpg') }}"
-                            target="_blank"><img src="{{ asset('images/ascs/Day 1 ASCS Intl Conference.jpg') }}"
-                        alt="17th ASCS Conference Day 1 International Conference" class="img7_pscs_events">
-                    </a>
-                </div>
-                
-                <div class="grid_3">
-                    
-                </div>
-
-            </div>
-
-            <div class="row">
-
-                <div class="grid_6">
-                    <a href="{{ asset('images/ascs/Day 2 ASCS Intl Conference.jpg') }}"
-                            target="_blank"><img src="{{ asset('images/ascs/Day 2 ASCS Intl Conference.jpg') }}"
-                        alt="17th ASCS Conference Day 2 International Conference" class="img7_pscs_events">
-                    </a>
-                </div>
-
-                <div class="grid_6">
-                    <a href="{{ asset('images/ascs/Day 3 ASCS Intl Conference.jpg') }}"
-                            target="_blank"><img src="{{ asset('images/ascs/Day 3 ASCS Intl Conference.jpg') }}"
-                        alt="17th ASCS Conference Day 3 International Conference" class="img7_pscs_events">
-                    </a>
-                </div>
-                
-            </div>
-
-            <div class="row">
-
-                <div class="grid_2">
-                    
-                </div>
-
-                <div class="grid_4">
-                    <a href="{{ asset('images/ascs/Day 1 ASCS Conference Programme.jpg') }}"
-                            target="_blank"><img src="{{ asset('images/ascs/Day 1 ASCS Conference Programme.jpg') }}"
-                        alt="17th ASCS Conference Day 1 Programme" class="img7_pscs_events">
-                    </a>
-                </div>
-
-                <div class="grid_4">
-                    <a href="{{ asset('images/ascs/Day 2 ASCS Conference Programme.jpg') }}"
-                            target="_blank"><img src="{{ asset('images/ascs/Day 2 ASCS Conference Programme.jpg') }}"
-                        alt="17th ASCS Conference Day 2 Programme" class="img7_pscs_events">
-                    </a>
-                </div>
-
-                <div class="grid_2">
-                    
-                </div>
-                
-            </div>
-
-            <div class="row">
-
-                <div class="grid_2">
-                    
-                </div>
-
-                <div class="grid_4">
-                    <a href="{{ asset('images/ascs/Day 3 ASCS Conference Programme.jpg') }}"
-                            target="_blank"><img src="{{ asset('images/ascs/Day 3 ASCS Conference Programme.jpg') }}"
-                        alt="17th ASCS Conference Day 3 Programme" class="img7_pscs_events">
-                    </a>
-                </div>
-
-                <div class="grid_4">
-                    <a href="{{ asset('images/ascs/Day 4 ASCS Conference Programme.jpg') }}"
-                            target="_blank"><img src="{{ asset('images/ascs/Day 4 ASCS Conference Programme.jpg') }}"
-                        alt="17th ASCS Conference Day 4 Programme" class="img7_pscs_events">
-                    </a>
-                </div>
-
-                <div class="grid_2">
-                    
-                </div>
-                
-            </div>
-
-            <div class="row">
-
-                <div class="grid_2">
-                    
-                </div>
-
-                <div class="grid_4">
-                    <a href="{{ asset('images/ascs/Day 5 ASCS Conference Programme.jpg') }}"
-                            target="_blank"><img src="{{ asset('images/ascs/Day 5 ASCS Conference Programme.jpg') }}"
-                        alt="17th ASCS Conference Day 5 Programme" class="img7_pscs_events">
-                    </a>
-                </div>
-
-                <div class="grid_4">
-                    <a href="{{ asset('images/ascs/Day 6 ASCS Conference Programme.jpg') }}"
-                            target="_blank"><img src="{{ asset('images/ascs/Day 6 ASCS Conference Programme.jpg') }}"
-                        alt="17th ASCS Conference Day 6 Programme" class="img7_pscs_events">
-                    </a>
-                </div>
-
-                <div class="grid_2">
-                    
-                </div>
-                
-            </div>
-
-            <div class="row">
-                <div class="grid_4">
-                    <img src="{{ asset('images/gala_1_NO_FARE.PNG') }}"
-                        alt="Cosmobeaut&#233; - Empowering Cosmetic Science" class="img7_pscs_events">
-                </div>
-
-                <div class="grid_4">
-                    <img src="{{ asset('images/gala_2.PNG') }}"
-                        alt="Cosmobeaut&#233; - Empowering Cosmetic Science" class="img7_pscs_events">
-                </div>
-
-                <div class="grid_4">
-                    <img src="{{ asset('images/Exhibitors_Cosmobeaute.jpg') }}"
-                        alt="Cosmobeaut&#233; - Empowering Cosmetic Science" class="img7_pscs_events">
-                </div>
-            </div>
-            
+        <h2>Congratulations to Top 10 Winners of Oral and Poster Presentation ASCS 2025</h2>
+        <br>
+        <div class="grid_3" style="margin-left: 20px;">
+            <img src="{{ asset('images/ascs/poster-1.jpg') }}" alt="philippine-society-for-cosmetic-science">
         </div>
+        <div class="grid_3" style="margin-left: 20px;">
+            <img src="{{ asset('images/ascs/poster-2.jpg') }}" alt="philippine-society-for-cosmetic-science">
+        </div>
+        <div class="grid_3" style="margin-left: 20px;">
+            <img src="{{ asset('images/ascs/podium-1.jpg') }}" alt="philippine-society-for-cosmetic-science">
+        </div>
+        <div class="grid_3" style="margin-left: 20px;">
+            <img src="{{ asset('images/ascs/podium-2.jpg') }}" alt="philippine-society-for-cosmetic-science">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="grid_5">
+            <h2>Thank you message</h2>
+            &nbsp;
+            <div class="wrapper">
+                <img src="{{ asset('images/ascs/Ms-Linda-Yu-Message.jpg') }}"
+                    alt="philippine-society-for-cosmetic-science" style="width: 520px; height: 630px">
+
+                <p>Heartfelt congratulations to all participants, speakers, sponsors, and the organizing team on the
+                    outstanding success of the 17th ASCS Scientific Conference in Manila! Your dedication,
+                    groundbreaking research, and vibrant discussions made this a truly exceptional gathering. Hosting
+                    this prestigious event in Manila was a triumph, showcasing not only remarkable scientific progress
+                    but also the warm hospitality and vibrant energy of the Philippines.</p>
+
+                <p>
+                    Ms. Linda Yu <br>
+                    ASCS 2025 Chairwoman
+                </p>
+            </div>
+        </div>
+
+        <div class="grid_6 preffix_1">
+            <h2>watch our latest uploads</h2>
+            &nbsp;
+            <div class="row">
+                <div class="grid_3_latest_uploads video-responsive">
+                    <video width="500" height="300" controls>
+                        <source src="{{URL::asset('/video/ascs_empowering_cosmetic_science_day_2.mp4')}}"
+                            type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </div>
+
     </div>
 </div>
 

@@ -17,7 +17,7 @@
                                 </ul>
                             </li>
                             <li class="{{ Request::segment(1) === 'ascs-conference' ? 'current' : null }}"><a
-                                    href="{{ url('ascs-conference') }}">ASCS Conference<strong></strong></a></li>
+                                    href="{{ url('ascs-conference') }}">ASCS Conference Gallery<strong></strong></a></li>
                             <!-- <li class="{{ Request::segment(1) === 'registration' ? 'current' : null }}">
                                 <a href="{{ route('registration.index') }}">Registration<strong></strong></a>
                                 <ul class='submenu'>

@@ -21,7 +21,7 @@ section.active {
 <div class="container">
     <div class="row">
         <div class="grid_12">
-            <h2 class="v3">ASCS Conference</h2>
+            <h2 class="v3">ASCS Conference Gallery</h2>
 
             <br>
 
