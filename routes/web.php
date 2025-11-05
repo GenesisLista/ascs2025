@@ -68,10 +68,12 @@ Route::resource('hotel_reservation', HotelReservationController::class);
 Route::resource('abstract_submission', AbstractSubmissionController::class);
 
 # This is for the abstract email
-Route::get('abstract-mail', [AbstractMailController::class, 'index']);
+// Disable the email routes 11/05/2025
+//Route::get('abstract-mail', [AbstractMailController::class, 'index']);
 
 # This is for the conference registration email
-Route::get('registration-mail', [RegistrationMailController::class, 'index']);
+// Disable the email routes 11/05/2025
+//Route::get('registration-mail', [RegistrationMailController::class, 'index']);
 
 # This is for the sponsorship / exhibition email
 Route::get('sponsorship-mail', [SponsorshipMailController::class, 'index']);
