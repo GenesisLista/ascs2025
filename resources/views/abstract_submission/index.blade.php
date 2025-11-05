@@ -90,7 +90,7 @@ accordance with the APA citation style.
                                 <li>
                                     <span style="font-weight: bold;">STEPS FOR ORAL PRESENTOR:</span> <br>
                                     1. Accept as presenter. <br>
-                                    2. <a href="https://www.ascs2025.com/registration/create" target="_blank">Registration</a> is until March 31, 2025. <br>
+                                    2. Registration is until March 31, 2025. <br>
                                     3. Will send SOA for payment once registered <br>
                                     4. Full report submission is until 1st week of May 2025, email to ASCS secretariat. <br>
                                     5. PowerPoint Presentation file submission is until 1st week of May 2025 email to ASCS secretariat. <br>

@@ -18,12 +18,7 @@
                             </li>
                             <li class="{{ Request::segment(1) === 'ascs-conference' ? 'current' : null }}"><a
                                     href="{{ url('ascs-conference') }}">ASCS Conference Gallery<strong></strong></a></li>
-                            <!-- <li class="{{ Request::segment(1) === 'registration' ? 'current' : null }}">
-                                <a href="{{ route('registration.index') }}">Registration<strong></strong></a>
-                                <ul class='submenu'>
-                                    <li><a href="{{ route('registration.create') }}">Registration Form</a></li>
-                                </ul>
-                            </li> -->
+                            
                             <!-- <li class="{{ Request::segment(1) === 'sponsorship' ? 'current' : null }}">
                                 <a href="{{ route('sponsorship.index') }}">Sponsorship<strong></strong></a>
                                 <ul class='submenu'>

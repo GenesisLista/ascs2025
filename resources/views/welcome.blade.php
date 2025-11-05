@@ -154,9 +154,7 @@
                 <li><a href="{{ route('ascs.index') }}">About ASCS</a></li>
                 <li><a href="{{ route('ifscc.index') }}">About IFSCC</a></li>
                 <li><a href="{{ route('pscs.index') }}">About PSCS</a></li>
-                <li><a href="{{ route('registration.create') }}">Conference Registration Form</a></li>
                 <li><a href="{{ route('abstract_submission.index') }}">Abstract Submission Guidelines</a></li>
-                <li><a href="{{ route('abstract_submission.create') }}">Abstract/Paper/Poster Submission Form</a>
                 </li>
                 <li><a href="{{ route('ifscc_benefactors.index') }}">IFSCC Benefactors</a></li>
             </ul>

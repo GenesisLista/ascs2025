@@ -40,8 +40,8 @@ Route::resource('ifscc', IfsccController::class);
 Route::resource('ascs', AscsController::class);
 
 # Registration
-Route::get('/registration/list', [RegistrationController::class, 'list'])->name('registration.list');
-Route::resource('registration', RegistrationController::class);
+// Route::get('/registration/list', [RegistrationController::class, 'list'])->name('registration.list');
+// Route::resource('registration', RegistrationController::class);
 
 # Sponsorship
 Route::get('/sponsorship/list', [SponsorshipController::class, 'list'])->name('sponsorship.list');
@@ -69,14 +69,14 @@ Route::resource('abstract_submission', AbstractSubmissionController::class);
 
 # This is for the abstract email
 // Disable the email routes 11/05/2025
-//Route::get('abstract-mail', [AbstractMailController::class, 'index']);
+// Route::get('abstract-mail', [AbstractMailController::class, 'index']);
 
 # This is for the conference registration email
 // Disable the email routes 11/05/2025
-//Route::get('registration-mail', [RegistrationMailController::class, 'index']);
+// Route::get('registration-mail', [RegistrationMailController::class, 'index']);
 
 # This is for the sponsorship / exhibition email
-Route::get('sponsorship-mail', [SponsorshipMailController::class, 'index']);
+// Route::get('sponsorship-mail', [SponsorshipMailController::class, 'index']);
 
 # This is for the ASCS Conference
 Route::get('/ascs-conference/natura_aeropack', [AscsConferenceController::class, 'natura_aeropack'])->name('ascs-conference.natura_aeropack');
